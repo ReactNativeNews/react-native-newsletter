@@ -6,4 +6,4 @@ Sign up [here](http://url.brentvatne.ca/143N1)!
 
 ## Issues
 
-- [#1 - April 23, 2015]()
+- [#1 - April 23, 2015](http://brentvatne.ca/react-native-newsletter/23-04-2015.html)
