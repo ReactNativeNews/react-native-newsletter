@@ -11,8 +11,8 @@
       font-family: 'Open Sans', sans-serif;
     }
     .container {
-      max-width: 500px;
-      margin: 0 auto;
+      max-width: 760px;
+      margin: 0 auto 30px auto;
       text-align: center;
     }
 
@@ -36,31 +36,56 @@
     a:hover {
       opacity: 0.5;
     }
+
+    .subscribe-form {
+      padding: 20px;
+      background: rgba(0,0,0,0.02);
+      border-radius: 5px;
+    }
+
+    .issue-list li {
+      display: inline-block;
+      width: 24.5%;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>React Native Newsletter</h1>
-    <p>Free weekly summary of React Native news, articles, issues & pull
+    <p style="width: 500px; margin: 0 auto 20px auto;">Free weekly summary of React Native news, articles, issues & pull
        requests, libraries and apps curated by <a
-       href="http://twitter.com/notbrent">@notbrent</a> <br/><br/> <a
-          href="http://brentvatne.us10.list-manage1.com/subscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f">Sign
-          up here to get this in your email</a></p>
+       href="http://twitter.com/notbrent">@notbrent</a>
 
-    <hr />
+    <div class="subscribe-form">
+      <form action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <h3 style="margin-top: 0px; margin-bottom: 15px;">Subscribe here to get this in your inbox weekly</h3>
+        <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL"
+          style="padding: 10px 15px; border: 1px solid #eee; font-size: 16px;"
+          placeholder="you@your-domain.com">
+        <div style="margin-top: 10px"></div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="font-size: 16px;">
+      </form>
+    </div>
 
-    <h2>Issues</h2>
-    <ul>
+    <h2 style="margin-top: 40px">Current Issue</h2>
+
+    <iframe src="10-08-2015.html" style="width: 760px; height: 600px; border: 1px solid #eee; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2)"></iframe>
+
+    <h2 style="margin-top: 40px">All Issues</h2>
+    <ul class="issue-list">
+      <li><a href="http://brentvatne.ca/react-native-newsletter/10-08-2015.html">#15 - August 10, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/02-08-2015.html">#14 - August 2, 2015</a></li>
-      <li><a href="http://brentvatne.ca/react-native-newsletter/26-07-2015.html">#13 - July 26, 2015</a></li>
-      <li><a href="http://brentvatne.ca/react-native-newsletter/14-07-2015.html">#12 - July 14, 2015</a></li>
-      <li><a href="http://brentvatne.ca/react-native-newsletter/06-07-2015.html">#11 - July 6, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/28-06-2015.html">#10 - June 28, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/22-06-2015.html">#9 - June 22, 2015</a></li>
+    </ul>
+    <ul class="issue-list">
       <li><a href="http://brentvatne.ca/react-native-newsletter/13-06-2015.html">#8 - June 13, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/07-06-2015.html">#7 - June 7, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/31-05-2015.html">#6 - May 31, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/22-05-2015.html">#5 - May 22, 2015</a></li>
+    </ul>
+    <ul class="issue-list">
       <li><a href="http://brentvatne.ca/react-native-newsletter/15-05-2015.html">#4 - May 15, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/08-05-2015.html">#3 - May 8, 2015</a></li>
       <li><a href="http://brentvatne.ca/react-native-newsletter/01-05-2015.html">#2 - May 1, 2015</a></li>
