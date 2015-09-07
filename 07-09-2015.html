@@ -310,7 +310,7 @@
 
     <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Discord is the only cross-platform voice and text chat app designed specifically for gamers. With the iOS companion app you can stay connected to all your Discord voice and text channels even while AFK. It is perfect for chatting with team members, seeing who is playing online, and catching up on text conversations you may have missed."</p>
 
-<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">The actual chat view drops down to native because the team couldn't get the performance that they needed out of ListView, but the rest is React Native! Beautiful work.</p>
+      <p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">The actual chat view drops down to native (well, <a href="http://componentkit.org/" style="border:0;outline:none;color:#1FB1D0 !important">React-Inspired ComponentKit</a>) because the team couldn't get the performance that they needed out of ListView, but the rest is React Native! Beautiful work.</p>
 </span>
   </td>
 </tr>
@@ -453,8 +453,7 @@
 
     <a href="https://github.com/facebook/react-native/issues/2519" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Text - font size is changing on 0.11.0-rc</a>
 
-    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Just upgraded to 11-rc and all &lt;Text&gt; font sizes are now being affected by accessibility settings. Accessibility is great, but this ended up breaking many of our screens." - beware of this if you plan to upgrade to 0.11.0-rc! The reason this is happening is that <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">allowFontScaling</code> is default to true when it should be false.</p>
-</span>
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Just upgraded to 11-rc and all &lt;Text&gt; font sizes are now being affected by accessibility settings. Accessibility is great, but this ended up breaking many of our screens." - beware of this if you plan to upgrade to 0.11.0-rc! The reason this is happening is that <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">allowFontScaling</code> is default to true when it should be false. <em>Edit:</em> Or maybe it shouldn't be? Accessible-by-default seems like the right way to go. Feel free to weigh-in on the issue.</p> </span>
   </td>
 </tr>
 
@@ -767,33 +766,30 @@
 
 
       <!-- footer -->
-      
+      <tr>
+        <td>
+          <table align="left">
+            <tr>
+              <td>
+                <p
+                style="color:#565656;font-family:'Roboto',
+                Helvetica, Helvetica, Arial,
+                sans-serif;font-style:normal;font-weight:300;letter-spacing:0.04em;font-size:15px;line-height:26px;margin-top:4px;margin-bottom:21px">That's
+                it for now! Ping me on Twitter @notbrent
+                if you have anything that you would like
+                me to share next week.
+                <br />
+                <br />
+                <strong>If you're reading
+                this on the web, you can subscribe to
+                get this delivered weekly to your email <a
+                href="http://brentvatne.us10.list-manage1.com/subscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f">here!</a></strong></p>
 
-      <!-- footer -->
-                      <tr>
-                        <td>
-                          <table align="left">
-                            <tr>
-                              <td>
-                                <p
-                                style="color:#565656;font-family:'Roboto',
-                                Helvetica, Helvetica, Arial,
-                                sans-serif;font-style:normal;font-weight:300;letter-spacing:0.04em;font-size:15px;line-height:26px;margin-top:4px;margin-bottom:21px">That's
-                                it for now! Ping me on Twitter @notbrent
-                                if you have anything that you would like
-                                me to share next week.
-                                <br /> 
-                                <br /> 
-                                <strong>If you're reading
-                                this on the web, you can subscribe to
-                                get this delivered weekly to your email <a
-                                href="http://brentvatne.us10.list-manage1.com/subscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f">here!</a></strong></p>
-
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
     </table>
 
