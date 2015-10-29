@@ -1,0 +1,4 @@
+# adds RSS support according to...
+# https://help.github.com/articles/atom-rss-feeds-for-github-pages/
+gems:
+  - jekyll-feed
