@@ -1,8 +1,8 @@
 ## react-native-newsletter
 
-Free weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by [@notbrent](http://twitter.com/notbrent)
+Free weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by [@notbrent](http://twitter.com/notbrent), Chris Geirman [@geirman](http://twitter.com/geirman), and Lance Harper [@RoyalLance](https://twitter.com/RoyalLance)
 
-Sign up [here](http://url.brentvatne.ca/143N1)!
+[Sign up here](http://url.brentvatne.ca/143N1)!
 
 ## Issues
 
