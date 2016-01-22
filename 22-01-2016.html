@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>React Native Newsletter</title>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-10128745-13', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <meta property="og:image" content="http://brentvatne.ca/react-native-newsletter/logo-square.png" />
+</head>
+<div class="body" bgcolor="#ffffff" style="background:#ffffff;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;background:#ffffff;color:#5E6268;font-style:normal;height:100%;width:100%;display:block !important;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;margin:0 !important;padding:0 !important">
+<table align="center" cellpadding="0" cellspacing="0" width="100%" height="100%" class="body" style="background:#ffffff;border-collapse:collapse !important">
+  <tr>
+    <td align="center" valign="top" bgcolor="#ffffff" width="100%" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <table cellspacing="0" cellpadding="0" width="100%" class="container" style="margin:0 auto;max-width:580px;border-collapse:collapse !important;width:94% !important">
+        <!-- view / browser -->
+        <tr>
+          <td width="100%" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;padding: 50px 0 0;" class="mobile-short">
+            <center>
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" class="row subheader-container" style="margin-bottom:10px;border-collapse:collapse !important;width:100% !important">
+                <tr>
+                  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                    <!-- left column -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" class="w290 mobile-center subheader-container-left" style="width:67%;border-collapse:collapse !important">
+                      <tr>
+                        <td class="mobile-center" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                          <h4 class="subheader" style="font-weight:400;margin:0 0 15px;padding:0;font-size:14px;color:#87828A;font-size:14px;font-weight:400;line-height:19px;margin-bottom:7px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Issue #29</h4>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- right column -->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right" class="w290 mobile-center subheader-container-right hide-on-web" style="width:33%;border-collapse:collapse !important">
+                      <tr>
+                        <td class="mobile-center" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                          <h4 class="subheader right" style="font-weight:400;margin:0 0 15px;padding:0;font-size:14px;color:#87828A;font-size:14px;font-weight:400;line-height:19px;margin-bottom:7px;text-align:right;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                          </h4>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+            </center>
+          </td>
+        </tr>
+
+        <!-- header image -->
+        <tr>
+          
+            <td width="100%" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <table class="row" style="border-collapse:collapse !important;width:100% !important">
+                <tr>
+                  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                    <table align="center" style="border-collapse:collapse !important">
+                      <tr>
+                        <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                          <img src="https://goodbits-production.s3.amazonaws.com/uploads/newsletter_settings/logo/981/e0ca1ad4-f9b1-459f-b782-28c4fc63a7e3.png" alt="Logo for React Native Newsletter" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;width: 99%;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          
+        </tr>
+
+        <!-- description -->
+        <tr>
+          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+            
+            <table class="row" style="border-collapse:collapse !important;width:100% !important">
+              <tr>
+                <td class="description mobile-padding" style="padding:30px 0;text-align:left;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                  <p style="font-size:16px;line-height:1.6;margin-top:0;margin-bottom:16px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Hey folks, I'd like to thank everyone that reached out to me after the request for some help putting the newsletter together! Chris Geirman (@geirmanc), and Lance Harper (@RoyalLance) have joined up with some much needed reinforcements, thanks a lot :)</p>
+
+                </td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+
+
+        <!-- links / content -->
+        <tr>
+          <td class="content" style="padding-top:30px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+
+            
+              
+                  <table class="row" style="border-collapse:collapse !important;width:100% !important">
+    <tr>
+      <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+        <table align="center" style="border-collapse:collapse !important">
+          <tr>
+            <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <h2 class="section-title" style="font-weight:400;margin:0 0 15px;padding:0;font-size:20px;border-bottom:3px solid #ccc;color:#3D4447;font-size:20px;font-weight:400;line-height:26px;margin-top:25px;margin-bottom:30px;text-align:center;text-transform:uppercase;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;border-color:#C0D7E3 !important;color:#45394D !important">Attention! Attention!</h2>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important" colspan="2">
+      <a href="https://twitter.com/notbrent/status/690313631536295936" style="border:0;outline:none"><img src="img/voting.png" alt="React.js Conf Contest Voting Begins!" width="600" class="thumbnail" style="float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://twitter.com/notbrent/status/690313631536295936" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React.js Conf Contest Voting Begins!</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Entries to Exponent React.js Conf contest are in! <em>We received 13 entries</em>, definitely more than I anticipated! Check them all out and vote from the Exponent app, which you can download on the Google Play or Apple App Store (see <a href="https://exponentjs.com/" style="border:0;outline:none;color:#1FB1D0 !important">https://exponentjs.com/</a> for links). Once you're in the app, it's as simple as this: <a href="http://imgur.com/a/Wczbi" style="border:0;outline:none;color:#1FB1D0 !important">http://imgur.com/a/Wczbi</a></p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Seriously, you should download Exponent and check these entries out. These 13 folks put a lot of work in!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+                  </td>
+</tr>
+                </table>
+              
+            
+              
+                  <table class="row" style="border-collapse:collapse !important;width:100% !important">
+    <tr>
+      <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+        <table align="center" style="border-collapse:collapse !important">
+          <tr>
+            <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <h2 class="section-title" style="font-weight:400;margin:0 0 15px;padding:0;font-size:20px;border-bottom:3px solid #ccc;color:#3D4447;font-size:20px;font-weight:400;line-height:26px;margin-top:25px;margin-bottom:30px;text-align:center;text-transform:uppercase;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;border-color:#C0D7E3 !important;color:#45394D !important">Assorted good things</h2>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://www.react-europe.org/?latest=1" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2972838/react-europe.png" alt="React Europe 2016 - June 2-3 in Paris, France!" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://www.react-europe.org/?latest=1" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Europe 2016 - June 2-3 in Paris, France!</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Wow, exciting! A conference in Paris, and I'll be speaking! If you missed me embarrass myself by attempting to use my actual voice rather than keyboard to speak at Reactive Conf, be sure to check this one out! I'll be doing a contest for this one too, stay tuned :)</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://code-cartoons.com/a-cartoon-intro-to-facebook-s-relay-part-1-3ec1a127bca5#.v8t2ik67i" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3000085/Screen_Shot_2016-01-21_at_5.52.40_PM.png" alt="A cartoon guide to Facebook’s Relay, part 1 (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://code-cartoons.com/a-cartoon-intro-to-facebook-s-relay-part-1-3ec1a127bca5#.v8t2ik67i" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">A cartoon guide to Facebook’s Relay, part 1 (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Saying what data you need with GraphQL" another Code Cartoon from @linclark, who will actually be speaking about these cartoons <a href="http://conf.reactjs.com/schedule.html#a-cartoon-guide-to-the-wilds-of-data-handling" style="border:0;outline:none;color:#1FB1D0 !important">in her React.js Conf talk next month</a>!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://medium.com/delivery-com-engineering/react-native-in-an-existing-ios-app-dynamic-routing-7013e03fa9ad" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3000087/jesse.png" alt="React Native in an Existing iOS App: Dynamic Routing (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://medium.com/delivery-com-engineering/react-native-in-an-existing-ios-app-dynamic-routing-7013e03fa9ad" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Native in an Existing iOS App: Dynamic Routing (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"This guide is Part Two in our four-part series Using React Native in an Existing iOS App."</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Now that we have the ability to use a React Native View anywhere in our app, we need to be able to render different views for different use cases. In other words, we need a router. For this we’ll use the &lt;Navigator /&gt; component provided by RN."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://medium.com/the-exponent-log/coding-apps-with-react-native-at-exponent-7a5922da27bf#.udrk6kz05" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2998801/1_jwl483EvprjDLGpLVWK11A.png" alt="Coding Apps with React Native at Exponent" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://medium.com/the-exponent-log/coding-apps-with-react-native-at-exponent-7a5922da27bf#.udrk6kz05" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Coding Apps with React Native at Exponent</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Don't miss out on this great post from James Ide as he delivers insight for developers using React Native. Ranging from data flow to app structure to design and everything in between, he shares his expertise across several facets of app development at Exponent.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"One of the most important features of React Native is that it’s purpose is to build Facebook; it is a means to an end, not the end itself."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://medium.com/infinite-red/using-redux-saga-to-simplify-your-growing-react-native-codebase-2b8036f650de#.mknpsbplz" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2980669/1_IJQ_uQ7HQOpVdKqY4v7Pmw.jpeg" alt="Using redux-saga To Simplify Your Growing React Native Codebase (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://medium.com/infinite-red/using-redux-saga-to-simplify-your-growing-react-native-codebase-2b8036f650de#.mknpsbplz" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Using redux-saga To Simplify Your Growing React Native Codebase (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"This is the first time I see generators being used for something useful!  Really clever!" - @vjeux</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://blog.zmxv.com/2016/01/lets-write-a-mobile-game-with-react-native-part-2.html" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3001353/alpha.png" alt="Part 2 of &quot;Let's write a mobile game with React Native&quot; (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://blog.zmxv.com/2016/01/lets-write-a-mobile-game-with-react-native-part-2.html" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Part 2 of "Let's write a mobile game with React Native" (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"This is the second part of my React Native tutorial that shows you how to write a cross-platform mobile game. In Part 1, we've rendered a resolution-independent letter grid with custom glyphs. We're going to add event handling and animations to enliven the app."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://tech.taskrabbit.com/blog/2016/01/05/react-native-reload-like-web-page/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2966222/techrabbit.png" alt="Reloading your React Native App like a Web page (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://tech.taskrabbit.com/blog/2016/01/05/react-native-reload-like-web-page/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Reloading your React Native App like a Web page (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">If for nothing else, click through for the gif demo, awesome stuff.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"One of the core foundation of the App is the Navigation pattern based on URLs. As noted before, URLs mapping to Component stacks require that all screens can be rendered by themselves from just the URL. This dramatically simplifies deep linking, but it also has the ability to speed up the development process."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://tech.taskrabbit.com/blog/2016/01/11/react-native-android/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2972311/techrabbit.png" alt="React Native Android (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://tech.taskrabbit.com/blog/2016/01/11/react-native-android/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Native Android (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">More helpful tips are found in another excellent post from TaskRabbit including suggestions on preparing existing projects for Android by including a Platform folder to contain classes and components that have platform specific dependencies.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Also included is a table listing the current differences in feature parity between iOS and Android. At a quick glance, one can see whether a feature on Android matches the functionality of its iOS counterpart, has a workaround, or has more work remaining.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">This is very informative to those porting an existing iOS application to Android. Great work!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://medium.com/@wwayne_me/let-s-drawing-charts-in-react-native-without-any-library-4c20ba38d8ab#.x0dfhrvy5" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2995245/charts.png" alt="Let’s drawing charts in React-Native without any library (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://medium.com/@wwayne_me/let-s-drawing-charts-in-react-native-without-any-library-4c20ba38d8ab#.x0dfhrvy5" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Let’s drawing charts in React-Native without any library (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Data visualization will make your App more outstanding, but there is no way to use d3 or SVG directly in react-native. Although react-native-svg could be useful, but it only support for iOS, so what if you want to make an App for both platforms?"</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">This said, you actually can use d3 -- it's being increasingly broken up into smaller chunks, check out the <a href="https://medium.com/@mbostock/introducing-d3-scale-61980c51545f#.n4cc3eu34" style="border:0;outline:none;color:#1FB1D0 !important">Introducting d3-scale</a> and <a href="https://medium.com/@mbostock/introducing-d3-shape-73f8367e6d12#.j1q5ay5co" style="border:0;outline:none;color:#1FB1D0 !important">Introducing d3-shape</a> posts from d3 creator Mike Bostock on Medium for more info :)</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://getsiphon.com/blog/2016/01/20/future-of-app-development/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2995246/future-of-apps.jpg" alt="Thoughts on the future of mobile app development (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://getsiphon.com/blog/2016/01/20/future-of-app-development/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Thoughts on the future of mobile app development (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Arriving from a web development background, building native apps for iOS and Android feels like traveling back in time. Near-instant browser refreshes are replaced by slow compilation times, your trusty text editor has been switched with a powerful but bloated IDE, and deploying new features is suddenly a week-long process (for iOS, at least)."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://hharnisc.github.io/2015/04/15/react-native-and-meteor.html" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2982773/meteor.png" alt="Some Thoughts On Gluing React Native and Meteor (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://hharnisc.github.io/2015/04/15/react-native-and-meteor.html" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Some Thoughts On Gluing React Native and Meteor (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Harrison Harnisch (<a href="https://twitter.com/hjharnis" style="border:0;outline:none;color:#1FB1D0 !important">@hjharnis</a>) shows us how to use <a href="https://github.com/hharnisc/react-native-meteor" style="border:0;outline:none;color:#1FB1D0 !important">Obj-DDP and the React Native Bridge</a> to get React Native working with Meteor. He follows that up by providing an example using <a href="https://github.com/hharnisc/react-native-meteor-websocket-polyfill" style="border:0;outline:none;color:#1FB1D0 !important">JavaScriptDDP with a Web Socket Proxy</a>. Great work Harrison!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://moduscreate.com/react-native-functional-testing-using-appium/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2968657/appium.png" alt="React Native Functional Testing using Appium (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://moduscreate.com/react-native-functional-testing-using-appium/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Native Functional Testing using Appium (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">The apps built using React Native are nothing but native iOS and Android apps and hence we could simply use any tool that can be used to test a native mobile app. Enter... Appium!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://www.firebase.com/blog/2016-01-20-tutorial-firebase-react-native.html" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2998468/blog.png" alt="The beginners guide to React Native and Firebase (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://www.firebase.com/blog/2016-01-20-tutorial-firebase-react-native.html" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">The beginners guide to React Native and Firebase (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">David East has a fantastic post on how to get started using React Native and Firebase. Included is how to synchronize application state from a Firebase database using Firebase listeners, presenting the data in a ListView and adding new data.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://iamdustan.com/2016/01/18/react-custom-renderers/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2988058/iamdustan.png" alt="React Custom Renderers (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://iamdustan.com/2016/01/18/react-custom-renderers/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Custom Renderers (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Nice blog post from author of react-hardware @iamdustan, "This article is intended to be a high level view of the developer experience a renderer should aim to provide based on my experience with React, writing a renderer, and exploring other custom renderers. Note that this is not a guide on how to write a renderer."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://corbt.com/posts/2015/12/22/breaking-up-heavy-processing-in-react-native.html" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2976242/corbt.png" alt="Breaking up Heavy Processing in React Native (Blog post)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://corbt.com/posts/2015/12/22/breaking-up-heavy-processing-in-react-native.html" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Breaking up Heavy Processing in React Native (Blog post)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">In this instructive post by Kyle Corbitt, he describes the importance of not blocking the Javascript thread in React Native. He also discusses React Native's built-in strategies for accomplishing this as well as demonstrating his own helper utilities to avoid blocking user interactions via his <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">next-frame</code> repo.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">While the approach suggested here can help you today, you'll find that in the real world with a lot of moving parts where many are interested in getting their share of cpu time we quickly stumble into the study of "cooperative multitasking".</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://js.coach/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2991473/sharing-is-caring.png" alt="JS.coach" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://js.coach/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">JS.coach</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">react.parts is becoming js.coach. For those not familiar with react.parts, it's a listing of React and React Native libraries -- js.coach includes Webpack, Browserify, Babel and PostCSS libraries too.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/rnpm/rnpm/releases/tag/v1.4.0" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3000371/16019332.png" alt="Release v1.4.0 · rnpm/rnpm" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/rnpm/rnpm/releases/tag/v1.4.0" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Release v1.4.0 · rnpm/rnpm</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">A new version of rnpm! Click through for the changelog for more info -- the new commands functionality looks great! Well done @Kureev and @grabbou!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://www.amazon.ca/gp/product/1491929006/ref=s9_simh_gw_p14_d0_i1?pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=desktop-1&amp;pf_rd_r=0Z2WE7NERG5740XT4CJ4&amp;pf_rd_t=36701&amp;pf_rd_p=2055621862" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3001180/51TegWNgukL._SX198_BO1_204_203_200_QL40_.jpg" alt="Learning React Native: Building Native Mobile Apps with JavaScript by Bonnie Eisenman" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://www.amazon.ca/gp/product/1491929006/ref=s9_simh_gw_p14_d0_i1?pf_rd_m=A3DWYIK6Y9EEQB&amp;pf_rd_s=desktop-1&amp;pf_rd_r=0Z2WE7NERG5740XT4CJ4&amp;pf_rd_t=36701&amp;pf_rd_p=2055621862" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Learning React Native: Building Native Mobile Apps with JavaScript by Bonnie Eisenman</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Neato, a book by Bonnie Eisenman, an engineer at Twitter and speaker <a href="https://www.react-europe.org/" style="border:0;outline:none;color:#1FB1D0 !important">at ReactEurope</a> has been released! My name is on the back as an endorsement, so that's cool too.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://benjamine.github.io/jsondiffpatch/demo/index.html" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2968648/2016-01-12_0928.png" alt="JsonDiffPatch" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://benjamine.github.io/jsondiffpatch/demo/index.html" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">JsonDiffPatch</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">If sending large JSON files over cell networks to replace a locally stored version sort of feels like using a sledgehammer to sink a penny nail, then you might find this tool handy. It diffs two JSON files and builds a patch. 3G networks rejoice!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/animatedjs/interactive-docs/issues/5" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2983229/discussion.png" alt="Create Arbitrary Animated Values (discussion)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/animatedjs/interactive-docs/issues/5" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Create Arbitrary Animated Values (discussion)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">A good discussion around some of the motivations behind the design decisions of Animated, and some of the challenges that are being faced currently.</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Also, this repo is the start of putting together some good documentation for Animated, feel free to join in and help out! You can see the current version <a href="http://animatedjs.github.io/interactive-docs/" style="border:0;outline:none;color:#1FB1D0 !important">here</a>.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://www.youtube.com/watch?v=fh_Y4mPivuM" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2968538/maxresdefault.jpg" alt="Optimizing React Native views (Screencast)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://www.youtube.com/watch?v=fh_Y4mPivuM" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Optimizing React Native views (Screencast)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Jay Garcia shows us how he optimized the rendering of ListView using the InteractionManager API.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="http://taobaofed.github.io/react-web/" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2972526/react-web.png" alt="React Native Web (unofficial, incomplete)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="http://taobaofed.github.io/react-web/" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">React Native Web (unofficial, incomplete)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Run basic react-native apps on the web by including this package, then updating your webpack.config file to alias react-native with react-web. Super cool, but lots of work left to do!</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Also potentially of interest to you: <a href="https://mattiamanzati.gitbooks.io/react-native-for-web/content/" style="border:0;outline:none;color:#1FB1D0 !important">React Native for Web gitbook</a> - it hasn't been updated in a while though!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                  <table class="row" style="border-collapse:collapse !important;width:100% !important">
+    <tr>
+      <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+        <table align="center" style="border-collapse:collapse !important">
+          <tr>
+            <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <h2 class="section-title" style="font-weight:400;margin:0 0 15px;padding:0;font-size:20px;border-bottom:3px solid #ccc;color:#3D4447;font-size:20px;font-weight:400;line-height:26px;margin-top:25px;margin-bottom:30px;text-align:center;text-transform:uppercase;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;border-color:#C0D7E3 !important;color:#45394D !important">Highlights from facebook/react-native</h2>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/c2d75d7a65a2bdf6e1e24a9ce887f9492be477de" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2999781/1488195.jpeg" alt="Android AppState" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/c2d75d7a65a2bdf6e1e24a9ce887f9492be477de" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Android AppState</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Great effort from @skv-headless on the PR behind this (see <a href="https://github.com/facebook/react-native/pull/5152" style="border:0;outline:none;color:#1FB1D0 !important">here</a>), thanks for all of your work on <a href="https://github.com/brentvatne/react-native-scrollable-tab-view" style="border:0;outline:none;color:#1FB1D0 !important">react-native-scrollable-tab-view</a> too!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/bba35f0415fa6868e4ce6744e4d044d60cb8a041" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2977986/martin.png" alt="Make Hot Loading work on OSS" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/bba35f0415fa6868e4ce6744e4d044d60cb8a041" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Make Hot Loading work on OSS</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"After this diff, Hot Loading should work on OSS." - it didn't work for me last time I tried it but perhaps you'll have better luck! Send me a gif of it working to @notbrent and let me know what I did wrong.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/9490c2c759fc2d88907a7a450d307be7f717853a" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3001355/192222.jpeg" alt="Added `react-native run-ios`" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/9490c2c759fc2d88907a7a450d307be7f717853a" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Added `react-native run-ios`</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Works the same way as <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">react-native run-android</code>, but targets iOS simulator instead. Under the hood, it uses <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">xcodebuild</code> to compile the app and store it in <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">ios/build</code> folder, then triggers <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">instruments</code> and <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">simctl</code> to install and launch the app on simulator."</p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">So good! Also notice - "since Facebook relies on BUCK to build and run iOS app, we probably won't use <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">run-ios</code> internally. That's why I'm putting this as public PR instead of internal diff." -- thanks @frantic :)</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/72d1826ae3a8847ba1e4fd33621a02d495258496" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2970459/594924.jpeg" alt="Implement initial WebWorkers API" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/72d1826ae3a8847ba1e4fd33621a02d495258496" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Implement initial WebWorkers API</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Implements a basic WebWorkers API that allows posting messages between the main JS thread and a worker background thread. It follows the existing webworkers API from JS. Currently passed memory needs to be JSON serializable and is copied (unfortunately, this is what webkit does as well, but with a more advanced.." @astreet is so smart.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/1303e6d0392e8bc4da1198c98fc8cd7ad488b81c" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2999779/kelvis.png" alt="Implement XHR timeout for Android and IOS natively" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/1303e6d0392e8bc4da1198c98fc8cd7ad488b81c" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Implement XHR timeout for Android and IOS natively</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">This property wasn't previously supported, now it is. Not much else to say. This is good. Thanks @klvs! I read your name as "kelvis" so to me you're like a more Kevin-like Elvis, although your actually name is Alex, I don't know, I'm going to stop while I'm only this far in the hole. Here's a photo of Kelvis, enjoy.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/1b5b42f3cb594edbfef73e80763c826f2890885a" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2999778/379606.jpeg" alt="Remove npm 2 recommendation (now: npm 3)" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/1b5b42f3cb594edbfef73e80763c826f2890885a" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Remove npm 2 recommendation (now: npm 3)</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">It's not perfect but we've been seeing an increasing amount of issues related to module name clashes, so @ide went ahead and switched the recommendation in the docs to npm3. Don't forget to shrinkwrap!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/554292d3044c801a736d5eb333cb1e6610e39fa6" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2999777/1174278.jpeg" alt="Improve the message shown when bundle download fails" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/554292d3044c801a736d5eb333cb1e6610e39fa6" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Improve the message shown when bundle download fails</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">More PRs like this are always welcome! So next time you run into an unclear error message, take a second and think what you would like it to be and take a note then try to submit a patch for it later when you are done raging about it :)</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/892497408c14b61687cb823a144bd80996023404" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2977655/konstantine.png" alt="Open sourced Camera Roll module" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/892497408c14b61687cb823a144bd80996023404" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Open sourced Camera Roll module</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Also: <a href="https://github.com/facebook/react-native/commit/18437093f2664beedd3239bb525d7daa3f2bcdbd" style="border:0;outline:none;color:#1FB1D0 !important">open sourced spinner aka picker aka drop down for Android</a>. Thanks @bestander 😍</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/15f806957f88baa7b530d8dfcf8f045c35f5ddec" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2999775/black-and-white-photography-promise-favim-com-717497.jpg" alt="Return a Promise for Clipboard.getString()" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/15f806957f88baa7b530d8dfcf8f045c35f5ddec" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Return a Promise for Clipboard.getString()</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">More and more APIs are being changed to support Promises, eg: <a href="https://github.com/facebook/react-native/commit/9baff8f437eee49f8ab0e6f433bf86466ca16662" style="border:0;outline:none;color:#1FB1D0 !important">Make CameraRoll work with Promises</a>. Related: <a href="https://github.com/facebook/react-native/commit/0c5f279c9df869db2afb3e1d92a54e6d930551ad" style="border:0;outline:none;color:#1FB1D0 !important">"Promises are coming."</a></p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/ff6a2c39989121b8671ab7cf74a90d048fdc9acf" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2977659/546885.png" alt="Deprecated `scrollResponderScrollWithoutAnimationTo`" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/ff6a2c39989121b8671ab7cf74a90d048fdc9acf" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Deprecated `scrollResponderScrollWithoutAnimationTo`</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"This diff deprecates <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">scrollResponderScrollWithoutAnimationTo</code> and replaces it with an optional <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">animated</code> param in <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">scrollResponderScrollTo</code>. This is more consistent with our other APIs." - note that the old functions are currently still supported but will raise warnings.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/commit/e4c53c28aea7e067e48f5c8c0100c7cafc031b06" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2977661/546885.png" alt="Improved shadow performance on iOS" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/commit/e4c53c28aea7e067e48f5c8c0100c7cafc031b06" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Improved shadow performance on iOS</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">A nice free-win for anyone like me who has a thing for shadows. View shadows still don't work on Android, instead use <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">elevation</code>. @nicklockwood, my idol.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/pull/4252" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2989654/corners.png" alt="Added support for individual corner radii on Android" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/pull/4252" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Added support for individual corner radii on Android</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Lovely stuff @mattds! Looking forward to this landing.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/facebook/react-native/pull/5454" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2998464/edit-on-github.png" alt='Add "Edit on GitHub" link on normal docs pages' width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/facebook/react-native/pull/5454" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Add "Edit on GitHub" link on normal docs pages</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">A little change that hopefully encourages more people to submit improvements to the docs! It's a community resource :)</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+                  </td>
+</tr>
+                </table>
+              
+            
+              
+                  <table class="row" style="border-collapse:collapse !important;width:100% !important">
+    <tr>
+      <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+        <table align="center" style="border-collapse:collapse !important">
+          <tr>
+            <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <h2 class="section-title" style="font-weight:400;margin:0 0 15px;padding:0;font-size:20px;border-bottom:3px solid #ccc;color:#3D4447;font-size:20px;font-weight:400;line-height:26px;margin-top:25px;margin-bottom:30px;text-align:center;text-transform:uppercase;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;border-color:#C0D7E3 !important;color:#45394D !important">Highlights from the community</h2>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/VansonLeung/react-native-keyboard-aware-view" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2979783/vansonleung.png" alt="VansonLeung/react-native-keyboard-aware-view" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/VansonLeung/react-native-keyboard-aware-view" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">VansonLeung/react-native-keyboard-aware-view</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Another solution to adjusting the View container when the keyboard appears. I'd love to see <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">tabIndex</code> built into React Native, but until then, solutions like these will be useful!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/naoufal/react-native-passcode-auth" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2968650/key-code.png" alt="naoufal/react-native-passcode-auth" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/naoufal/react-native-passcode-auth" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">naoufal/react-native-passcode-auth</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"React Native authentication with iOS Passcode." - hello again @naoufal!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/aerofs/react-native-auto-updater" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2969934/2016-01-12_1612.png" alt="aerofs/react-native-auto-updater" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/aerofs/react-native-auto-updater" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">aerofs/react-native-auto-updater</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">You've no doubt already heard of AppHub, CodePush, and Siphon which all offer you OTA update solutions. Now AeroFS offers you an alternative.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/lelandrichardson/react-native-mapview" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2969419/2016-01-13_0949.png" alt="lelandrichardson/react-native-mapview" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/lelandrichardson/react-native-mapview" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">lelandrichardson/react-native-mapview</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Leland Richardson of Airbnb has been doing some great work on this MapView component, complete with visual examples.  Check it out! It's pretty impressive. </p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/adamterlson/cairn" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2969556/adam.png" alt="adamterlson/cairn" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/adamterlson/cairn" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">adamterlson/cairn</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"cairn - Simpler, string-based styling for React Native" - let's you do some fancy stuff like this: <code style="color:#666666;font-size:12px;font-weight:normal;margin:0;padding:3px 3px 2px">&lt;Text {...style('text.header.h1.user')}&gt;Primary User Header Text&lt;/Text&gt;</code></p>
+
+<p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">Also, @adamterlson kind of looks like <a href="https://upload.wikimedia.org/wikipedia/commons/d/dc/John_Carmack_GDC_2010.jpg" style="border:0;outline:none;color:#1FB1D0 !important">John Carmack</a> so I trust him.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://github.com/zalmoxisus/remote-redux-devtools" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/2972522/demo.gif" alt="zalmoxisus/remote-redux-devtools" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://github.com/zalmoxisus/remote-redux-devtools" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">zalmoxisus/remote-redux-devtools</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">"Use Redux DevTools remotely for React Native, hybrid, desktop and server side Redux apps."</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+              
+                  <table class="row" style="border-collapse:collapse !important;width:100% !important">
+    <tr>
+      <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+        <table align="center" style="border-collapse:collapse !important">
+          <tr>
+            <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+              <h2 class="section-title" style="font-weight:400;margin:0 0 15px;padding:0;font-size:20px;border-bottom:3px solid #ccc;color:#3D4447;font-size:20px;font-weight:400;line-height:26px;margin-top:25px;margin-bottom:30px;text-align:center;text-transform:uppercase;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;border-color:#C0D7E3 !important;color:#45394D !important">Friends of the newsletter</h2>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+              
+            
+              
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="w290" style="border-collapse:collapse !important;table-layout:fixed">
+                  <tr>
+                    <td align="center" class="link-content" style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                      <!-- left column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="left" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://appetize.io" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3001356/logo1_colored_transparent.png" alt="Appetize.io" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://appetize.io" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Appetize.io</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">I love these folks. They make <a href="https://rnplay.org" style="border:0;outline:none;color:#1FB1D0 !important">rnplay.org</a> possible and in doing so support the React Native community in a big way. They are also allowing us to use their simulators within the React Native docs! I am not paid to advertise for them, I'm happy to advocate for products that I believe in (see: this newsletter about React Native) - so check them out if you have any need for an in-browser simulator for iOS or Android! Go and upload an app, the first 100 minutes of simulator use are free!</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end left column -->
+
+                      <!-- spacer -->
+                      <table width="6%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse !important">
+                        <tr>
+                          <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"></td>
+                        </tr>
+                      </table>
+
+                      <!-- right column -->
+                      <table width="47%" border="0" cellspacing="0" cellpadding="0" align="right" class="w270" style="border-collapse:collapse !important">
+                        <tr>
+  <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+      <a href="https://exponentjs.com" style="border:0;outline:none"><img src="https://goodbits-production.s3.amazonaws.com/uploads/link/thumbnail/3001357/EVIu78Pzd9vZQzkvihkB.png" alt="Exponent" width="270" height="152" class="thumbnail" style="-ms-interpolation-mode:bicubic;float:none;outline:none;text-decoration:none;border:none;margin-bottom:6px;height:auto !important;max-width:100% !important"></a>
+      <br>
+
+    <a href="https://exponentjs.com" class="link-title seriously-break-word" style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important">Exponent</a>
+
+    <span class="link-description seriously-break-word" style="word-wrap:break-word;word-break:break-word;white-space:normal;display:block;font-size:16px;line-height:21px;margin-top:6px;margin-bottom:36px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important"><p style="font-size:16px;line-height:1.6;margin-top:0;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">With Exponent you can create a new React Native project in one click and deploy it with a second click, making it available to anyone else who has the Exponent app (available on the App Store and Play Store). On Android, each of the apps opens in a new activity in the multi-tasker and can be saved to the home screen, like any other app. Over the next few months we will be rolling out other exciting features like dead-simple push notifications and support for popular native modules.</p>
+</span>
+  </td>
+</tr>
+
+                      </table>
+                      <!-- end right column -->
+                    </td>
+                  </tr>
+                </table>
+              
+            
+          </td>
+        </tr>
+
+
+      <!-- footer -->
+      <tr>
+        <td style="font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+          
+            <table class="row" style="border-collapse:collapse !important;width:100% !important">
+              <tr>
+                <td class="description" style="padding:30px 0;text-align:left;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">
+                  <p style="font-size:16px;line-height:1.6;margin-top:0;margin-bottom:16px;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important">That's it for now! Ping me on Twitter @notbrent if you have anything that you would like me to share next week.</p>
+
+                <br />
+                <br />
+                <strong>If you're reading
+                this on the web, you can subscribe to
+                get this delivered weekly to your email <a
+                style="border:0;outline:none;word-wrap:break-word;word-break:break-word;white-space:normal;color:#4E95E6;font-size:17px;line-height:24px;text-decoration:none;font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif' !important;color:#1FB1D0 !important"
+                href="http://brentvatne.us10.list-manage1.com/subscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f">here!</a></strong></p>
+
+                </td>
+              </tr>
+            </table>
+          
+        </td>
+      </tr>
+
+
+      <!-- social links -->
+      
+
+      
+      
+    </table>
+
+    </td>
+  </tr>
+</table>
+<style type="text/css">
+  @media only screen and (max-width: 580px) {
+      table[class*="w290"] {
+        width: 100% !important;
+      }
+      table[class*="w270"] {
+        -webkit-margin-start: auto;
+        -webkit-margin-end: auto;
+
+        float: none;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 270px !important;
+      }
+      td[class*="mobile-padding"] {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-bottom: 20px !important;
+      }
+      td[class*="mobile-short"] {
+        padding-top: 15px !important;
+      }
+      td[class*="mobile-block"] {
+        display: block !important;
+        width: 100% !important;
+        text-align: left !important;
+        padding-bottom: 20px !important;
+      }
+      td[class*="reveal"] {
+        display: block !important;
+      }
+      table[class*="mobile-center"] {
+        text-align: center !important;
+        width: 100% !important;
+      }
+      h1[class*="brand-name"] {
+        font-size: 26px !important;
+        line-height: 32px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+      }
+      table[class="row subheader-container"] {
+        margin-bottom: 20px !important;
+      }
+      h4[class*="subheader"] {
+        margin-top: 8px !important;
+        margin-bottom: 6px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        font-size: 13px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+      }
+    }
+</style>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="newsletter.js"></script>
+</div>
+</body>
+</html>

@@ -6,7 +6,8 @@ Free weekly summary of React Native news, articles, issues & pull requests, libr
 
 ## Issues
 
-- [#28 - January 1, 2016](http://brentvatne.ca/react-native-newsletter/10-01-2016.html)
+- [#29 - January 22, 2016](http://brentvatne.ca/react-native-newsletter/22-01-2016.html)
+- [#28 - January 10, 2016](http://brentvatne.ca/react-native-newsletter/10-01-2016.html)
 - [#27 - December 13, 2015](http://brentvatne.ca/react-native-newsletter/13-12-2015.html)
 - [#26 - December 1, 2015](http://brentvatne.ca/react-native-newsletter/01-12-2015.html)
 - [#25 - November 22, 2015](http://brentvatne.ca/react-native-newsletter/22-11-2015.html)
