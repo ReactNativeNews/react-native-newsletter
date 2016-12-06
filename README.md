@@ -1,11 +1,13 @@
 ## react-native-newsletter
 
-Free weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by [@notbrent](http://twitter.com/notbrent), Chris Geirman ([@geirmanc](http://twitter.com/geirmanc)), Todd Werth ([@twerth](https://twitter.com/twerth)), and Gant Laborde ([@GantLaborde](https://twitter.com/GantLaborde)).
+Free weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by Frank von Hoven ([@infinite_frank](https://twitter.com/infinite_frank)) and Gant Laborde ([@GantLaborde](https://twitter.com/GantLaborde)).
 
 [Sign up here](http://url.brentvatne.ca/143N1)!
 
 ## Issues
 
+- [#37 - December 2, 2016](http://reactnative.cc/02-12-2016.html)
+- [#36 - November 18, 2016](http://reactnative.cc/18-11-2016.html)
 - [#35 - October 19, 2016](http://reactnative.cc/19-10-2016.html)
 - [#34 - August 7, 2016](http://reactnative.cc/07-08-2016.html)
 - [#33 - July 1, 2016](http://reactnative.cc/01-07-2016.html)
