@@ -6,6 +6,7 @@ Free weekly summary of React Native news, articles, issues & pull requests, libr
 
 ## Issues
 
+- [#45 - April 29, 2017](http://reactnative.cc/29-04-2017.html)
 - [#44 - April 6, 2017](http://reactnative.cc/06-04-2017.html)
 - [#43 - March 20, 2017](http://reactnative.cc/30-03-2017.html)
 - [#42 - February 27, 2017](http://reactnative.cc/27-02-2017.html)
