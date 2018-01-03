@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+a {
+  color: navy;
+  font-weight: bold;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.subscribe-form {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+
+.issue-list li {
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+}
+
+.nope {
+  text-decoration: line-through;
+}
