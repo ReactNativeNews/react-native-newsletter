@@ -1,48 +1,278 @@
-body {
-  font-family: 'Open Sans', sans-serif;
+/**
+ * Fonts
+ */
+@font-face {
+  font-family: "Droid Serif";
+  src: url("/fonts/DroidSerif.ttf");
+  font-style: normal;
 }
 
-.container {
-  max-width: 760px;
-  margin: 0 auto 30px auto;
-  text-align: center;
+@font-face {
+  font-family: "Droid Serif";
+  src: url("/fonts/DroidSerif-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf")
+}
+
+/**
+ * Typography
+ */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 56px;
+  margin-bottom: 23px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 20px;	
+  font-style: italic;	
+  font-weight: normal;
+  line-height: 35px;  
+}
+
+h2, p {
+  color: #CAABCB;
+  font-family: "Droid Serif", serif;
+}
+
+/**
+ * Icons
+ */
+
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.icon.twitter {
+  background-image: url(/img/icon.twitter.svg);
+}
+
+.icon.medium {
+  background-image: url(/img/icon.medium.svg);
+}
+
+.icon.github {
+  background-image: url(/img/github.svg);
+}
+
+/**
+ * Forms
+ */
+
+input[type=email] {
+  color: #8F7E94;
+  font-size: 15px;
+  border: none;
+  text-align: left;
+  width: 393px;
+  outline: none;
+  margin-top: 71px;
+  background-color: white;
+  border-radius: 32.5px;
+  width: 300px;
+  padding: 19px 30px 19px 30px;
+  background-image: url(/img/long-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: 320px center;
+}
+
+input[type=email].error {
+  border: 2px solid #E73536;
+}
+
+/**
+ * Styles
+ */
+body {
+  background-color: #2D0838;
+  background: linear-gradient(143.43deg, #1F0232 0%, rgba(100,11,86,0.99) 100%);
+  height: 100vh;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+#cloud {
+  background-image: url(/img/purple-cloud.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+}
+
+main {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  z-index: 999;
+  height: calc(100vh - 60px);
+  display: grid;
+  padding: 30px;
+  max-width: 1440px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 56px 1fr 87px;
+  grid-template-areas: "top"
+                       "mid"
+                       "bot";
+}
+
+nav {
+  grid-area: top;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #928699;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+nav a:hover {
+  color: #b6abbd;
+}
+
+nav a#logo {
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-image: url('/img/logo.png');
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav .social {
+  align-self: right;
+}
+
+nav .social li {
+  margin-right: 20px;
+}
+
+nav .social li a {
+  margin: 0;
+}
+
+/**
+ * Content
+ */
+
+.content {
+  /* border: 1px solid purple; */
+  display: grid;
+  grid-area: mid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.content #splash {
+  padding-top: 163px;
+  padding-left: 65px;
+}
+
+.content #splash h1 {
+  width: 579px;
+}
+
+.content #splash h2 {
+  width: 509px;
+}
+
+.content #illustration {
+  grid-area: right;
+  background-image: url(/img/newsletter-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center 66px;
+  padding: 30px;
+}
+
+/**
+ * Footer
+ */
+footer {
+  grid-area: bot;
+}
+
+footer .bio h1, footer .bio p {
   margin: 0;
   padding: 0;
+  line-height: 1em;
+  font-size: 14px;
+  align-self: left;
 }
 
-li {
-  padding: 0;
+footer .bio h1 {
+  line-height: 35px;
 }
 
-a {
-  color: navy;
-  font-weight: bold;
+footer .bio .photo {
+  flex: 1;
+  height: 87px;
+  width: 52px;
+  align-self: left;
+  background-image: url(/img/img.frank.png);
+  background-repeat: no-repeat;
+  margin-right: 24px;
+  float: left;
 }
 
-a:visited {
-  color: navy;
+footer .sponsor {
+  float: right;
+  width: 120px;
+  height: 74px;
 }
 
-a:hover {
-  opacity: 0.5;
+footer .sponsor h1 {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin-bottom: 16px;
 }
 
-.subscribe-form {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.02);
-  border-radius: 5px;
+footer .sponsor .logo {
+  display: block;
+  height: 50px;
+  width: 99px;
+  background-image: url(/img/ir_logo.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
-.issue-list li {
-  display: inline-block;
-  width: 24.5%;
-  text-align: center;
-}
-
-.nope {
-  text-decoration: line-through;
+footer .social li {
+  margin-right: 15px;
 }
