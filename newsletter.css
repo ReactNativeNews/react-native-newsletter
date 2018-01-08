@@ -74,7 +74,7 @@ h2, p {
  * Forms
  */
 
-input[type=email] {
+.email-input input {
   color: #8F7E94;
   font-size: 15px;
   border: none;
@@ -89,10 +89,25 @@ input[type=email] {
   background-image: url(/img/long-arrow-right.svg);
   background-repeat: no-repeat;
   background-position: 320px center;
+  border: 2px solid #fff;
 }
 
-input[type=email].error {
-  border: 2px solid #E73536;
+.email-input span {
+  display: none;
+  font-size: 13px;
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  line-height: 35px;
+}
+
+.email-input.error input {
+  border-color: #E73536;
+}
+
+.email-input.error span {
+  display: block;
+  color: #E73536;
+  margin-left: 30px;
 }
 
 /**
