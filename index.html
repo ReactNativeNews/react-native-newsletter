@@ -31,7 +31,7 @@
   <div id="cloud"></div>
   <main>
 
-    <nav>
+    <nav class="desktop">
       <ul>
         <li>
           <a href="/" id="logo"></a>
@@ -57,6 +57,11 @@
       </ul>
     </nav>
 
+    <nav class="mobile">
+      <a href="#" id="logo"></a>
+      <a href="#" id="menu"></a>
+    </nav>
+
     <section class="content">
       <article id="splash">
         <h1>A curated, fun to read newsletter all about React Native</h1>
@@ -66,7 +71,7 @@
           <form action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post"
             id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
             <div class="email-input">
-              <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL" placeholder="Your Email Address">
+              <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL" autocomplete="off" placeholder="Your Email Address">
               <span class="hint">Please enter a valid email</span>
             </div>
           </form>
@@ -77,24 +82,28 @@
     </section>
 
     <footer>
-      <section class="sponsor">
-        <h1>Presented By</h1>
-        <a class="logo" href="https://infinite.red" target="_blank"></a>
-      </section>
-
       <article class="bio">
         <div class="photo"></div>
-        <h1>Frank Von Hoven, Executive Editor</h1>
-        <p>Frank specializes in React Native at Infinite Red.</p>
-        <ul class="social">
-          <li>
-            <a class="icon twitter" target="_blank" href="#"></a>
-          </li>
-          <li>
-            <a class="icon github" target="_blank" href="#"></a>
-          </li>
-        </ul>
+        <div class="details">
+          <h1>Frank Von Hoven, Executive Editor</h1>
+          <p>Frank specializes in React Native at Infinite Red.</p>
+          <ul class="social">
+            <li>
+              <a class="icon twitter" target="_blank" href="#"></a>
+            </li>
+            <li>
+              <a class="icon github" target="_blank" href="#"></a>
+            </li>
+          </ul>
+        </div>
       </article>
+
+      <section class="sponsor-wrap">
+        <section class="sponsor">
+          <h1>Presented By</h1>
+          <a class="logo" href="https://infinite.red" target="_blank"></a>
+        </section>
+      </section>
     </footer>
   </main>
 </body>
