@@ -5,6 +5,7 @@ function validateEmail (email) {
 }
 
 window.onload = function () {
+  // Subscribe form
   var form = document.querySelector('.subscribe-form form');
   var emailWrapper = document.querySelector('.email-input')
   var emailInput = document.querySelector('.email-input input');
@@ -18,6 +19,24 @@ window.onload = function () {
     } else {
       emailWrapper.className = 'email-input error';
     }
+  })
+
+  // Mobile navigation
+  var openNav = document.querySelector('#open-menu')
+  var closeNav = document.querySelector('nav.menu .close')
+  var menu = document.querySelector('nav.menu')
+  var body = document.querySelector('body')
+
+  openNav.addEventListener('click', function (event) {
+    event.preventDefault();
+    menu.classList.add('open');
+    body.style = 'height: 100vh; overflow: hidden';
+  })
+
+  closeNav.addEventListener('click', function (event) {
+    event.preventDefault();
+    menu.classList.remove('open');
+    body.style = '';
   })
 }
 
