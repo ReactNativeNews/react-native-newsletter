@@ -159,7 +159,7 @@ main {
                        "bot";
 }
 
-nav {
+nav.desktop, nav.mobile {
   grid-area: top;
   display: flex;
   align-items: center;
@@ -192,33 +192,99 @@ nav.mobile a#logo {
   height: 48px;
 }
 
-nav a#menu {
+nav a#open-menu {
   display: block;
   width: 35px;
   height: 35px;
-  background-color: #fff;
+  background-image: url('/img/menu-icon.svg');
+  background-repeat: no-repeat;
   margin: 0;
 }
 
-nav ul {
+nav.desktop ul, nav.mobile ul {
   display: flex;
   align-items: center;
 }
 
-nav .social {
+nav.desktop .social {
   align-self: right;
 }
 
-nav .social li {
+nav.desktop .social li {
   margin-right: 20px;
 }
 
-nav .social li a {
+nav.desktop .social li a {
   margin: 0;
 }
 
 nav.mobile {
   display: none;
+}
+
+nav.menu {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #2D0838;
+  top: 0;
+  left: 0;
+  height: calc(100vh - 60px);
+  width: 100%;
+  z-index: 0;
+  display: grid;
+  grid-template-rows: 30px 1fr 55px;
+  grid-template-columns: 1fr;
+  padding: 30px 0;
+  transition-property: opacity, visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+nav.menu.open {
+  visibility: visible;
+  opacity: 1;
+  z-index: 0;
+}
+
+nav.menu .close-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+nav.menu .close-wrapper .close {
+  align-self: right;
+  display: block;
+  background-image: url('/img/close-icon.svg');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+nav.menu ul {
+  padding: 0 30px;
+}
+
+nav.menu li {
+  margin-top: 40px;
+  display: block;
+}
+
+nav.menu li a {
+  color: #fff;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+nav.menu ul.social li {
+  display: inline;
+}
+
+nav.menu ul.social li a {
+  height: 25px;
+  width: 30px;
+  background-size: cover;
 }
 
 /**
