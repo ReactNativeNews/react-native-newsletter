@@ -5,11 +5,15 @@ function validateEmail (email) {
 }
 
 function enableScroll () {
-  document.querySelector('body').style = ''
+  ['html', 'body'].forEach(function (selector) {
+    document.querySelector(selector).style = ''
+  })
 }
 
 function disableScroll () {
-  document.querySelector('body').style = 'height: 100vh; overflow: hidden'
+  ['html', 'body'].forEach(function (selector) {
+    document.querySelector(selector).style = 'position: relative; height: 100%; overflow: hidden'
+  })
 }
 
 function displayError (element) {
