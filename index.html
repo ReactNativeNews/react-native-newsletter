@@ -29,6 +29,30 @@
 
 <body>
   <div id="cloud"></div>
+
+  <section class="suggest-article">
+    <div class="close-wrapper">
+      <a href="#" class="close">Close</a>
+    </div>
+
+    <article class="details">
+      <header>
+        <h1>Suggest an Article</h1>
+        <h2>
+          Have an article that you think would be good for the newsletter?
+          <br /> Drop us a link and we'll take a look!
+        </h2>
+      </header>
+
+      <form action="/">
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <input type="text" name="url" placeholder="Article URL" />
+        <button type="submit"></button>
+      </form>
+    </article>
+  </section>
+
   <main>
 
     <nav class="desktop">
@@ -40,7 +64,7 @@
           <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
         </li>
         <li>
-          <a href="#">Suggest Article</a>
+          <a href="#" id="open-suggest-article">Suggest Article</a>
         </li>
         <li>
           <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
@@ -72,7 +96,7 @@
           <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
         </li>
         <li>
-          <a href="#">Suggest Article</a>
+          <a href="#" id="open-suggest-article">Suggest Article</a>
         </li>
         <li>
           <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>

@@ -74,22 +74,35 @@ h2, p {
  * Forms
  */
 
-.email-input input {
+input {
   color: #8F7E94;
   font-size: 15px;
   border: none;
   text-align: left;
   width: 393px;
   outline: none;
-  margin-top: 71px;
   background-color: white;
   border-radius: 32.5px;
   width: 300px;
   padding: 19px 30px 19px 30px;
+  border: 2px solid #fff;
+  display: block;
+  margin-top: 23px;
+}
+
+button[type="submit"] {
+  border: none;
+  width: 48px;
+  height: 48px;
+  background-color: #E73536;
+  border-radius: 50%;
+}
+
+.email-input input {
+  margin-top: 71px;
   background-image: url(/img/long-arrow-right.svg);
   background-repeat: no-repeat;
   background-position: right 20px center;
-  border: 2px solid #fff;
 }
 
 .email-input span {
@@ -285,6 +298,66 @@ nav.menu ul.social li a {
   height: 25px;
   width: 30px;
   background-size: cover;
+}
+
+/**
+ * Suggest An Article
+ */
+
+.suggest-article {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(45,8,56,0.96);
+  display: grid;
+  grid-template-rows: 127px 1fr;
+  grid-template-columns: 1fr;
+  text-align: center;
+  transition-property: opacity, visibility;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.suggest-article.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.suggest-article .close-wrapper {
+  padding: 40px 72px; 
+  text-align: right;
+}
+
+.suggest-article .close-wrapper a.close {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  background-image: url('/img/close-icon.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 16px 16px;
+  padding-right: 25px;
+}
+
+.suggest-article form {
+  margin-top: 55px;
+}
+
+.suggest-article input {
+  margin: 23px auto;
+}
+
+.suggest-article button {
+  margin-top: 55px;
+  background-image: url('/img/chevron-right.png');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
 }
 
 /**
