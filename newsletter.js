@@ -36,6 +36,7 @@ window.onload = function () {
 
   openNav.addEventListener('click', function (event) {
     event.preventDefault();
+    window.scrollTo(0, 0);
     menu.classList.add('open');
     disableScroll();
   })
@@ -55,14 +56,20 @@ window.onload = function () {
     element.addEventListener('click', function (event) {
       event.preventDefault();
       suggest.classList.add('open');
-      disableScroll();
+      enableScroll();
     });
   });
 
   closeSuggest.addEventListener('click', function (event) {
     event.preventDefault();
+    window.scrollTo(0, 0);
     suggest.classList.remove('open');
-    enableScroll();
+
+    if (menu.classList.contains('open')) {
+      disableScroll();
+    } else {
+      enableScroll();
+    }
   });
 }
 
