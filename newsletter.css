@@ -128,13 +128,16 @@ button[type="submit"] {
  * Styles
  */
 
+html, body {
+  background: linear-gradient(143.43deg, #1F0232 0%, rgba(100,11,86,0.99) 100%);
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
 body {
   display: block;
-  background-color: #2D0838;
-  background: linear-gradient(143.43deg, #1F0232 0%, rgba(100,11,86,0.99) 100%);
   padding: 0;
-  width: 100vw;
-  min-height: 1000px;
 }
 
 ul {
@@ -248,7 +251,7 @@ nav.menu {
   width: 100%;
   z-index: 0;
   display: grid;
-  grid-template-rows: 30px 1fr 55px;
+  grid-template-rows: 30px 70% 55px;
   grid-template-columns: 1fr;
   padding: 30px 0;
   transition-property: opacity, visibility;

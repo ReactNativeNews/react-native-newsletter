@@ -12,7 +12,7 @@ function enableScroll () {
 
 function disableScroll () {
   ['html', 'body'].forEach(function (selector) {
-    document.querySelector(selector).style = 'position: relative; height: 100%; overflow: hidden'
+    document.querySelector(selector).style = 'position: fixed; height: 100vh; overflow: hidden;'
   })
 }
 
