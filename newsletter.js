@@ -9,7 +9,7 @@ function enableScroll () {
 }
 
 function disableScroll () {
-  document.querySelector('body').style = 'height: 100vh overflow: hidden'
+  document.querySelector('body').style = 'height: 100vh; overflow: hidden'
 }
 
 function displayError (element) {
