@@ -196,7 +196,8 @@ nav a#open-menu {
   display: block;
   width: 35px;
   height: 35px;
-  background-color: #fff;
+  background-image: url('/img/menu-icon.svg');
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -255,7 +256,8 @@ nav.menu .close-wrapper {
 nav.menu .close-wrapper .close {
   align-self: right;
   display: block;
-  background-color: #fff;
+  background-image: url('/img/close-icon.svg');
+  background-repeat: no-repeat;
   width: 30px;
   height: 30px;
 }
