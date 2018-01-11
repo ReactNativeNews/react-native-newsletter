@@ -4,6 +4,14 @@ function validateEmail (email) {
   return re.test(email);
 }
 
+function enableScroll () {
+  document.querySelector('body').style = '';
+}
+
+function disableScroll () {
+  document.querySelector('body').style = 'height: 100vh; overflow: hidden;'
+}
+
 window.onload = function () {
   // Subscribe form
   var form = document.querySelector('.subscribe-form form');
@@ -25,18 +33,43 @@ window.onload = function () {
   var openNav = document.querySelector('#open-menu')
   var closeNav = document.querySelector('nav.menu .close')
   var menu = document.querySelector('nav.menu')
-  var body = document.querySelector('body')
 
   openNav.addEventListener('click', function (event) {
     event.preventDefault();
+    window.scrollTo(0, 0);
     menu.classList.add('open');
-    body.style = 'height: 100vh; overflow: hidden';
+    disableScroll();
   })
 
   closeNav.addEventListener('click', function (event) {
     event.preventDefault();
     menu.classList.remove('open');
-    body.style = '';
+    enableScroll();
   })
+
+  // Suggest an Article
+  var openSuggest = document.querySelectorAll('#open-suggest-article');
+  var closeSuggest = document.querySelector('.suggest-article .close');
+  var suggest = document.querySelector('.suggest-article')
+
+  openSuggest.forEach(function (element) {
+    element.addEventListener('click', function (event) {
+      event.preventDefault();
+      suggest.classList.add('open');
+      enableScroll();
+    });
+  });
+
+  closeSuggest.addEventListener('click', function (event) {
+    event.preventDefault();
+    window.scrollTo(0, 0);
+    suggest.classList.remove('open');
+
+    if (menu.classList.contains('open')) {
+      disableScroll();
+    } else {
+      enableScroll();
+    }
+  });
 }
 
