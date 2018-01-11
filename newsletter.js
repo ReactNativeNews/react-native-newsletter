@@ -1,31 +1,39 @@
 // See https://stackoverflow.com/questions/46155/how-can-you-validate-an-email-address-in-javascript
 function validateEmail (email) {
-  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
+  var re = /^(([^<>()[\]\\.,:\s@\"]+(\.[^<>()[\]\\.,:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  return re.test(email)
 }
 
 function enableScroll () {
-  document.querySelector('body').style = '';
+  document.querySelector('body').style = ''
 }
 
 function disableScroll () {
-  document.querySelector('body').style = 'height: 100vh; overflow: hidden;'
+  document.querySelector('body').style = 'height: 100vh overflow: hidden'
+}
+
+function displayError (element) {
+  element.classList.add('error')
+}
+
+function hideError (element) {
+  element.classList.remove('error')
 }
 
 window.onload = function () {
-  // Subscribe form
-  var form = document.querySelector('.subscribe-form form');
+  // Subscribe Form
+  var subscribeForm = document.querySelector('.subscribe-form form')
   var emailWrapper = document.querySelector('.email-input')
-  var emailInput = document.querySelector('.email-input input');
+  var emailInput = document.querySelector('.email-input input')
 
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
+  subscribeForm.addEventListener('submit', function (event) {
+    event.preventDefault()
 
     if (validateEmail(emailInput.value)) {
-      emailWrapper.className = 'email-input';
-      form.submit();
+      emailWrapper.className = 'email-input'
+      subscribeForm.submit()
     } else {
-      emailWrapper.className = 'email-input error';
+      emailWrapper.className = 'email-input error'
     }
   })
 
@@ -35,41 +43,77 @@ window.onload = function () {
   var menu = document.querySelector('nav.menu')
 
   openNav.addEventListener('click', function (event) {
-    event.preventDefault();
-    window.scrollTo(0, 0);
-    menu.classList.add('open');
-    disableScroll();
+    event.preventDefault()
+    window.scrollTo(0, 0)
+    menu.classList.add('open')
+    disableScroll()
   })
 
   closeNav.addEventListener('click', function (event) {
-    event.preventDefault();
-    menu.classList.remove('open');
-    enableScroll();
+    event.preventDefault()
+    menu.classList.remove('open')
+    enableScroll()
   })
 
-  // Suggest an Article
-  var openSuggest = document.querySelectorAll('#open-suggest-article');
-  var closeSuggest = document.querySelector('.suggest-article .close');
+  // Suggest an Article Modal
+  var openSuggest = document.querySelectorAll('#open-suggest-article')
+  var closeSuggest = document.querySelector('.suggest-article .close')
   var suggest = document.querySelector('.suggest-article')
 
   openSuggest.forEach(function (element) {
     element.addEventListener('click', function (event) {
-      event.preventDefault();
-      suggest.classList.add('open');
-      enableScroll();
-    });
-  });
+      event.preventDefault()
+      suggest.classList.add('open')
+      enableScroll()
+    })
+  })
 
   closeSuggest.addEventListener('click', function (event) {
-    event.preventDefault();
-    window.scrollTo(0, 0);
-    suggest.classList.remove('open');
+    event.preventDefault()
+    window.scrollTo(0, 0)
+    suggest.classList.remove('open')
 
     if (menu.classList.contains('open')) {
-      disableScroll();
+      disableScroll()
     } else {
-      enableScroll();
+      enableScroll()
     }
-  });
+  })
+
+  // Suggest an Article Form
+  var suggestForm = document.querySelector('.suggest-article form')
+  var suggestName = document.querySelector('.suggest-article input[name="name"]')
+  var suggestEmail = document.querySelector('.suggest-article input[name="email"]')
+  var suggestUrl = document.querySelector('.suggest-article input[name="url"]')
+
+  suggestForm.addEventListener('submit', function (event) {
+    event.preventDefault()
+    var errors = []
+
+    if (suggestName.value.length === 0) {
+      displayError(suggestName.parentElement)
+      errors = errors.concat('name')
+    } else {
+      hideError(suggestName.parentElement)
+    }
+
+    if (!validateEmail(suggestEmail.value)) {
+      displayError(suggestEmail.parentElement)
+      errors = errors.concat('email')
+    } else {
+      hideError(suggestEmail.parentElement)
+    }
+
+    if (suggestUrl.value.length === 0) {
+      displayError(suggestUrl.parentElement)
+      errors = errors.concat('url')
+    } else {
+      hideError(suggestUrl.parentElement)
+    }
+
+    if (errors.length === 0) {
+      suggestForm.submit()
+    }
+  })
 }
 

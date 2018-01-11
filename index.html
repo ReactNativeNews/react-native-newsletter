@@ -44,10 +44,19 @@
         </h2>
       </header>
 
-      <form action="/">
-        <input type="text" name="name" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <input type="text" name="url" placeholder="Article URL" />
+      <form action="https://getsimpleform.com/messages?form_api_token=dde08f25c9efc098de974b00b39ef91b" method="post">
+        <div class="input-field">
+          <input type="text" name="name" placeholder="Your Name" />
+          <span class="hint">Please enter a name</span>
+        </div>
+        <div class="input-field">
+          <input type="email" name="email" placeholder="Your Email" />
+          <span class="hint">Please enter a valid email</span>
+        </div>
+        <div class="input-field">
+          <input type="text" name="url" placeholder="Article URL" />
+          <span class="hint">Please enter a URL</span>
+        </div>
         <button type="submit"></button>
       </form>
     </article>
@@ -121,7 +130,7 @@
         <div class="subscribe-form">
           <form action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post"
             id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-            <div class="email-input">
+            <div class="input-field email-input">
               <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL" autocomplete="off" placeholder="Your Email Address">
               <span class="hint">Please enter a valid email</span>
             </div>

@@ -105,19 +105,20 @@ button[type="submit"] {
   background-position: right 20px center;
 }
 
-.email-input span {
+.input-field span {
   display: none;
   font-size: 13px;
   font-family: "Droid Serif", serif;
   font-style: italic;
   line-height: 35px;
+  text-align: left;
 }
 
-.email-input.error input {
+.input-field.error input {
   border-color: #E73536;
 }
 
-.email-input.error span {
+.input-field.error span {
   display: block;
   color: #E73536;
   margin-left: 30px;
@@ -354,7 +355,8 @@ nav.menu ul.social li a {
 }
 
 .suggest-article form {
-  margin-top: 55px;
+  width: 390px;
+  margin: 55px auto;
 }
 
 .suggest-article input {
@@ -433,8 +435,9 @@ footer .bio .photo {
   height: 87px;
   width: 52px;
   align-self: left;
-  background-image: url(/img/img.frank.png);
+  background-image: url(/img/img.frank@2x.png);
   background-repeat: no-repeat;
+  background-size: contain;
   margin-right: 24px;
   float: left;
 }
@@ -502,6 +505,10 @@ footer .social li {
     width: 30px;
     background-size: 30px 30px;
     padding: 0;
+  }
+
+  .suggest-article form {
+    width: 315px;
   }
 
   .suggest-article input {
