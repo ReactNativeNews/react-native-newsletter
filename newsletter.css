@@ -22,31 +22,6 @@
  * Typography
  */
 
-body {
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-
-h1 {
-  font-size: 46px;
-  font-weight: bold;
-  line-height: 56px;
-  margin-bottom: 23px;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-size: 20px;	
-  font-style: italic;	
-  font-weight: normal;
-  line-height: 35px;  
-}
-
-h2, p {
-  color: #CAABCB;
-  font-family: "Droid Serif", serif;
-}
-
 /**
  * Icons
  */
@@ -136,8 +111,28 @@ html, body {
 }
 
 body {
-  display: block;
-  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 56px;
+  margin-bottom: 23px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 20px;	
+  font-style: italic;	
+  font-weight: normal;
+  line-height: 35px;  
+}
+
+h2, p {
+  color: #CAABCB;
+  font-family: "Droid Serif", serif;
 }
 
 ul {
@@ -159,6 +154,7 @@ ul li {
   right: 0;
   top: 0;
   width: 60%;
+  min-height: 1000px;
 }
 
 main {
@@ -166,7 +162,7 @@ main {
   position: relative;
   margin: 0 auto;
   z-index: 999;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   display: grid;
   padding: 30px;
   max-width: 1440px;
@@ -488,7 +484,6 @@ footer .social li {
 
 @media screen and (max-width: 730px) {
   main {
-    height: 100%;
     grid-template-rows: 56px 1fr 300px;
   }
 
