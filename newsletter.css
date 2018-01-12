@@ -144,16 +144,11 @@ ul li {
   display: inline-block;
 }
 
-#cloud {
+.container {
   background-image: url(/img/purple-cloud.png);
-  background-position: bottom left;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: cover;
-  bottom: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 60%;
+  background-size: 60% 100%;
   min-height: 1000px;
 }
 
@@ -487,9 +482,13 @@ footer .social li {
     grid-template-rows: 56px 1fr 300px;
   }
 
+  .container {
+    background: none;
+  }
+
   .suggest-article {
     grid-template-rows: 90px 1fr;
-    height: 1120px;
+    height: 1115px;
   }
 
   .suggest-article .close-wrapper {
@@ -573,17 +572,12 @@ footer .social li {
 }
 
 @media screen and (max-width: 414px) {
-
   nav.desktop {
     display: none;
   }
 
   nav.mobile {
     display: flex;
-  }
-
-  #cloud {
-    display: none;
   }
 
   .content #splash {

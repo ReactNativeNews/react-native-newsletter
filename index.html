@@ -28,8 +28,6 @@
 </head>
 
 <body>
-  <div id="cloud"></div>
-
   <section class="suggest-article">
     <div class="close-wrapper">
       <a href="#" class="close">Close</a>
@@ -62,110 +60,112 @@
     </article>
   </section>
 
-  <main>
+  <div class="container">
+    <main>
+      <nav class="desktop">
+        <ul>
+          <li>
+            <a href="/" id="logo"></a>
+          </li>
+          <li>
+            <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
+          </li>
+          <li>
+            <a href="#" id="open-suggest-article">Suggest Article</a>
+          </li>
+          <li>
+            <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
+          </li>
+        </ul>
 
-    <nav class="desktop">
-      <ul>
-        <li>
-          <a href="/" id="logo"></a>
-        </li>
-        <li>
-          <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
-        </li>
-        <li>
-          <a href="#" id="open-suggest-article">Suggest Article</a>
-        </li>
-        <li>
-          <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
-        </li>
-      </ul>
+        <ul class="social">
+          <li>
+            <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
+          </li>
+        </ul>
+      </nav>
 
-      <ul class="social">
-        <li>
-          <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="mobile">
+        <a href="#" id="logo"></a>
+        <a href="#" id="open-menu"></a>
+      </nav>
 
-    <nav class="mobile">
-      <a href="#" id="logo"></a>
-      <a href="#" id="open-menu"></a>
-    </nav>
-
-    <nav class="menu">
-      <div class="close-wrapper">
-        <a href="#" class="close"></a>
-      </div>
-
-      <ul class="links">
-        <li>
-          <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
-        </li>
-        <li>
-          <a href="#" id="open-suggest-article">Suggest Article</a>
-        </li>
-        <li>
-          <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
-        </li>
-      </ul>
-
-      <ul class="social">
-        <li>
-          <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
-        </li>
-      </ul>
-    </nav>
-
-    <section class="content">
-      <article id="splash">
-        <h1>A curated, fun to read newsletter all about React Native</h1>
-        <h2>Free occasional summary of React Native news, articles, issues &amp; pull requests, libraries and apps.</h2>
-
-        <div class="subscribe-form">
-          <form action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post"
-            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-            <div class="input-field email-input">
-              <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL" autocomplete="off" placeholder="Your Email Address">
-              <span class="hint">Please enter a valid email</span>
-            </div>
-          </form>
+      <nav class="menu">
+        <div class="close-wrapper">
+          <a href="#" class="close"></a>
         </div>
-      </article>
 
-      <div id="illustration"></div>
-    </section>
+        <ul class="links">
+          <li>
+            <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
+          </li>
+          <li>
+            <a href="#" id="open-suggest-article">Suggest Article</a>
+          </li>
+          <li>
+            <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
+          </li>
+        </ul>
 
-    <footer>
-      <article class="bio">
-        <div class="photo"></div>
-        <div class="details">
-          <h1>Frank Von Hoven, Executive Editor</h1>
-          <p>Frank specializes in React Native at Infinite Red.</p>
-          <ul class="social">
-            <li>
-              <a class="icon twitter" target="_blank" href="#"></a>
-            </li>
-            <li>
-              <a class="icon github" target="_blank" href="#"></a>
-            </li>
-          </ul>
-        </div>
-      </article>
+        <ul class="social">
+          <li>
+            <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
+          </li>
+        </ul>
+      </nav>
 
-      <section class="sponsor-wrap">
-        <section class="sponsor">
-          <h1>Presented By</h1>
-          <a class="logo" href="https://infinite.red" target="_blank"></a>
-        </section>
+      <section class="content">
+        <article id="splash">
+          <h1>A curated, fun to read newsletter all about React Native</h1>
+          <h2>Free occasional summary of React Native news, articles, issues &amp; pull requests, libraries and apps.</h2>
+
+          <div class="subscribe-form">
+            <form action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post"
+              id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div class="input-field email-input">
+                <input type="email" value="" name="EMAIL" required class="required email" id="mce-EMAIL" autocomplete="off" placeholder="Your Email Address">
+                <span class="hint">Please enter a valid email</span>
+              </div>
+            </form>
+          </div>
+        </article>
+
+        <div id="illustration"></div>
       </section>
-    </footer>
-  </main>
+
+      <footer>
+        <article class="bio">
+          <div class="photo"></div>
+          <div class="details">
+            <h1>Frank Von Hoven, Executive Editor</h1>
+            <p>Frank specializes in React Native at Infinite Red.</p>
+            <ul class="social">
+              <li>
+                <a class="icon twitter" target="_blank" href="#"></a>
+              </li>
+              <li>
+                <a class="icon github" target="_blank" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <section class="sponsor-wrap">
+          <section class="sponsor">
+            <h1>Presented By</h1>
+            <a class="logo" href="https://infinite.red" target="_blank"></a>
+          </section>
+        </section>
+      </footer>
+    </main>
+  </div>
+
 </body>
 
 </html>
