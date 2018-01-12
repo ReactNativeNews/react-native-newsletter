@@ -34,10 +34,10 @@ window.onload = function () {
     event.preventDefault()
 
     if (validateEmail(emailInput.value)) {
-      emailWrapper.className = 'email-input'
+      emailWrapper.className = 'input-field email-input'
       subscribeForm.submit()
     } else {
-      emailWrapper.className = 'email-input error'
+      emailWrapper.className = 'input-field email-input error'
     }
   })
 

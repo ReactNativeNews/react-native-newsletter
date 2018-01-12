@@ -371,13 +371,16 @@ nav.menu ul.social li a {
  */
 
 .content {
-  /* border: 1px solid purple; */
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(min-content, calc(100vh - 250px));
   grid-area: mid;
   grid-template-areas: "left right";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  min-height: 800px;
+  min-height: 900px;
+  height: 100%;
 }
 
 .content #splash {
@@ -394,11 +397,13 @@ nav.menu ul.social li a {
 }
 
 .content #illustration {
+  -ms-grid-column: 2;
   grid-area: right;
   background-image: url(/img/newsletter-illustration.svg);
   background-repeat: no-repeat;
   background-position: center 66px;
   padding: 30px;
+  height: 725px;
 }
 
 /**
