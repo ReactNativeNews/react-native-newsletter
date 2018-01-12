@@ -536,6 +536,7 @@ footer .social li {
   }
 
   .email-input input {
+    max-width: 300px;
     width: calc(100% - 65px);
   }
 
