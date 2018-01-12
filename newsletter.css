@@ -535,7 +535,6 @@ footer .social li {
   }
 
   .email-input input {
-    margin-top: 30px;
     width: calc(100% - 65px);
   }
 
