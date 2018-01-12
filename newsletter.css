@@ -576,7 +576,7 @@ footer .social li {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 700px) {
   nav.desktop {
     display: none;
   }
@@ -584,7 +584,9 @@ footer .social li {
   nav.mobile {
     display: flex;
   }
+}
 
+@media screen and (max-width: 414px) {
   .content #splash {
     padding: 0;
   }
