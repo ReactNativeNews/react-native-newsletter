@@ -60,7 +60,7 @@ window.onload = function () {
   })
 
   // Suggest an Article Modal
-  var openSuggest = document.querySelectorAll('#open-suggest-article')
+  var openSuggest = document.querySelectorAll('.open-suggest-article')
   var closeSuggest = document.querySelector('.suggest-article .close')
   var suggest = document.querySelector('.suggest-article')
 
