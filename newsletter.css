@@ -50,9 +50,9 @@
  */
 
 input {
+  -webkit-appearance: none;
   color: #8F7E94;
   font-size: 15px;
-  border: none;
   text-align: left;
   width: 393px;
   outline: none;
@@ -65,19 +65,9 @@ input {
   margin-top: 23px;
 }
 
-button[type="submit"] {
-  border: none;
-  width: 48px;
-  height: 48px;
-  background-color: #E73536;
-  border-radius: 50%;
-}
-
-.email-input input {
-  margin-top: 71px;
-  background-image: url(/img/long-arrow-right.svg);
-  background-repeat: no-repeat;
-  background-position: right 20px center;
+.input-field {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .input-field span {
@@ -89,6 +79,30 @@ button[type="submit"] {
   text-align: left;
 }
 
+.input-field .addon {
+  width: 50px;
+  height: 61px;
+  border-top-right-radius: 32.5px;
+  border-bottom-right-radius: 32.5px;
+  background-color: #fff;
+  background-image: url(/img/long-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  outline: none;
+}
+
+.input-field .addon:hover {
+  cursor: pointer;
+}
+
+.input-field.error .addon {
+  border-color: #E73536;
+}
+
 .input-field.error input {
   border-color: #E73536;
 }
@@ -97,7 +111,21 @@ button[type="submit"] {
   display: block;
   color: #E73536;
   margin-left: 30px;
+  width: 100%;
 }
+
+.email-input {
+  margin-top: 71px;
+}
+
+.email-input input {
+  margin-top: 0;
+  border-right: none;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  width: 280px;
+}
+
 
 /**
  * Styles
@@ -364,6 +392,11 @@ nav.menu ul.social li a {
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position: center center;
+  border: none;
+  width: 48px;
+  height: 48px;
+  background-color: #E73536;
+  border-radius: 50%;
 }
 
 /**
@@ -519,7 +552,7 @@ footer .social li {
   }
 
   .content {
-    min-height: 700px;
+    min-height: 750px;
     width: 100%;
     display: block;
     grid-template-columns: none;
@@ -536,8 +569,8 @@ footer .social li {
   }
 
   .email-input input {
-    max-width: 300px;
-    width: calc(100% - 65px);
+    max-width: 250px;
+    width: calc(100% - 115px);
   }
 
   footer {
