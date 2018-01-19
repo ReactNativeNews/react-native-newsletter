@@ -30,16 +30,18 @@ window.onload = function () {
   var emailWrapper = document.querySelector('.email-input')
   var emailInput = document.querySelector('.email-input input')
 
-  subscribeForm.addEventListener('submit', function (event) {
-    event.preventDefault()
+  if (subscribeForm !== null) {
+    subscribeForm.addEventListener('submit', function (event) {
+      event.preventDefault()
 
-    if (validateEmail(emailInput.value)) {
-      emailWrapper.className = 'input-field email-input'
-      subscribeForm.submit()
-    } else {
-      emailWrapper.className = 'input-field email-input error'
-    }
-  })
+      if (validateEmail(emailInput.value)) {
+        emailWrapper.className = 'input-field email-input'
+        subscribeForm.submit()
+      } else {
+        emailWrapper.className = 'input-field email-input error'
+      }
+    })
+  }
 
   // Mobile navigation
   var openNav = document.querySelector('#open-menu')

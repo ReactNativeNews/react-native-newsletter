@@ -439,6 +439,34 @@ nav.menu ul.social li a {
   height: 725px;
 }
 
+.past-issues-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
+.past-issues {
+  min-width: 200px;
+  width: 33%;
+}
+
+.past-issues li {
+  display: block;
+  font-size: 18px;
+}
+
+.past-issues li a {
+  color: #928699;
+  text-decoration: none;
+}
+
+.past-issues li a:hover {
+  color: #fff;
+}
+
 /**
  * Footer
  */
@@ -510,6 +538,10 @@ footer .social li {
  * Mobile overrides
  */
 @media screen and (max-width: 1229px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
   .content #illustration {
     display: none;
   }
