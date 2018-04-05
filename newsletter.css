@@ -70,6 +70,13 @@ input {
   flex-flow: row wrap;
 }
 
+.captcha-field {
+  display: flex;
+  align-self: center;
+  padding-top: 100px;
+  padding-left: 5px;
+}
+
 .input-field span {
   display: none;
   font-size: 13px;
@@ -152,10 +159,10 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;	
-  font-style: italic;	
+  font-size: 20px;
+  font-style: italic;
   font-weight: normal;
-  line-height: 35px;  
+  line-height: 35px;
 }
 
 h2, p {
@@ -356,7 +363,7 @@ nav.menu ul.social li a {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  padding: 40px 72px; 
+  padding: 40px 72px;
 }
 
 .suggest-article .close-wrapper a.close {
