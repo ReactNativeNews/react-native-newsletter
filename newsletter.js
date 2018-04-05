@@ -110,7 +110,7 @@ window.onload = function () {
       hideError(suggestEmail.parentElement)
     }
 
-    if (suggestUrl.value.length === 0) {
+    if (suggestUrl.value.length < 5) {
       displayError(suggestUrl.parentElement)
       errors = errors.concat('url')
     } else {
