@@ -455,6 +455,15 @@ nav.menu ul.social li a {
   margin-bottom: 30px;
 }
 
+.past-issues-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+
 .past-issues {
   min-width: 200px;
   width: 33%;
@@ -468,6 +477,14 @@ nav.menu ul.social li a {
 .past-issues li a {
   color: #928699;
   text-decoration: none;
+}
+
+.past-issues-header li a {
+  color: #928699;
+  text-decoration: none;
+  margin: 8px;
+  display: block;
+  font-size: 22px;
 }
 
 .past-issues li a:hover {
