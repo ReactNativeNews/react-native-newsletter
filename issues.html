@@ -1,394 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<head>
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>React Native Newsletter</title>
 
-  <title>React Native Newsletter</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="/newsletter.css" type="text/css" />
 
-  <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="/normalize.css" type="text/css">
-  <link rel="stylesheet" href="/newsletter.css" type='text/css'>
+    <script src="/ie.js" type="application/javascript"></script>
+    <script src="/newsletter.js" type="application/javascript"></script>
 
-  <script src="/ie.js" type="application/javascript"></script>
-  <script src="/newsletter.js" type="application/javascript"></script>
+    <script>
+      ;(function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r
+        ;(i[r] =
+          i[r] ||
+          function() {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga")
 
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga("create", "UA-10128745-13", "auto")
+      ga("send", "pageview")
+    </script>
+  </head>
 
-    ga('create', 'UA-10128745-13', 'auto');
-    ga('send', 'pageview');
-  </script>
-</head>
+  <body>
+    <section class="suggest-article">
+      <div class="close-wrapper">
+        <a href="#" class="close">Close</a>
+      </div>
 
-<body>
-  <section class="suggest-article">
-    <div class="close-wrapper">
-      <a href="#" class="close">Close</a>
-    </div>
+      <article class="details">
+        <header>
+          <h1>Suggest an Article</h1>
+          <h2>
+            Have an article that you think would be good for the newsletter?
+            <br />
+            Drop us a link and we'll take a look!
+          </h2>
+        </header>
 
-    <article class="details">
-      <header>
-        <h1>Suggest an Article</h1>
-        <h2>
-          Have an article that you think would be good for the newsletter?
-          <br /> Drop us a link and we'll take a look!
-        </h2>
-      </header>
+        <ul style="padding-top: 5%; font-size: 2ch">
+          <a style="color: crimson" target="_blank" href="https://goo.gl/forms/Dupl9V89nH0V9aWh1"
+            >Suggest an Article</a
+          >
+        </ul>
+      </article>
+    </section>
 
-      <ul style="padding-top: 5%; font-size: 2ch">
-        <a style="color: crimson" target="_blank" href="https://goo.gl/forms/Dupl9V89nH0V9aWh1">Suggest an Article</a>
-      </ul>
-    </article>
-  </section>
-
-  <div class="container">
-    <main>
-      <nav class="desktop">
-        <ul>
-          <li>
-            <a href="/" id="logo"></a>
-          </li>
-          <li>
-            <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
-          </li>
-          <li>
-            <a href="#" class="open-suggest-article">Suggest Article</a>
-          </li>
-          <!--<li>
+    <div class="container">
+      <main>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="/" id="logo"></a>
+            </li>
+            <li>
+              <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="#" class="open-suggest-article">Suggest Article</a>
+            </li>
+            <!--<li>
             <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
           </li>-->
-        </ul>
+          </ul>
 
-        <ul class="social">
-          <!--<li>
+          <ul class="social">
+            <!--<li>
             <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
           </li>-->
-          <li>
-            <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav class="mobile">
-        <a href="#" id="logo"></a>
-        <a href="#" id="open-menu"></a>
-      </nav>
+        <nav class="mobile">
+          <a href="#" id="logo"></a>
+          <a href="#" id="open-menu"></a>
+        </nav>
 
-      <nav class="menu">
-        <div class="close-wrapper">
-          <a href="#" class="close"></a>
-        </div>
+        <nav class="menu">
+          <div class="close-wrapper">
+            <a href="#" class="close"></a>
+          </div>
 
-        <ul class="links">
-          <li>
-            <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
-          </li>
-          <li>
-            <a href="#" class="open-suggest-article">Suggest Article</a>
-          </li>
-          {# <li>
-            <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
-          </li> #}
-        </ul>
+          <ul class="links">
+            <li>
+              <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="#" class="open-suggest-article">Suggest Article</a>
+            </li>
+            {#
+            <li>
+              <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
+            </li>
+            #}
+          </ul>
 
-        <ul class="social">
-          {# <li>
-            <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
-          </li> #}
-          <li>
-            <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="social">
+            {#
+            <li>
+              <a
+                href="https://medium.com/react-native-newsletter"
+                target="_blank"
+                class="icon medium"
+              ></a>
+            </li>
+            #}
+            <li>
+              <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
+            </li>
+          </ul>
+        </nav>
 
-      <section class="content">
-        <div>
-          <h1>Past Issues</h1>
-          <div class="past-issues-header" style="display: flex;
-  flex-flow: column wrap;">
+        <section class="content">
+          <div>
+            <h1>Past Issues</h1>
+            <div
+              class="past-issues-header"
+              style="display: flex;
+  flex-flow: column wrap;"
+            >
               <h2 style="font-size: 30px;">2018</h2>
               <tr style="display: flex; flex-flow">
-              <ul>
-               <li>
-                  <a style="font-size: 28px;" href="/issues/16-10-2018.html" target="_blank">#70 - October 16</a>
-                </li>
-              </ul>
-               <ul style="width: 100%; border-top-style: groove; padding-top: 25px;">
-                <li>
-                  <a href="/issues/02-10-2018.html" target="_blank">#69 - October 2</a>
-                </li>
-                <li>
-                  <a href="/issues/18-09-2018.html" target="_blank">#68 - September 18</a>
-                </li>
-                <li>
-                  <a href="/issues/03-09-2018.html" target="_blank">#67 - September 3</a>
-                </li>
-              </ul>
-               <ul style="width: 100%;">
-                <li>
-                  <a href="/issues/21-08-2018.html" target="_blank">#66 - August 21</a>
-                </li>
-                <li>
-                  <a href="/issues/31-07-2018.html" target="_blank">#65 - July 31</a>
-                </li>
-                <li>
-                  <a href="/issues/17-07-2018.html" target="_blank">#64 - July 17</a>
-                </li>
-                <li>
-                  <a href="/issues/26-06-2018.html" target="_blank">#63 - June 26</a>
-                </li>
-              </ul>
-              <ul style="width: 100%;">
-                <li>
-                  <a href="/issues/12-06-2018.html" target="_blank">#62 - June 12</a>
-                </li>
-                <li>
-                  <a href="/issues/29-05-2018.html" target="_blank">#61 - May 29</a>
-                </li>
-                <li>
-                  <a href="/issues/15-05-2018.html" target="_blank">#60 - May 15</a>
-                </li>
-                <li>
-                  <a href="/issues/01-05-2018.html" target="_blank">#59 - May 1</a>
-                </li>
-              </ul>
-              <ul>
-              <li>
-                  <a href="/issues/18-04-2018.html" target="_blank">#58 - April 18</a>
-                </li>
-                <li>
-                  <a href="/issues/03-04-2018.html" target="_blank">#57 - April 3</a>
-                </li>
-                <li>
-                  <a href="/issues/21-03-2018.html" target="_blank">#56 - March 21</a>
-                </li>
-                <li>
-                  <a href="/issues/09-02-2018.html" target="_blank">#55 - February 9</a>
-                </li>
-              </ul>
+                <ul>
+                  <li>
+                    <a style="font-size: 28px;" href="/issues/2018/16-10-2018.html" target="_blank"
+                      >#70 - October 16</a
+                    >
+                  </li>
+                </ul>
+                <ul style="width: 100%; border-top-style: groove; padding-top: 25px;">
+                  <li>
+                    <a href="/issues/2018/02-10-2018.html" target="_blank">#69 - October 2</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/18-09-2018.html" target="_blank">#68 - September 18</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/03-09-2018.html" target="_blank">#67 - September 3</a>
+                  </li>
+                </ul>
+                <ul style="width: 100%;">
+                  <li>
+                    <a href="/issues/2018/21-08-2018.html" target="_blank">#66 - August 21</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/31-07-2018.html" target="_blank">#65 - July 31</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/17-07-2018.html" target="_blank">#64 - July 17</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/26-06-2018.html" target="_blank">#63 - June 26</a>
+                  </li>
+                </ul>
+                <ul style="width: 100%;">
+                  <li>
+                    <a href="/issues/2018/12-06-2018.html" target="_blank">#62 - June 12</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/29-05-2018.html" target="_blank">#61 - May 29</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/15-05-2018.html" target="_blank">#60 - May 15</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/01-05-2018.html" target="_blank">#59 - May 1</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/issues/2018/18-04-2018.html" target="_blank">#58 - April 18</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/03-04-2018.html" target="_blank">#57 - April 3</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/21-03-2018.html" target="_blank">#56 - March 21</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2018/09-02-2018.html" target="_blank">#55 - February 9</a>
+                  </li>
+                </ul>
               </tr>
             </div>
-          <div class="past-issues-container">
-            <div class="past-issues">
-              <h2>2017</h2>
-              <ul>
-                <li>
-                  <a href="/issues/05-12-2017.html" target="_blank">#54 - December 5</a>
-                </li>
-                <li>
-                  <a href="/issues/31-10-2017.html" target="_blank">#53 - October 31</a>
-                </li>
-                <li>
-                  <a href="/issues/06-10-2017.html" target="_blank">#52 - October 6</a>
-                </li>
-                <li>
-                  <a href="/issues/07-09-2017.html" target="_blank">#51 - September 7</a>
-                </li>
-                <li>
-                  <a href="/issues/18-08-2017.html" target="_blank">#50 - August 18</a>
-                </li>
-                <li>
-                  <a href="/issues/31-07-2017.html" target="_blank">#49 - July 31</a>
-                </li>
-                <li>
-                  <a href="/issues/28-06-2017.html" target="_blank">#48 - June 28</a>
-                </li>
-                <li>
-                  <a href="/issues/31-05-2017.html" target="_blank">#47 - May 31</a>
-                </li>
-                <li>
-                  <a href="/issues/17-05-2017.html" target="_blank">#46 - May 17</a>
-                </li>
-                <li>
-                  <a href="/issues/29-04-2017.html" target="_blank">#45 - April 29</a>
-                </li>
-                <li>
-                  <a href="/issues/06-04-2017.html" target="_blank">#44 - April 6</a>
-                </li>
-                <li>
-                  <a href="/issues/20-03-2017.html" target="_blank">#43 - March 20</a>
-                </li>
-                <li>
-                  <a href="/issues/27-02-2017.html" target="_blank">#42 - February 27</a>
-                </li>
-                <li>
-                  <a href="/issues/14-02-2017.html" target="_blank">#41 - February 14</a>
-                </li>
-                <li>
-                  <a href="/issues/30-01-2017.html" target="_blank">#40 - January 30</a>
-                </li>
-                <li>
-                  <a href="/issues/08-01-2017.html" target="_blank">#39 - January 8</a>
-                </li>
-              </ul>
-            </div>
 
-            <div class="past-issues">
-              <h2>2016</h2>
-              <ul>
-                <li>
-                  <a href="/issues/20-12-2016.html" target="_blank">#38 - December 20</a>
-                </li>
-                <li>
-                  <a href="/issues/02-12-2016.html" target="_blank">#37 - December 2</a>
-                </li>
-                <li>
-                  <a href="/issues/18-11-2016.html" target="_blank">#36 - November 18</a>
-                </li>
-                <li>
-                  <a href="/issues/19-10-2016.html" target="_blank">#35 - October 19</a>
-                </li>
-                <li>
-                  <a href="/issues/07-08-2016.html" target="_blank">#34 - August 7</a>
-                </li>
-                <li>
-                  <a href="/issues/01-07-2016.html" target="_blank">#33 - July 1</a>
-                </li>
-                <li>
-                  <a href="/issues/21-04-2016.html" target="_blank">#32 - April 21</a>
-                </li>
-                <li>
-                  <a href="/issues/21-03-2016.html" target="_blank">#31 - March 21</a>
-                </li>
-                <li>
-                  <a href="/issues/14-02-2016.html" target="_blank">#30 - February 14</a>
-                </li>
-                <li>
-                  <a href="/issues/22-01-2016.html" target="_blank">#29 - January 22</a>
-                </li>
-                <li>
-                  <a href="/issues/10-01-2016.html" target="_blank">#28 - January 10</a>
-                </li>
-              </ul>
-            </div>
+            <div class="past-issues-container">
+              <div class="past-issues">
+                <h2>2017</h2>
+                <ul>
+                  <li>
+                    <a href="/issues/2017/05-12-2017.html" target="_blank">#54 - December 5</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/31-10-2017.html" target="_blank">#53 - October 31</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/06-10-2017.html" target="_blank">#52 - October 6</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/07-09-2017.html" target="_blank">#51 - September 7</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/18-08-2017.html" target="_blank">#50 - August 18</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/31-07-2017.html" target="_blank">#49 - July 31</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/28-06-2017.html" target="_blank">#48 - June 28</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/31-05-2017.html" target="_blank">#47 - May 31</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/17-05-2017.html" target="_blank">#46 - May 17</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/29-04-2017.html" target="_blank">#45 - April 29</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/06-04-2017.html" target="_blank">#44 - April 6</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/20-03-2017.html" target="_blank">#43 - March 20</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/27-02-2017.html" target="_blank">#42 - February 27</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/14-02-2017.html" target="_blank">#41 - February 14</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/30-01-2017.html" target="_blank">#40 - January 30</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2017/08-01-2017.html" target="_blank">#39 - January 8</a>
+                  </li>
+                </ul>
+              </div>
 
-            <div class="past-issues">
-              <h2>2015</h2>
-              <ul>
-                <li>
-                  <a href="/issues/13-12-2015.html" target="_blank">#27 - December 13</a>
-                </li>
-                <li>
-                  <a href="/issues/01-12-2015.html" target="_blank">#26 - December 1</a>
-                </li>
-                <li>
-                  <a href="/issues/22-11-2015.html" target="_blank">#25 - November 22</a>
-                </li>
-                <li>
-                  <a href="/issues/27-10-2015.html" target="_blank">#24 - October 27</a>
-                </li>
-                <li>
-                  <a href="/issues/19-10-2015.html" target="_blank">#23 - October 19</a>
-                </li>
-                <li>
-                  <a href="/issues/13-10-2015.html" target="_blank">#22 - October 13</a>
-                </li>
-                <li>
-                  <a href="/issues/05-10-2015.html" target="_blank">#21 - October 5</a>
-                </li>
-                <li>
-                  <a href="/issues/27-09-2015.html" target="_blank">#20 - September 27</a>
-                </li>
-                <li>
-                  <a href="/issues/18-09-2015.html" target="_blank">#19 - September 18</a>
-                </li>
-                <li>
-                  <a href="/issues/07-09-2015.html" target="_blank">#18 - September 7</a>
-                </li>
-                <li>
-                  <a href="/issues/30-08-2015.html" target="_blank">#17 - August 30</a>
-                </li>
-                <li>
-                  <a href="/issues/16-08-2015.html" target="_blank">#16 - August 16</a>
-                </li>
-                <li>
-                  <a href="/issues/10-08-2015.html" target="_blank">#15 - August 10</a>
-                </li>
-                <li>
-                  <a href="/issues/02-08-2015.html" target="_blank">#14 - August 2</a>
-                </li>
-                <li>
-                  <a href="/issues/26-07-2015.html" target="_blank">#13 - July 26</a>
-                </li>
-                <li>
-                  <a href="/issues/14-07-2015.html" target="_blank">#12 - July 14</a>
-                </li>
-                <li>
-                  <a href="/issues/06-07-2015.html" target="_blank">#11 - July 6</a>
-                </li>
-                <li>
-                  <a href="/issues/28-06-2015.html" target="_blank">#10 - June 28</a>
-                </li>
-                <li>
-                  <a href="/issues/22-06-2015.html" target="_blank">#9 - June 22</a>
-                </li>
-                <li>
-                  <a href="/issues/13-06-2015.html" target="_blank">#8 - June 13</a>
-                </li>
-                <li>
-                  <a href="/issues/07-06-2015.html" target="_blank">#7 - June 7</a>
-                </li>
-                <li>
-                  <a href="/issues/31-05-2015.html" target="_blank">#6 - May 31</a>
-                </li>
-                <li>
-                  <a href="/issues/22-05-2015.html" target="_blank">#5 - May 22</a>
-                </li>
-                <li>
-                  <a href="/issues/15-05-2015.html" target="_blank">#4 - May 15</a>
-                </li>
-                <li>
-                  <a href="/issues/08-05-2015.html" target="_blank">#3 - May 8</a>
-                </li>
-                <li>
-                  <a href="/issues/01-05-2015.html" target="_blank">#2 - May 1</a>
-                </li>
-                <li>
-                  <a href="/issues/23-04-2015.html" target="_blank">#1 - April 23</a>
-                </li>
-              </ul>
+              <div class="past-issues">
+                <h2>2016</h2>
+                <ul>
+                  <li>
+                    <a href="/issues/2016/20-12-2016.html" target="_blank">#38 - December 20</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/02-12-2016.html" target="_blank">#37 - December 2</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/18-11-2016.html" target="_blank">#36 - November 18</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/19-10-2016.html" target="_blank">#35 - October 19</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/07-08-2016.html" target="_blank">#34 - August 7</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/01-07-2016.html" target="_blank">#33 - July 1</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/21-04-2016.html" target="_blank">#32 - April 21</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/21-03-2016.html" target="_blank">#31 - March 21</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/14-02-2016.html" target="_blank">#30 - February 14</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/22-01-2016.html" target="_blank">#29 - January 22</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2016/10-01-2016.html" target="_blank">#28 - January 10</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="past-issues">
+                <h2>2015</h2>
+                <ul>
+                  <li>
+                    <a href="/issues/2015/13-12-2015.html" target="_blank">#27 - December 13</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/01-12-2015.html" target="_blank">#26 - December 1</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/22-11-2015.html" target="_blank">#25 - November 22</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/27-10-2015.html" target="_blank">#24 - October 27</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/19-10-2015.html" target="_blank">#23 - October 19</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/13-10-2015.html" target="_blank">#22 - October 13</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/05-10-2015.html" target="_blank">#21 - October 5</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/27-09-2015.html" target="_blank">#20 - September 27</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/18-09-2015.html" target="_blank">#19 - September 18</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/07-09-2015.html" target="_blank">#18 - September 7</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/30-08-2015.html" target="_blank">#17 - August 30</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/16-08-2015.html" target="_blank">#16 - August 16</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/10-08-2015.html" target="_blank">#15 - August 10</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/02-08-2015.html" target="_blank">#14 - August 2</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/26-07-2015.html" target="_blank">#13 - July 26</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/14-07-2015.html" target="_blank">#12 - July 14</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/06-07-2015.html" target="_blank">#11 - July 6</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/28-06-2015.html" target="_blank">#10 - June 28</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/22-06-2015.html" target="_blank">#9 - June 22</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/13-06-2015.html" target="_blank">#8 - June 13</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/07-06-2015.html" target="_blank">#7 - June 7</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/31-05-2015.html" target="_blank">#6 - May 31</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/22-05-2015.html" target="_blank">#5 - May 22</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/15-05-2015.html" target="_blank">#4 - May 15</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/08-05-2015.html" target="_blank">#3 - May 8</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/01-05-2015.html" target="_blank">#2 - May 1</a>
+                  </li>
+                  <li>
+                    <a href="/issues/2015/23-04-2015.html" target="_blank">#1 - April 23</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div id="illustration"></div>
-      </section>
-
-      <footer>
-        <article class="bio">
-          <div class="photo"></div>
-          <div class="details">
-            <h1>Frank von Hoven, Editor-in-Chief</h1>
-            <p>Frank specializes in React Native at Infinite Red.</p>
-            <ul class="social">
-              <li>
-                <a class="icon twitter" target="_blank" href="#"></a>
-              </li>
-              <li>
-                <a class="icon github" target="_blank" href="#"></a>
-              </li>
-            </ul>
-          </div>
-        </article>
-
-        <section class="sponsor-wrap">
-          <section class="sponsor">
-            <h1>Presented By</h1>
-            <a class="logo" href="https://infinite.red" target="_blank"></a>
-          </section>
+          <div id="illustration"></div>
         </section>
-      </footer>
-    </main>
-  </div>
 
-</body>
+        <footer>
+          <article class="bio">
+            <div class="photo"></div>
+            <div class="details">
+              <h1>Frank von Hoven, Editor-in-Chief</h1>
+              <p>Frank specializes in React Native at Infinite Red.</p>
+              <ul class="social">
+                <li>
+                  <a class="icon twitter" target="_blank" href="#"></a>
+                </li>
+                <li>
+                  <a class="icon github" target="_blank" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </article>
 
+          <section class="sponsor-wrap">
+            <section class="sponsor">
+              <h1>Presented By</h1>
+              <a class="logo" href="https://infinite.red" target="_blank"></a>
+            </section>
+          </section>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
