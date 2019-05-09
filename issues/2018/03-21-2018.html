@@ -1,11 +1,7 @@
-
+<link rel="icon" href="../../favicon.png" type="image/x-icon">
 <!doctype html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"> <head>
-
-<meta property="og:title" content="React Native Newsletter #56"/>
-<meta property="fb:page_id" content="43929265776" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="referrer" content="origin" />
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
 		<!-- NAME: SELL PRODUCTS -->
 		<!--[if gte mso 15]>
 		<xml>
@@ -18,8 +14,8 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>React Native Newsletter #56</title>
-
+		<title>Issue 56</title>
+        
     <style type="text/css">
 		p{
 			margin:10px 0;
@@ -383,130 +379,11 @@
 			line-height:150% !important;
 		}
 
-}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]-->        <script type="text/javascript">
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-329148-88', {'allowLinker': true});
-            ga('set', 'hostname', '.campaign-archive.com');
-            ga('send', 'pageview');
-        </script>        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <link rel="stylesheet" href="https://us10.campaign-archive.com/css/archivebar-desktop.css" mc:nocompile> <script type="text/javascript" src="//us10.campaign-archive.com/js/archivebar-desktop-plugins.js" mc:nocompile></script> <script type="text/javascript">
-            $(document).ready(function() {
-                document.getElementById("copyToClipboard").addEventListener("click", function () {
-                    var input = document.getElementById("clipboardSource");
-                    input.select();
-                    var successful = document.execCommand("copy");
-                    if (successful) {
-                        alert('Copied "' + input.value + '" to your clipboard.');
-                    } else {
-                        throw new Error("Failed to copy text (verify caller was in the context of an event handler)");
-                    }
-                });
-
-                $('li.more > a').click(function(){
-                    var toToggle = $($(this).attr('data-to-toggle'));
-                    if(toToggle.is(':visible')){
-                        toToggle.slideUp('fast');
-                        $(this).removeClass('is-active');
-                        if ($('#awesomebar').find('.is-active').length < 1){
-                            $('#awesomebar').removeClass('sub-active');
-                        }
-                    } else {
-                        toToggle.slideDown('fast');
-                        $(this).addClass('is-active');
-                        $('#awesomebar').addClass('sub-active');
-                    }
-                    return false;
-                });
-
-            });
-        </script> <script src="//us10.campaign-archive.com/js/mailchimp/fancyzoom.mc.js"></script> <script type="text/javascript">
-    function updateFacebookCommentsCount(num) {
-        $('#campaign-fb-comments-btn span').fadeOut().html(num).fadeIn();
-    }
-</script> <script type="text/javascript">
-    function incrementFacebookLikeCount() {
-        var current = parseInt($('#campaign-fb-like-btn span').html());
-        $('#campaign-fb-like-btn span').fadeOut().html(++current).fadeIn();
-    }
-
-    function getUrlParams(str) {
-        var vars = {}, hash;
-        if (!str) return vars;
-        var hashes = str.slice(str.indexOf('?') + 1).split('&');
-        for(var i = 0; i < hashes.length; i++) {
-            hash = hashes[i].split('=');
-            vars[hash[0]] = hash[1];
-        }
-        return vars;
-    }
-
-    function setupSocialSharingStuffs() {
-        var numSocialElems = $('a[rel=socialproxy]').length;
-        var numSocialInitialized = 0;
-        var urlParams = getUrlParams(window.document.location.href);
-        var paramsToCopy = {'e':true, 'eo':true};
-        $('a[rel=socialproxy]').each(function() {
-            var href = $(this).attr('href');
-            var newHref = decodeURIComponent(href.match(/socialproxy=(.*)/)[1]);
-            // for facebook insanity to work well, it needs to all be run against just campaign-archive
-            newHref = newHref.replace(/campaign-archive(\d)/gi, 'campaign-archive');
-            var newHrefParams = getUrlParams(newHref);
-            for(var param in urlParams) {
-                if ((param in paramsToCopy) && !(param in newHrefParams)) {
-                    newHref += '&' + param + '=' + urlParams[param];
-                }
-            }
-            $(this).attr('href', newHref);
-            if (href.indexOf('facebook-comment') !== -1) {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":620, "height":450, "iframe_height": 450});
-            } else {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":500, "height":200, "iframe_height": 500});
-            }
-            numSocialInitialized++;
-                    });
-    }
-	if (window.top!=window.self){
-        $(function() {
-          var iframeOffset = $("#archive", window.parent.document).offset();
-          $("a").each(function () {
-              var link = $(this);
-              var href = link.attr("href");
-              if (href && href[0] == "#") {
-                  var name = href.substring(1);
-                  $(this).click(function () {
-                      var nameElement = $("[name='" + name + "']");
-                      var idElement = $("#" + name);
-                      var element = null;
-                      if (nameElement.length > 0) {
-                          element = nameElement;
-                      } else if (idElement.length > 0) {
-                          element = idElement;
-                      }
-
-                      if (element) {
-                          var offset = element.offset();
-                          var height = element.height();
-                          //3 is totally arbitrary, but seems to work best.
-                          window.parent.scrollTo(offset.left, (offset.top + iframeOffset.top - (height*3)) );
-                      }
-
-                      return false;
-                  });
-              }
-          });
-        });
-    }
-</script>  <script type="text/javascript">
-            $(document).ready(function() {
-                setupSocialSharingStuffs();
-            });
-        </script> </head> <body id="archivebody"> <div id="awesomewrap"> <div id="awesomeshare"> <div id="zclipwrap"> <div class="copy-container"> <label for="clipboardSource">Campaign URL</label> <span id="copyURL"> <input id="clipboardSource" name="shorturl" style="margin-top:6px;" type="text" value="https://mailchi.mp/2b7e1c62f991/react-native-newsletter-56" class="av-text"> <a id="copyToClipboard" href="javascript:;">Copy</a> </span> </div>  <div id="zero_clipboard"></div> </div> <ul id="awesomesocial"> <li class="fbk"> <a class="fbk-like" id="campaign-fb-like-btn" rel="socialproxy" href="https://us10.campaign-archive.com/?u=db0dd948e2b729ee62625b1a8&amp;id=43cb0dd669&amp;e=be2b5a1efe?socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Ffacebook-like%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26url%3Dhttps%253A%252F%252Fmailchi.mp%252F2b7e1c62f991%252Freact-native-newsletter-56%26title%3DReact%2520Native%2520Newsletter%2520%252356" title="Like React Native Newsletter #56 on Facebook">Facebook <b>0 <i>likes</i></b></a> </li> <li class="twt"> <div> <a title="Share on Twitter" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fmailchi.mp%2F2b7e1c62f991%2Freact-native-newsletter-56" rel="noopener noreferrer">Twitter <b>0 <i>tweets</i></b></a> </div>  </li> <li class="ggl"> <a title="+1 on Google Plus" id="campaign-gpo-btn" href="https://us10.campaign-archive.com?u=db0dd948e2b729ee62625b1a8&amp;id=43cb0dd669&amp;socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Fgoogle-plus-one%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26url%3Dhttps%253A%252F%252Fmailchi.mp%252F2b7e1c62f991%252Freact-native-newsletter-56%26title%3DReact%2520Native%2520Newsletter%2520%252356" class="twitter-share-button" rel="socialproxy">Google +1</a> </li> </ul> </div> <ul id="awesomebar"> <li> <a href="http://eepurl.com/clmrSn" title="Subscribe to List" target="_blank" rel="noopener noreferrer">Subscribe</a> </li>  <li><a href="https://us10.campaign-archive.com/home/?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="View Past Issues" target="_blank" rel="noopener noreferrer">Past Issues</a></li> <li class="float-r"><a class="rss" target="_blank" href="https://us10.campaign-archive.com/feed?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="subscribe to the email archive feed" rel="noopener noreferrer">RSS</a></li> <li class="float-r more"><a href="javascript:;" data-to-toggle="#translate">Translate</a> <ul id="translate"> <li> <a rel="nofollow" title="English" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|en&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">English</a> </li><li> <a rel="nofollow" title="العربية" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ar&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">العربية</a> </li><li> <a rel="nofollow" title="Afrikaans" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|af&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Afrikaans</a> </li><li> <a rel="nofollow" title="беларуская мова" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|be&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">беларуская мова</a> </li><li> <a rel="nofollow" title="български" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|bg&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">български</a> </li><li> <a rel="nofollow" title="català" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ca&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">català</a> </li><li> <a rel="nofollow" title="中文（简体）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-CN&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">中文（简体）</a> </li><li> <a rel="nofollow" title="中文（繁體）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-TW&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">中文（繁體）</a> </li><li> <a rel="nofollow" title="Hrvatski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Hrvatski</a> </li><li> <a rel="nofollow" title="Česky" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|cs&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Česky</a> </li><li> <a rel="nofollow" title="Dansk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|da&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Dansk</a> </li><li> <a rel="nofollow" title="eesti&nbsp;keel" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|et&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">eesti&nbsp;keel</a> </li><li> <a rel="nofollow" title="Nederlands" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|nl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Nederlands</a> </li><li> <a rel="nofollow" title="Suomi" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Suomi</a> </li><li> <a rel="nofollow" title="Fran&ccedil;ais" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Fran&ccedil;ais</a> </li><li> <a rel="nofollow" title="Deutsch" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|de&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Deutsch</a> </li><li> <a rel="nofollow" title="&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|el&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή</a> </li><li> <a rel="nofollow" title="हिन्दी" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">हिन्दी</a> </li><li> <a rel="nofollow" title="Magyar" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hu&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Magyar</a> </li><li> <a rel="nofollow" title="Gaeilge" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ga&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Gaeilge</a> </li><li> <a rel="nofollow" title="Indonesia" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|id&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Indonesia</a> </li><li> <a rel="nofollow" title="íslenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|is&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">íslenska</a> </li><li> <a rel="nofollow" title="Italiano" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|it&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Italiano</a> </li><li> <a rel="nofollow" title="日本語" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ja&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">日本語</a> </li><li> <a rel="nofollow" title="ភាសាខ្មែរ" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|km&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">ភាសាខ្មែរ</a> </li><li> <a rel="nofollow" title="한국어" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ko&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">한국어</a> </li><li> <a rel="nofollow" title="македонски&nbsp;јазик" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">македонски&nbsp;јазик</a> </li><li> <a rel="nofollow" title="بهاس ملايو" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ms&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">بهاس ملايو</a> </li><li> <a rel="nofollow" title="Malti" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Malti</a> </li><li> <a rel="nofollow" title="Norsk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|no&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Norsk</a> </li><li> <a rel="nofollow" title="Polski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Polski</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Portugu&ecirc;s</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s&nbsp;-&nbsp;Portugal" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt-PT&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Portugu&ecirc;s&nbsp;-&nbsp;Portugal</a> </li><li> <a rel="nofollow" title="Rom&acirc;nă" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ro&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Rom&acirc;nă</a> </li><li> <a rel="nofollow" title="Русский" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ru&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Русский</a> </li><li> <a rel="nofollow" title="Espa&ntilde;ol" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|es&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Espa&ntilde;ol</a> </li><li> <a rel="nofollow" title="Kiswahili" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Kiswahili</a> </li><li> <a rel="nofollow" title="Svenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Svenska</a> </li><li> <a rel="nofollow" title="עברית" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|iw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">עברית</a> </li><li> <a rel="nofollow" title="Lietuvių" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Lietuvių</a> </li><li> <a rel="nofollow" title="latviešu" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">latviešu</a> </li><li> <a rel="nofollow" title="slovenčina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">slovenčina</a> </li><li> <a rel="nofollow" title="slovenščina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">slovenščina</a> </li><li> <a rel="nofollow" title="српски" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">српски</a> </li><li> <a rel="nofollow" title="தமிழ்" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ta&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">தமிழ்</a> </li><li> <a rel="nofollow" title="ภาษาไทย" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|th&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">ภาษาไทย</a> </li><li> <a rel="nofollow" title="Türkçe" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Türkçe</a> </li><li> <a rel="nofollow" title="Filipino" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Filipino</a> </li><li> <a rel="nofollow" title="украї́нська" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|uk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">украї́нська</a> </li><li> <a rel="nofollow" title="Tiếng&nbsp;Việt" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|vi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D43cb0dd669%26e%3Dbe2b5a1efe">Tiếng&nbsp;Việt</a> </li> </ul> </li> </ul> </div>
-        <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-		<!---->
-		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">React Native Newsletter #56</span><!--<![endif]-->
-		<!---->
+}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]--></head>
+    <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;">
                 <tr>
@@ -530,16 +407,16 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #808080;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
-
-                            <div style="text-align: center;"><span style="font-size:13px"><span style="float:left; font-family:open sans,helvetica neue,helvetica,arial,sans-serif"><span style="color:#F0EFF2">Issue #56</span>&nbsp;</span></span><span style="font-size:12px"><span style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif"><a href="https://mailchi.mp/2b7e1c62f991/react-native-newsletter-56?e=be2b5a1efe" style="color: #726685;border-bottom: 1px dotted #726685;text-decoration: none;float: right;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-weight: normal;" target="_blank"><span style="color:#F0EFF2">View in browser</span></a></span></span><br>
+                        
+                            <div style="text-align: center;"><span style="font-size:13px"><span style="float:left; font-family:open sans,helvetica neue,helvetica,arial,sans-serif"><span style="color:#F0EFF2">Issue #56</span>&nbsp;</span></span><span style="font-size:12px"><span style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif"><a href="*|ARCHIVE|*" style="color: #726685;border-bottom: 1px dotted #726685;text-decoration: none;float: right;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-weight: normal;" target="_blank"></a></span></span><br>
 &nbsp;</div>
 
                         </td>
@@ -548,7 +425,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -563,11 +440,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                                
                                     <a href="http://reactnative.cc/" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                         <img align="center" alt="React Native Newsletter" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6bf3057e-a5b6-4de8-ac62-9cf015d23ca6.png" width="310" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
                                     </a>
-
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -600,11 +477,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/42618a70-53ac-4afa-84c0-625a71b66fce.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -619,15 +496,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <br>
                         </td>
                     </tr>
@@ -635,7 +512,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -651,15 +528,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;text-align: left;">
-
+                        
                             <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 	<tbody>
 		<tr>
@@ -705,7 +582,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -721,23 +598,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -752,11 +629,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6930fbc2-b89b-4aa1-877b-454da6921533.png" width="54" style="max-width: 108px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -771,15 +648,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <div style="text-align: center;"><span class="mc-toc-title"><span style="font-size:14px"><span style="color:#726685">Executive Editor,</span><br>
 <a href="https://twitter.com/infinite_frank" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Frank von Hoven</a>&nbsp;<span style="color:#726685">at&nbsp;</span><a href="http://infinite.red/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Infinite Red</a></span></span><br>
 &nbsp;</div>
@@ -790,7 +667,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -809,7 +686,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -824,23 +701,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -856,15 +733,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #140034;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 34px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><span style="font-size:12px">R E A C T &nbsp; N A T I V E<br>
 &nbsp;</span>This Month's Top Picks</h2>
 
@@ -874,7 +751,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -893,7 +770,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -911,7 +788,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -922,7 +799,7 @@
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -930,13 +807,13 @@
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://levelup.gitconnected.com/wait-what-happens-when-my-react-native-application-starts-an-in-depth-look-inside-react-native-5f306ef3250f" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/759a2729-7ceb-4d1c-9d40-98be3ef8a11e.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -977,23 +854,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1012,7 +889,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1023,7 +900,7 @@
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1031,13 +908,13 @@
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://medium.com/oberonamsterdam/what-the-react-native-docs-forgot-to-tell-you-about-animations-c21d67abf14d" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/255971d8-092a-4acf-b602-0cf49722d7de.gif" width="264" style="max-width: 340px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1082,7 +959,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1100,7 +977,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1111,7 +988,7 @@
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1119,13 +996,13 @@
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://medium.com/spritle-software/build-a-simple-video-streaming-app-with-opentok-react-native-1c966c5af915" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/e81bd47f-b642-4d8b-929f-d782193c105d.jpeg" width="264" style="max-width: 1280px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1168,23 +1045,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1203,7 +1080,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1214,7 +1091,7 @@
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1222,13 +1099,13 @@
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://blog.instabug.com/2018/03/react-native-development/?utm_source=reddit&amp;utm_medium=social&amp;utm_content=react_native_development" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/dc0e5698-9b2e-451b-b13f-dfa2e8d08687.jpg" width="264" style="max-width: 1000px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1269,23 +1146,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1301,23 +1178,23 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1329,7 +1206,7 @@
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1337,13 +1214,13 @@
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://medium.com/react-native-training/unstated-the-setstate-of-react-state-management-8ce47b240e6d" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/ada3ab0d-7022-486a-9713-eb634855af8f.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1387,7 +1264,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1402,15 +1279,15 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #140034;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 34px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><span style="font-size:12px">R E A C T &nbsp;N A T I V E</span><br>
 This Month's Updates</h2>
 
@@ -1420,7 +1297,7 @@ This Month's Updates</h2>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1439,7 +1316,7 @@ This Month's Updates</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1457,7 +1334,7 @@ This Month's Updates</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1468,7 +1345,7 @@ This Month's Updates</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1476,13 +1353,13 @@ This Month's Updates</h2>
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://github.com/facebook/react-native/releases/tag/v0.54.0" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/b2987f55-8f1b-4bdb-bd57-56ed34e7d9a7.png" width="132" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1526,7 +1403,7 @@ This Month's Updates</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1541,15 +1418,15 @@ This Month's Updates</h2>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #140034;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 34px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><span style="font-size:12px">R E A C T &nbsp;N A T I V E</span><br>
 Community Highlights</h2>
 
@@ -1559,7 +1436,7 @@ Community Highlights</h2>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1578,7 +1455,7 @@ Community Highlights</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1593,23 +1470,23 @@ Community Highlights</h2>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
-
+                        
+                            
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1621,7 +1498,7 @@ Community Highlights</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1629,13 +1506,13 @@ Community Highlights</h2>
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://github.com/frichti/react-native-tips" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/2c53cab4-53fb-4529-b18c-6d3983b40ab7.gif" width="132" style="max-width: 800px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1664,7 +1541,7 @@ Community Highlights</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1672,13 +1549,13 @@ Community Highlights</h2>
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://github.com/wix/react-native-keyboard-input" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a3f2c64b-affd-4b9b-ac08-eda162e3fa2e.png" width="132" style="max-width: 626px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1705,7 +1582,7 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1713,13 +1590,13 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://github.com/lawnstarter/react-native-picker-select" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/39102ecc-e03a-430a-8278-ad860496e125.png" width="132" style="max-width: 687px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1748,7 +1625,7 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
@@ -1756,13 +1633,13 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
             <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionLeftImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
                         <a href="https://github.com/frichti/react-native-tips" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                        
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/65ff5a41-b2c4-4376-aaf5-03c4124a29e6.png" width="132" style="max-width: 610px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1798,7 +1675,7 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1813,15 +1690,15 @@ Use custom input views such as an image gallery, stickers, etc.&nbsp;replace the
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #140034;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 34px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><span style="font-size:12px">R E A C T &nbsp;N A T I V E</span><br>
 Friends of the Newsletter</h2>
 
@@ -1831,7 +1708,7 @@ Friends of the Newsletter</h2>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1850,7 +1727,7 @@ Friends of the Newsletter</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1861,7 +1738,7 @@ Friends of the Newsletter</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -1871,13 +1748,13 @@ Friends of the Newsletter</h2>
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
 
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a6625c35-fb52-41c6-8966-73cde4dce07b.png" width="132" style="max-width: 140px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        
 
-
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1911,7 +1788,7 @@ Friends of the Newsletter</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1922,7 +1799,7 @@ Friends of the Newsletter</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -1932,13 +1809,13 @@ Friends of the Newsletter</h2>
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
 
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/f3b8d7e3-cb7b-493b-a2cf-9f8c2275d10b.png" width="132" style="max-width: 140px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        
 
-
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -1972,7 +1849,7 @@ Friends of the Newsletter</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -1983,7 +1860,7 @@ Friends of the Newsletter</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -1993,13 +1870,13 @@ Friends of the Newsletter</h2>
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
 
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/d1fb760a-f716-4f71-9c82-522f0dad439d.png" width="132" style="max-width: 140px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        
 
-
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -2032,7 +1909,7 @@ Friends of the Newsletter</h2>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -2043,7 +1920,7 @@ Friends of the Newsletter</h2>
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -2053,13 +1930,13 @@ Friends of the Newsletter</h2>
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                    
+                        
 
                         <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/b3d3e392-6e01-414e-8b41-8d7bc6630c36.png" width="132" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        
 
-
-
+                    
                     </td>
                 </tr>
             </tbody></table>
@@ -2110,7 +1987,7 @@ Email&nbsp;<a href="mailto:%20conf@infinite.red?subject=Chain%20React%202018%20G
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -2125,15 +2002,15 @@ Email&nbsp;<a href="mailto:%20conf@infinite.red?subject=Chain%20React%202018%20G
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 	<tbody>
 		<tr>
@@ -2152,7 +2029,7 @@ Email&nbsp;<a href="mailto:%20conf@infinite.red?subject=Chain%20React%202018%20G
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2168,15 +2045,15 @@ Email&nbsp;<a href="mailto:%20conf@infinite.red?subject=Chain%20React%202018%20G
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <div style="text-align: center;"><br>
 <span style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif">You supply the details about your event, company, blog, or project;&nbsp;<br>
 we’ll supply 9,000+ sets of eyeballs.</span><br>
@@ -2188,7 +2065,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2223,7 +2100,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -2238,15 +2115,15 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 	<tbody>
 		<tr>
@@ -2273,7 +2150,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2292,7 +2169,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                         </td>
                     </tr>
                 </tbody></table>
-<!--
+<!--            
                 <td class="mcnDividerBlockInner" style="padding: 18px;">
                 <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
 -->
@@ -2307,15 +2184,15 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 16px;line-height: 200%;text-align: left;">
-
+                        
                             <div style="text-align: center;"><span style="font-size:12px; letter-spacing:2px">SHARE THE NEWSLETTER:</span></div>
 
                         </td>
@@ -2324,7 +2201,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2349,7 +2226,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
@@ -2362,10 +2239,10 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <tbody><tr>
                                                                         <td align="center" valign="middle" width="24" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmailchi.mp%2F2b7e1c62f991%2Freact-native-newsletter-56" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+                                                                            <a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                         </td>
                                                                         <td align="left" valign="middle" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmailchi.mp%2F2b7e1c62f991%2Freact-native-newsletter-56" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Share</a>
+                                                                            <a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Share</a>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody></table>
@@ -2378,7 +2255,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
@@ -2391,10 +2268,10 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <tbody><tr>
                                                                         <td align="center" valign="middle" width="24" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://twitter.com/intent/tweet?text=React+Native+Newsletter+%2356: https%3A%2F%2Fmailchi.mp%2F2b7e1c62f991%2Freact-native-newsletter-56" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+                                                                            <a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                         </td>
                                                                         <td align="left" valign="middle" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://twitter.com/intent/tweet?text=React+Native+Newsletter+%2356: https%3A%2F%2Fmailchi.mp%2F2b7e1c62f991%2Freact-native-newsletter-56" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Tweet</a>
+                                                                            <a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Tweet</a>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody></table>
@@ -2407,7 +2284,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
@@ -2420,10 +2297,10 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <tbody><tr>
                                                                         <td align="center" valign="middle" width="24" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://us10.forward-to-friend.com/forward?u=db0dd948e2b729ee62625b1a8&id=43cb0dd669&e=be2b5a1efe" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
+                                                                            <a href="*|FORWARD|*" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                         </td>
                                                                         <td align="left" valign="middle" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                                                            <a href="http://us10.forward-to-friend.com/forward?u=db0dd948e2b729ee62625b1a8&id=43cb0dd669&e=be2b5a1efe" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Forward</a>
+                                                                            <a href="*|FORWARD|*" target="" style="color: #140034;font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Forward</a>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody></table>
@@ -2436,7 +2313,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                     <!--[if mso]>
                                     </tr>
                                     </table>
@@ -2481,15 +2358,15 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #FFFFFF;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
-
+                        
                             <span style="font-size:12px; letter-spacing:2px">CONNECT WITH US ON:</span>
                         </td>
                     </tr>
@@ -2497,7 +2374,7 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2522,12 +2399,12 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -2536,12 +2413,12 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://www.facebook.com/infiniteredinc" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -2550,16 +2427,16 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -2568,12 +2445,12 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://twitter.com/infinite_red" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -2582,16 +2459,16 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -2600,12 +2477,12 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="http://infinite.red" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -2614,11 +2491,11 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                     <!--[if mso]>
                                     </tr>
                                     </table>
@@ -2644,15 +2521,15 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #FFFFFF;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
-
+                        
                             <br>
 <br>
 <span style="color:#F0EFF2"><a href="http://infinite.red" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #FFFFFF;font-weight: normal;text-decoration: underline;"><img data-file-id="848210" height="50" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/0f8bd15a-e4c0-4196-a1d5-a84d80799c9f.png" style="border: 0px initial;width: 50px;height: 50px;margin: 0px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="50"></a></span><br>
@@ -2661,14 +2538,14 @@ we’ll supply 9,000+ sets of eyeballs.</span><br>
 An app design &amp; development team</span><br>
 <br>
 <br>
-<a href="https://reactnative.us10.list-manage.com/unsubscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f&e=be2b5a1efe&c=43cb0dd669" style="color: #726685;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-weight: normal;text-decoration: underline;" target="_blank"><span style="color:#F0EFF2">Unsubscribe</span></a>
+<a href="*|UNSUB|*" style="color: #726685;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-weight: normal;text-decoration: underline;" target="_blank"><span style="color:#F0EFF2">Unsubscribe</span></a>
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -2692,4 +2569,5 @@ An app design &amp; development team</span><br>
                 </tr>
             </table>
         </center>
-    </body>    </body> </html>
+    </body>
+</html>

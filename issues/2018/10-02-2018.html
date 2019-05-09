@@ -1,11 +1,7 @@
-
+<link rel="icon" href="../../favicon.png" type="image/x-icon">
 <!doctype html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"> <head>
-
-<meta property="og:title" content="React Native Newsletter #58"/>
-<meta property="fb:page_id" content="43929265776" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="referrer" content="origin" />
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
 		<!-- NAME: 1 COLUMN -->
 		<!--[if gte mso 15]>
 		<xml>
@@ -18,8 +14,8 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>React Native Newsletter #58</title>
-
+		<title>Issue 69</title>
+        
     <style type="text/css">
 		p{
 			margin:10px 0;
@@ -401,132 +397,11 @@
 			line-height:150% !important;
 		}
 
-}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]-->        <script type="text/javascript">
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-329148-88', {'allowLinker': true});
-            ga('set', 'hostname', '.campaign-archive.com');
-            ga('send', 'pageview');
-        </script>        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <link rel="stylesheet" href="https://us10.campaign-archive.com/css/archivebar-desktop.css" mc:nocompile> <script type="text/javascript" src="//us10.campaign-archive.com/js/archivebar-desktop-plugins.js" mc:nocompile></script> <script type="text/javascript">
-            $(document).ready(function() {
-                document.getElementById("copyToClipboard").addEventListener("click", function () {
-                    var input = document.getElementById("clipboardSource");
-                    input.select();
-                    var successful = document.execCommand("copy");
-                    if (successful) {
-                        alert('Copied "' + input.value + '" to your clipboard.');
-                    } else {
-                        throw new Error("Failed to copy text (verify caller was in the context of an event handler)");
-                    }
-                });
-
-                $('li.more > a').click(function(){
-                    var toToggle = $($(this).attr('data-to-toggle'));
-                    if(toToggle.is(':visible')){
-                        toToggle.slideUp('fast');
-                        $(this).removeClass('is-active');
-                        if ($('#awesomebar').find('.is-active').length < 1){
-                            $('#awesomebar').removeClass('sub-active');
-                        }
-                    } else {
-                        toToggle.slideDown('fast');
-                        $(this).addClass('is-active');
-                        $('#awesomebar').addClass('sub-active');
-                    }
-                    return false;
-                });
-
-            });
-        </script> <script src="//us10.campaign-archive.com/js/mailchimp/fancyzoom.mc.js"></script> <script type="text/javascript">
-    function updateFacebookCommentsCount(num) {
-        $('#campaign-fb-comments-btn span').fadeOut().html(num).fadeIn();
-    }
-</script> <script type="text/javascript">
-    function incrementFacebookLikeCount() {
-        var current = parseInt($('#campaign-fb-like-btn span').html());
-        $('#campaign-fb-like-btn span').fadeOut().html(++current).fadeIn();
-    }
-
-    function getUrlParams(str) {
-        var vars = {}, hash;
-        if (!str) return vars;
-        var hashes = str.slice(str.indexOf('?') + 1).split('&');
-        for(var i = 0; i < hashes.length; i++) {
-            hash = hashes[i].split('=');
-            vars[hash[0]] = hash[1];
-        }
-        return vars;
-    }
-
-    function setupSocialSharingStuffs() {
-        var numSocialElems = $('a[rel=socialproxy]').length;
-        var numSocialInitialized = 0;
-        var urlParams = getUrlParams(window.document.location.href);
-        var paramsToCopy = {'e':true, 'eo':true};
-        $('a[rel=socialproxy]').each(function() {
-            var href = $(this).attr('href');
-            var newHref = decodeURIComponent(href.match(/socialproxy=(.*)/)[1]);
-            // for facebook insanity to work well, it needs to all be run against just campaign-archive
-            newHref = newHref.replace(/campaign-archive(\d)/gi, 'campaign-archive');
-            var newHrefParams = getUrlParams(newHref);
-            for(var param in urlParams) {
-                if ((param in paramsToCopy) && !(param in newHrefParams)) {
-                    newHref += '&' + param + '=' + urlParams[param];
-                }
-            }
-            $(this).attr('href', newHref);
-            if (href.indexOf('facebook-comment') !== -1) {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":620, "height":450, "iframe_height": 450});
-            } else {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":500, "height":200, "iframe_height": 500});
-            }
-            numSocialInitialized++;
-                    });
-    }
-	if (window.top!=window.self){
-        $(function() {
-          var iframeOffset = $("#archive", window.parent.document).offset();
-          $("a").each(function () {
-              var link = $(this);
-              var href = link.attr("href");
-              if (href && href[0] == "#") {
-                  var name = href.substring(1);
-                  $(this).click(function () {
-                      var nameElement = $("[name='" + name + "']");
-                      var idElement = $("#" + name);
-                      var element = null;
-                      if (nameElement.length > 0) {
-                          element = nameElement;
-                      } else if (idElement.length > 0) {
-                          element = idElement;
-                      }
-
-                      if (element) {
-                          var offset = element.offset();
-                          var height = element.height();
-                          //3 is totally arbitrary, but seems to work best.
-                          window.parent.scrollTo(offset.left, (offset.top + iframeOffset.top - (height*3)) );
-                      }
-
-                      return false;
-                  });
-              }
-          });
-        });
-    }
-</script>  <script type="text/javascript">
-            $(document).ready(function() {
-                setupSocialSharingStuffs();
-            });
-        </script>
-                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"405178",ustr:"",originlat:"0",clientrtt:"46",ghostip:"23.67.253.185",ipv6:false,pct:"10",clientip:"208.114.192.130",requestid:"66731b",region:"17199",protocol:"",blver:13,akM:"",akN:"ae",akTT:"O",akTX:"1",akTI:"66731b",ai:"351754",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
-                    </head> <body id="archivebody"> <div id="awesomewrap"> <div id="awesomeshare"> <div id="zclipwrap"> <div class="copy-container"> <label for="clipboardSource">Campaign URL</label> <span id="copyURL"> <input id="clipboardSource" name="shorturl" style="margin-top:6px;" type="text" value="https://mailchi.mp/6e3343d6f154/react-native-newsletter-58" class="av-text"> <a id="copyToClipboard" href="javascript:;">Copy</a> </span> </div>  <div id="zero_clipboard"></div> </div> <ul id="awesomesocial"> <li class="fbk"> <a class="fbk-like" id="campaign-fb-like-btn" rel="socialproxy" href="https://us10.campaign-archive.com/?u=db0dd948e2b729ee62625b1a8&amp;id=b35968010f&amp;e=8820eb7d34?socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Ffacebook-like%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26url%3Dhttps%253A%252F%252Fmailchi.mp%252F6e3343d6f154%252Freact-native-newsletter-58%26title%3DReact%2520Native%2520Newsletter%2520%252358" title="Like React Native Newsletter #58 on Facebook">Facebook <b>0 <i>likes</i></b></a> </li> <li class="twt"> <div> <a title="Share on Twitter" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fmailchi.mp%2F6e3343d6f154%2Freact-native-newsletter-58" rel="noopener noreferrer">Twitter <b>0 <i>tweets</i></b></a> </div>  </li> <li class="ggl"> <a title="+1 on Google Plus" id="campaign-gpo-btn" href="https://us10.campaign-archive.com?u=db0dd948e2b729ee62625b1a8&amp;id=b35968010f&amp;socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Fgoogle-plus-one%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26url%3Dhttps%253A%252F%252Fmailchi.mp%252F6e3343d6f154%252Freact-native-newsletter-58%26title%3DReact%2520Native%2520Newsletter%2520%252358" class="twitter-share-button" rel="socialproxy">Google +1</a> </li> </ul> </div> <ul id="awesomebar"> <li> <a href="http://eepurl.com/clmrSn" title="Subscribe to List" target="_blank" rel="noopener noreferrer">Subscribe</a> </li>  <li><a href="https://us10.campaign-archive.com/home/?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="View Past Issues" target="_blank" rel="noopener noreferrer">Past Issues</a></li> <li class="float-r"><a class="rss" target="_blank" href="https://us10.campaign-archive.com/feed?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="subscribe to the email archive feed" rel="noopener noreferrer">RSS</a></li> <li class="float-r more"><a href="javascript:;" data-to-toggle="#translate">Translate</a> <ul id="translate"> <li> <a rel="nofollow" title="English" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|en&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">English</a> </li><li> <a rel="nofollow" title="العربية" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ar&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">العربية</a> </li><li> <a rel="nofollow" title="Afrikaans" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|af&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Afrikaans</a> </li><li> <a rel="nofollow" title="беларуская мова" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|be&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">беларуская мова</a> </li><li> <a rel="nofollow" title="български" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|bg&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">български</a> </li><li> <a rel="nofollow" title="català" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ca&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">català</a> </li><li> <a rel="nofollow" title="中文（简体）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-CN&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">中文（简体）</a> </li><li> <a rel="nofollow" title="中文（繁體）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-TW&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">中文（繁體）</a> </li><li> <a rel="nofollow" title="Hrvatski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Hrvatski</a> </li><li> <a rel="nofollow" title="Česky" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|cs&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Česky</a> </li><li> <a rel="nofollow" title="Dansk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|da&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Dansk</a> </li><li> <a rel="nofollow" title="eesti&nbsp;keel" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|et&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">eesti&nbsp;keel</a> </li><li> <a rel="nofollow" title="Nederlands" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|nl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Nederlands</a> </li><li> <a rel="nofollow" title="Suomi" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Suomi</a> </li><li> <a rel="nofollow" title="Fran&ccedil;ais" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Fran&ccedil;ais</a> </li><li> <a rel="nofollow" title="Deutsch" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|de&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Deutsch</a> </li><li> <a rel="nofollow" title="&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|el&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή</a> </li><li> <a rel="nofollow" title="हिन्दी" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">हिन्दी</a> </li><li> <a rel="nofollow" title="Magyar" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hu&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Magyar</a> </li><li> <a rel="nofollow" title="Gaeilge" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ga&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Gaeilge</a> </li><li> <a rel="nofollow" title="Indonesia" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|id&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Indonesia</a> </li><li> <a rel="nofollow" title="íslenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|is&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">íslenska</a> </li><li> <a rel="nofollow" title="Italiano" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|it&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Italiano</a> </li><li> <a rel="nofollow" title="日本語" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ja&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">日本語</a> </li><li> <a rel="nofollow" title="ភាសាខ្មែរ" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|km&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">ភាសាខ្មែរ</a> </li><li> <a rel="nofollow" title="한국어" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ko&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">한국어</a> </li><li> <a rel="nofollow" title="македонски&nbsp;јазик" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">македонски&nbsp;јазик</a> </li><li> <a rel="nofollow" title="بهاس ملايو" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ms&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">بهاس ملايو</a> </li><li> <a rel="nofollow" title="Malti" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Malti</a> </li><li> <a rel="nofollow" title="Norsk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|no&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Norsk</a> </li><li> <a rel="nofollow" title="Polski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Polski</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Portugu&ecirc;s</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s&nbsp;-&nbsp;Portugal" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt-PT&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Portugu&ecirc;s&nbsp;-&nbsp;Portugal</a> </li><li> <a rel="nofollow" title="Rom&acirc;nă" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ro&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Rom&acirc;nă</a> </li><li> <a rel="nofollow" title="Русский" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ru&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Русский</a> </li><li> <a rel="nofollow" title="Espa&ntilde;ol" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|es&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Espa&ntilde;ol</a> </li><li> <a rel="nofollow" title="Kiswahili" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Kiswahili</a> </li><li> <a rel="nofollow" title="Svenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Svenska</a> </li><li> <a rel="nofollow" title="עברית" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|iw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">עברית</a> </li><li> <a rel="nofollow" title="Lietuvių" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Lietuvių</a> </li><li> <a rel="nofollow" title="latviešu" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">latviešu</a> </li><li> <a rel="nofollow" title="slovenčina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">slovenčina</a> </li><li> <a rel="nofollow" title="slovenščina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">slovenščina</a> </li><li> <a rel="nofollow" title="српски" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">српски</a> </li><li> <a rel="nofollow" title="தமிழ்" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ta&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">தமிழ்</a> </li><li> <a rel="nofollow" title="ภาษาไทย" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|th&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">ภาษาไทย</a> </li><li> <a rel="nofollow" title="Türkçe" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Türkçe</a> </li><li> <a rel="nofollow" title="Filipino" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Filipino</a> </li><li> <a rel="nofollow" title="украї́нська" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|uk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">украї́нська</a> </li><li> <a rel="nofollow" title="Tiếng&nbsp;Việt" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|vi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3Db35968010f%26e%3D8820eb7d34">Tiếng&nbsp;Việt</a> </li> </ul> </li> </ul> </div>
-        <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1a022a;">
-		<!---->
-		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">React Native Newsletter #58</span><!--<![endif]-->
-		<!---->
+}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]--></head>
+    <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1a022a;">
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #1a022a;">
                 <tr>
@@ -547,32 +422,31 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="300" style="width:300px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 300px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #e2e0e6;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: left;">
-
-                            Issue #58
+                        
+                            Issue #69
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				<td valign="top" width="300" style="width:300px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 300px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #e2e0e6;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: left;">
-
-                            <div style="text-align: right;"><a href="https://mailchi.mp/6e3343d6f154/react-native-newsletter-58?e=8820eb7d34" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e2e0e6;font-weight: normal;text-decoration: underline;">View in Browser</a></div>
+                        
 
                         </td>
                     </tr>
@@ -580,7 +454,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -598,11 +472,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a0715663-8eff-4bbf-841f-c6435e02aea2.png" width="328" style="max-width: 656px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -619,11 +493,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/034d8f69-f152-4a2c-9498-5602ccdd6df9.jpg" width="600" style="max-width: 656px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -638,35 +512,28 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
-                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 150%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
-                            <h2 style="text-align: justify;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;">Hello Readers,</h2>
-
-<div style="text-align: justify;">&nbsp;</div>
-
-<div style="text-align: justify;">No new React Native version this week but there is a new <em>InputAccessoryView</em> API added to React Native 🎉!&nbsp;<a href="https://infinite.red/ChainReactConf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Chain React Conf</a> is getting closer so get your tickets before they're gone! Not sure if you're going to go? Check out <a href="https://shift.infinite.red/cutting-edge-ideas-top-notch-speakers-and-all-the-react-native-you-can-handle-at-chain-react-2018-ea3156a78836" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">10.5 reasons why you should&nbsp;attend</a>!</div>
-
-<div style="text-align: right;">&nbsp;</div>
-
-<div style="text-align: justify;">Also check out <a href="http://react-native.eu/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">React Native EU</a> happening in September!</div>
-
-<div style="text-align: justify;"><br>
-Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Twitter</a> for content that didn't make it into the newsletter and stay tuned for a new feature we're getting ready to unveil! 😉</div>
-
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
+                        
+                            <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;">Hello Readers,</h2>
+<br>
+We've got a full issue this week with a new React Native version (0.57), a new iOS WebView, some nice articles, and some fun modules! Also, I recently published <a href="https://shift.infinite.red/painless-react-native-setup-for-mac-windows-linux-956c23d2abf9" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">three articles</a> about getting React Native setup on Mac, Windows, &amp; Linux. <br>
+Finally, I'll be heading to <a href="http://connect.tech/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Connect.Tech</a> in Atlanta, GA to teach the React Native Workshop on October 17, so come say "Hi" if you're going to be there! <br>
+<br>
+P.S. The Newsletter is less than 100 subscribers from hitting 10,000! 
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -681,11 +548,11 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -699,11 +566,11 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6930fbc2-b89b-4aa1-877b-454da6921533.png" width="54" style="max-width: 108px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -718,16 +585,16 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
-                            <div style="text-align: center;">Executive Editor,<br>
+                        
+                            <div style="text-align: center;">Editor-in-Chief,<br>
 <a href="https://twitter.com/infinite_frank" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Frank von Hoven</a> at <a href="https://infinite.red/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Infinite Red</a></div>
 
                         </td>
@@ -736,7 +603,7 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -751,11 +618,11 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a63360c5-e62e-4e72-9c3f-ab58df278d2f.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -766,7 +633,7 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -776,24 +643,23 @@ Finally, follow us on <a href="https://twitter.com/rnnewsletter" target="_blank"
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.com/react-native-training/progressive-image-loading-in-react-native-e7a01827feb7" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://blog.theodo.fr/2018/04/add-touch-id-react-native-app/" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/0694a274-9ac7-4a2f-b6d8-f90ae939de5b.png" width="264" style="max-width: 814px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/f8c045f7-b621-42c0-a6a4-bb0ed4c90cf9.png" width="264" style="max-width: 490px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">H</a><a href="https://blog.theodo.fr/2018/04/add-touch-id-react-native-app/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">ow to Add Touch ID to Your React Native App</a></h2>
-How to add Touch ID to your React Native app and implement a Touch ID Lock or Touch ID Login.<br>
-&nbsp;
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/react-native-training/progressive-image-loading-in-react-native-e7a01827feb7" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Progressive Image Loading in React Native</a></h2>
+How to build a component that allows progressive image loading so your images have a fast and smooth appearance while they're being fetched from a url.
                     </td>
                 </tr>
             </tbody></table>
@@ -814,11 +680,11 @@ How to add Touch ID to your React Native app and implement a Touch ID Lock or To
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -829,7 +695,7 @@ How to add Touch ID to your React Native app and implement a Touch ID Lock or To
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -839,23 +705,23 @@ How to add Touch ID to your React Native app and implement a Touch ID Lock or To
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.com/react-native-training/how-to-easily-configure-launch-icons-in-react-native-android-ios-2e1f351496ed" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://shift.infinite.red/cutting-edge-ideas-top-notch-speakers-and-all-the-react-native-you-can-handle-at-chain-react-2018-ea3156a78836" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/22ed397b-9a0b-4c7a-ba46-3a5280256082.jpeg" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/acf8068e-bd4f-493a-ab72-cae0b0f608e5.jpeg" width="264" style="max-width: 512px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://shift.infinite.red/cutting-edge-ideas-top-notch-speakers-and-all-the-react-native-you-can-handle-at-chain-react-2018-ea3156a78836" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Cutting-Edge Ideas, Top-Notch Speakers, and All The React Native You Can Handle at Chain React 2018</a></h2>
-Chain React 2018 is heading back to Portland, Oregon for Round Two of all things React Native, and here are 10.5 reasons why you HAVE to go this year!
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/react-native-training/how-to-easily-configure-launch-icons-in-react-native-android-ios-2e1f351496ed" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">How to Easily Configure Launch Icons in React Native — Android &amp; iOS</a></h2>
+How to use&nbsp;<a data-href="https://github.com/bamlab/generator-rn-toolbox" href="https://github.com/bamlab/generator-rn-toolbox" rel="noopener nofollow" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">RN toolbox</a>&nbsp;to easily setup icons for deployment on iOS &amp; Android! 
                     </td>
                 </tr>
             </tbody></table>
@@ -876,11 +742,11 @@ Chain React 2018 is heading back to Portland, Oregon for Round Two of all things
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -891,7 +757,7 @@ Chain React 2018 is heading back to Portland, Oregon for Round Two of all things
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -901,23 +767,23 @@ Chain React 2018 is heading back to Portland, Oregon for Round Two of all things
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.com/square-corner-blog/square-reader-sdk-for-react-native-a1b6fc19c5c2" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://blog.botreetechnologies.com/how-to-build-a-react-native-android-bridge-4166e114a990" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/ffb503e7-40fa-4f3d-8891-2af53726685e.jpeg" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/aaee7f15-6492-473e-b15c-5754029b3c64.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://blog.botreetechnologies.com/how-to-build-a-react-native-android-bridge-4166e114a990" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">How to build a React Native Android bridge</a></h2>
-Step-by-step tutorial on how to create a React Native Bridge module for Android.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/square-corner-blog/square-reader-sdk-for-react-native-a1b6fc19c5c2" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Square Reader SDK for React Native</a></h2>
+Square releases a npm&nbsp;module for their SDK to allow you to integrate in-person payments into your React Native app!
                     </td>
                 </tr>
             </tbody></table>
@@ -938,11 +804,11 @@ Step-by-step tutorial on how to create a React Native Bridge module for Android.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -953,69 +819,7 @@ Step-by-step tutorial on how to create a React Native Bridge module for Android.
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-
-
-<table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td valign="top" class="mcnCaptionRightContentInner" style="padding: 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-            <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                <tbody><tr>
-                    <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <a href="https://www.youtube.com/watch?v=lDt1DTfZI00&amp;feature=youtu.be" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/53a67323-54ef-4360-90a6-f6239b892eaa.png" width="264" style="max-width: 597px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-                        </a>
-
-
-                    </td>
-                </tr>
-            </tbody></table>
-            <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                <tbody><tr>
-                    <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">C</a><a href="https://www.youtube.com/watch?v=lDt1DTfZI00&amp;feature=youtu.be" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">reate an Amazon UI Clone in React Native</a>&nbsp;🎥</h2>
-How to recreate the Amazon App UI in React Native using React Navigation, Native Base, and Expo - Part 1 of a series.
-                    </td>
-                </tr>
-            </tbody></table>
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnImageBlockOuter">
-            <tr>
-                <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                        <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
-                            </td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -1025,23 +829,23 @@ How to recreate the Amazon App UI in React Native using React Navigation, Native
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://thecodingmachine.io/introducing-the-react-native-boilerplate" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://facebook.github.io/react-native/blog/2018/03/22/building-input-accessory-view-for-react-native.html" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/43d74d80-f77b-48f9-8cc4-5f0036f44acd.gif" width="264" style="max-width: 300px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/680e6c7f-2850-4fac-b76c-c0969f1aa194.png" width="264" style="max-width: 512px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://facebook.github.io/react-native/blog/2018/03/22/building-input-accessory-view-for-react-native.html" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Building &lt;InputAccessoryView&gt; For React Native</a></h2>
-React Native introduces a&nbsp;custom view which can be anchored to the top of the system keyboard whenever a receiver becomes the first responder.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/square-corner-blog/square-reader-sdk-for-react-native-a1b6fc19c5c2" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">A</a><a href="https://thecodingmachine.io/introducing-the-react-native-boilerplate" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">&nbsp;React Native Boilerplate&nbsp;</a><a href="https://thecodingmachine.io/introducing-the-react-native-boilerplate" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">from TheCodingMachine</a></h2>
+A React Native boilerplate based on libraries such as&nbsp;Redux and Redux-Saga&nbsp;with an architecture that facilitates&nbsp;separation of concerns between UI, state management, and business logic.
                     </td>
                 </tr>
             </tbody></table>
@@ -1062,11 +866,11 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/3aee8cea-cfba-45d8-a77b-97fee5633f45.jpg" width="600" style="max-width: 1312px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1077,34 +881,66 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
 <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
-        <td valign="top" class="mcnCaptionRightContentInner" style="padding: 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        <td valign="top" class="mcnCaptionRightContentInner" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="http://google.com" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/623b2280-22aa-4c95-85f4-0f3b82e889d9.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/dd35a00a-895e-4adf-b410-5664cdcfb6a7.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 class="null" style="text-align: left;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://infinite.red/ChainReactConf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Chain React Conference 2018</a></h2>
+                        <h2 class="null" style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get Detailed Feedback from Users In-App</a></h2>
 
-<div style="text-align: left;">Chain React 2018, the React Native conference is only three months away. We’ll have 10 minute lightning talks this year too! Head on over to take a look at the variety of topics being covered. Due to popular demand, we opened up more spots for the advanced track workshop. Tickets are still on sale, so <a href="https://www.eventbrite.com/e/chain-react-2018-the-react-native-conference-tickets-39622819921?aff=Website#tickets" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">grab one before they’re gone</a>.</div>
+<div>Tired of wasting time debugging your react native app and not focusing on what matters? Instabug SDK is here to help you minimize your debugging time by sending you complete environment details, network logs, and repro-steps with every bug and crash report. All data is attached automatically including native and javascript stack trace. The top mobile companies like Lyft, eBay, PayPal, and 9gag rely on Instabug to enhance their app quality and iterate faster.&nbsp;<font>It only takes a line of code to integrate the SDK.</font></div>
+
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td valign="top" class="mcnCaptionRightContentInner" style="padding: 9px 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td class="mcnCaptionRightImageContent" align="left" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://internations-jobs.personio.de/job/63647?_pc=29798" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
+
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/b15c6b2a-aa2b-45a5-aa57-21d39176ba89.jpg" width="264" style="max-width: 825px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        </a>
+
+                    
+                    </td>
+                </tr>
+            </tbody></table>
+            <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tbody><tr>
+                    <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
+                        <h2 class="null" style="text-align: left;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://internations-jobs.personio.de/job/63647?_pc=29798" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Senior Software Engineer in Munich Germany</a></h2>
+
+<div style="text-align: left;">Join the team behind the world’s largest social network for expatriates and build awesome mobile apps using React native. Quality software engineering in the beautiful city of Munich in Germany. International, English speaking team from over 40 countries. Relocation support provided.</div>
 
                     </td>
                 </tr>
@@ -1126,11 +962,11 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9adcfb8d-4bd3-4b6a-8d09-832a35602560.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a3a9c919-fa03-43b9-9478-ba556fb32def.jpg" width="600" style="max-width: 1312px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1141,24 +977,24 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
         <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md#057" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
 
-
-            <a href="https://github.com/hasura/react-native-auth-boilerplate" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/dc87e694-6281-4276-a44f-ab06132d527e.jpg" width="264" style="max-width: 640px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/c91de54e-eca7-4f23-9dcd-204d5463c244.png" width="264" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
             </a>
-
+        
         </td>
     </tr>
     <tr>
         <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/hasura/react-native-auth-boilerplate" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-auth-boilerplate</a></h2>
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">0</a><a href="https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md#057" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">.57</a></h2>
 
         </td>
     </tr>
@@ -1167,92 +1003,19 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
         <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="http://google.comhttp://facebook.github.io/react-native/blog/2018/08/27/wkwebview" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
 
-
-            <a href="https://github.com/b8ne/react-native-pusher-push-notifications" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/522e4e57-5b2c-46dc-a735-fd369ed64fc1.jpeg" width="264" style="max-width: 276px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6d91ab8d-9391-4ea4-afe8-9ece845a8cd3.png" width="264" style="max-width: 807px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
             </a>
-
+        
         </td>
     </tr>
     <tr>
         <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/b8ne/react-native-pusher-push-notifications" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-pusher-push-notifications</a></h2>
-
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnImageBlockOuter">
-            <tr>
-                <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                        <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
-                            </td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <a href="https://github.com/christopherdro/react-native-print" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/e1337a5a-af66-49e7-a64d-b982137fc5d7.jpg" width="264" style="max-width: 640px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-            </a>
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/christopherdro/react-native-print" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-print</a></h2>
-
-        </td>
-    </tr>
-</tbody></table>
-
-<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <a href="https://github.com/corbt/react-native-keep-awake" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/432591f2-3583-4ed4-aff9-d2a27d7f1302.jpg" width="264" style="max-width: 640px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-            </a>
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/corbt/react-native-keep-awake" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-keep-awake</a></h2>
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.comhttp://facebook.github.io/react-native/blog/2018/08/27/wkwebview" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Introducing new iOS WebViews</a></h2>
 
         </td>
     </tr>
@@ -1272,11 +1035,84 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9adcfb8d-4bd3-4b6a-8d09-832a35602560.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnCaptionBlockOuter">
+        <tr>
+            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/holmansv/react-native-color-palette" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/f6c2216c-fcbe-45c8-aba0-65193e58653d.png" width="264" style="max-width: 512px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/holmansv/react-native-color-palette" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-color-palette</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
+
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="http://google.comhttps://github.com/square/react-native-square-reader-sdk" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/5e7df708-d0f6-4520-849f-27c0200896e4.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.comhttps://github.com/square/react-native-square-reader-sdk" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-square-reader-sdk</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
 
 
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/96c2f9b7-60d2-40e2-b23a-3ece3787c6ee.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1290,11 +1126,11 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6a296102-d75f-4810-aed0-e93cb67ad154.jpg" width="512" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1309,18 +1145,18 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;">Become a Sponsor</h2>
 
-<div style="text-align: center;">Send us a few details about your event, company, blog, or project, and we'll supply the 9,000+ sets of eyeballs. <a href="http://reactnative.cc/sponsor-package.pdf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get the details here.</a><br>
+<div style="text-align: center;">Send us a few details about your event, company, blog, or project, and we'll supply the 9,900+ sets of eyeballs. <a href="http://reactnative.cc/sponsor-package.pdf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get the details here.</a><br>
 <br>
 <span style="color:#E2E0E6">_______</span></div>
 
@@ -1330,7 +1166,7 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1345,11 +1181,11 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1364,15 +1200,15 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <h3 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeEZCF6-cNoPBrw8-FkAD2r6Gslr5b2pykKRn5-lMLDlt6Xiw/viewform" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Suggest an Article</a>&nbsp; &nbsp;<span style="color:#726685">•</span>&nbsp; &nbsp;<a href="https://infiniteredcommunity.herokuapp.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Join us on Slack</a></h3>
 
                         </td>
@@ -1381,7 +1217,7 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1409,12 +1245,12 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -1423,16 +1259,16 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://twitter.com/RNNewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                                 <td align="left" valign="middle" class="mcnFollowTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://twitter.com/RNNewsletter" target="" style="font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;text-decoration: none;color: #E2E0E6;font-weight: normal;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Follow on Twitter</a>
                                                                                 </td>
-
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -1441,16 +1277,16 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -1459,16 +1295,16 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="http://reactnative.cc/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                                 <td align="left" valign="middle" class="mcnFollowTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="http://reactnative.cc/" target="" style="font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;text-decoration: none;color: #E2E0E6;font-weight: normal;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">View the Website</a>
                                                                                 </td>
-
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -1477,11 +1313,11 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                     <!--[if mso]>
                                     </tr>
                                     </table>
@@ -1507,15 +1343,15 @@ React Native introduces a&nbsp;custom view which can be anchored to the top of t
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: center;">
-
+                        
                             <img data-file-id="848210" height="64" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/0f8bd15a-e4c0-4196-a1d5-a84d80799c9f.png" style="border: 0;height: auto !important;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"><br>
 <br>
 <h4 style="color: #E2E0E6;text-align: center;display: block;margin: 0;padding: 0;font-family: Helvetica;font-size: 11px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: 2px;">
@@ -1527,7 +1363,7 @@ BROUGHT TO YOU BY INFINITE RED</h4>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1543,23 +1379,23 @@ BROUGHT TO YOU BY INFINITE RED</h4>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: center;">
-
-                            <u><a href="https://reactnative.us10.list-manage.com/unsubscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f&e=8820eb7d34&c=b35968010f" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #f0eff2;font-weight: normal;text-decoration: none;">Unsubscribe</a></u>
+                        
+                            <u><a href="*|UNSUB|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #f0eff2;font-weight: normal;text-decoration: none;">Unsubscribe</a></u>
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1580,4 +1416,5 @@ BROUGHT TO YOU BY INFINITE RED</h4>
                 </tr>
             </table>
         </center>
-    </body>    </body> </html>
+    </body>
+</html>

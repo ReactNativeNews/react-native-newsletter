@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.ttf")
+  src: url("/fonts/Montserrat-Regular.ttf");
 }
 
 /**
@@ -51,7 +51,7 @@
 
 input {
   -webkit-appearance: none;
-  color: #8F7E94;
+  color: #8f7e94;
   font-size: 15px;
   text-align: left;
   width: 393px;
@@ -107,16 +107,16 @@ input {
 }
 
 .input-field.error .addon {
-  border-color: #E73536;
+  border-color: #e73536;
 }
 
 .input-field.error input {
-  border-color: #E73536;
+  border-color: #e73536;
 }
 
 .input-field.error span {
   display: block;
-  color: #E73536;
+  color: #e73536;
   margin-left: 30px;
   width: 100%;
 }
@@ -133,13 +133,13 @@ input {
   width: 280px;
 }
 
-
 /**
  * Styles
  */
 
-html, body {
-  background: linear-gradient(143.43deg, #1F0232 0%, rgba(100,11,86,0.99) 100%);
+html,
+body {
+  background: linear-gradient(143.43deg, #1f0232 0%, rgba(100, 11, 86, 0.99) 100%);
   min-height: 100%;
   min-width: 100%;
   height: auto;
@@ -165,8 +165,9 @@ h2 {
   line-height: 35px;
 }
 
-h2, p {
-  color: #CAABCB;
+h2,
+p {
+  color: #caabcb;
   font-family: "Droid Serif", serif;
 }
 
@@ -198,12 +199,14 @@ main {
   max-width: 1440px;
   grid-template-columns: 1fr;
   grid-template-rows: 56px 1fr 87px;
-  grid-template-areas: "top"
-                       "mid"
-                       "bot";
+  grid-template-areas:
+    "top"
+    "mid"
+    "bot";
 }
 
-nav.desktop, nav.mobile {
+nav.desktop,
+nav.mobile {
   grid-area: top;
   display: flex;
   align-items: center;
@@ -226,7 +229,7 @@ nav a#logo {
   display: block;
   width: 56px;
   height: 56px;
-  background-image: url('/img/logo.png');
+  background-image: url("/img/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,12 +243,13 @@ nav a#open-menu {
   display: block;
   width: 35px;
   height: 35px;
-  background-image: url('/img/menu-icon.svg');
+  background-image: url("/img/menu-icon.svg");
   background-repeat: no-repeat;
   margin: 0;
 }
 
-nav.desktop ul, nav.mobile ul {
+nav.desktop ul,
+nav.mobile ul {
   display: flex;
   align-items: center;
 }
@@ -270,7 +274,7 @@ nav.menu {
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  background-color: #2D0838;
+  background-color: #2d0838;
   top: 0;
   left: 0;
   height: calc(100vh - 60px);
@@ -300,7 +304,7 @@ nav.menu .close-wrapper {
 nav.menu .close-wrapper .close {
   align-self: right;
   display: block;
-  background-image: url('/img/close-icon.svg');
+  background-image: url("/img/close-icon.svg");
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -344,7 +348,7 @@ nav.menu ul.social li a {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  background-color: #2D0838;
+  background-color: #2d0838;
   display: grid;
   grid-template-rows: 127px 1fr;
   grid-template-columns: 1fr;
@@ -370,14 +374,15 @@ nav.menu ul.social li a {
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-  background-image: url('/img/close-icon.svg');
+  background-image: url("/img/close-icon.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 16px 16px;
   padding-right: 25px;
 }
 
-.suggest-article h1, .suggest-article h2 {
+.suggest-article h1,
+.suggest-article h2 {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -395,14 +400,14 @@ nav.menu ul.social li a {
 
 .suggest-article button {
   margin-top: 55px;
-  background-image: url('/img/chevron-right.png');
+  background-image: url("/img/chevron-right.png");
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position: center center;
   border: none;
   width: 48px;
   height: 48px;
-  background-color: #E73536;
+  background-color: #e73536;
   border-radius: 50%;
 }
 
@@ -498,7 +503,8 @@ footer {
   grid-area: bot;
 }
 
-footer .bio h1, footer .bio p {
+footer .bio h1,
+footer .bio p {
   margin: 0;
   padding: 0;
   line-height: 1em;
@@ -620,7 +626,8 @@ footer .social li {
     padding-left: 0;
   }
 
-  .content #splash h1, .content #splash h2 {
+  .content #splash h1,
+  .content #splash h2 {
     width: auto;
   }
 
