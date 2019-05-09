@@ -2,6 +2,6 @@
 
 Free bi-monthly summary of React Native news, articles, issues & pull requests, libraries and apps curated by Frank von Hoven ([@infinite_frank](https://twitter.com/infinite_frank)).
 
-## [Sugn up here!](http://reactnative.cc)
+## [Sign up here!](http://reactnative.cc)
 
 ## [Past Issues](http://reactnative.cc/issues.html)
