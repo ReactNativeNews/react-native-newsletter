@@ -1,9 +1,10 @@
 ## react-native-newsletter
 
-Free weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by Frank von Hoven ([@infinite_frank](https://twitter.com/infinite_frank)) and Gant Laborde ([@GantLaborde](https://twitter.com/GantLaborde)).
+Free bi-monthly summary of React Native news, articles, issues & pull requests, libraries and apps curated by Frank von Hoven ([@infinite_frank](https://twitter.com/infinite_frank)).
 
-[Sign up here](http://url.brentvatne.ca/143N1)!
+## • [Sign up here!](http://http://reactnative.cc/)
 
+<<<<<<< Updated upstream
 ## Issues
 
 - [#53 - December 5, 2017](http://reactnative.cc/issues/05-12-2017.html)
@@ -60,3 +61,6 @@ Free weekly summary of React Native news, articles, issues & pull requests, libr
 - [#3 - May 8, 2015](http://reactnative.cc/issues/08-05-2015.html)
 - [#2 - May 1, 2015](http://reactnative.cc/issues/01-05-2015.html)
 - [#1 - April 23, 2015](http://reactnative.cc/issues/23-04-2015.html)
+=======
+## • [Past Issues](http://reactnative.cc/issues.html)
+>>>>>>> Stashed changes
