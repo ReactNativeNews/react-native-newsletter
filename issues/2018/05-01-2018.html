@@ -1,11 +1,7 @@
-
+<link rel="icon" href="../../favicon.png" type="image/x-icon">
 <!doctype html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"> <head>
-
-<meta property="og:title" content="React Native Newsletter #57"/>
-<meta property="fb:page_id" content="43929265776" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="referrer" content="origin" />
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
 		<!-- NAME: 1 COLUMN -->
 		<!--[if gte mso 15]>
 		<xml>
@@ -18,8 +14,8 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>React Native Newsletter #57</title>
-
+		<title>Issue 59</title>
+        
     <style type="text/css">
 		p{
 			margin:10px 0;
@@ -401,130 +397,11 @@
 			line-height:150% !important;
 		}
 
-}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]-->        <script type="text/javascript">
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-329148-88', {'allowLinker': true});
-            ga('set', 'hostname', '.campaign-archive.com');
-            ga('send', 'pageview');
-        </script>        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> <link rel="stylesheet" href="https://us10.campaign-archive.com/css/archivebar-desktop.css" mc:nocompile> <script type="text/javascript" src="//us10.campaign-archive.com/js/archivebar-desktop-plugins.js" mc:nocompile></script> <script type="text/javascript">
-            $(document).ready(function() {
-                document.getElementById("copyToClipboard").addEventListener("click", function () {
-                    var input = document.getElementById("clipboardSource");
-                    input.select();
-                    var successful = document.execCommand("copy");
-                    if (successful) {
-                        alert('Copied "' + input.value + '" to your clipboard.');
-                    } else {
-                        throw new Error("Failed to copy text (verify caller was in the context of an event handler)");
-                    }
-                });
-
-                $('li.more > a').click(function(){
-                    var toToggle = $($(this).attr('data-to-toggle'));
-                    if(toToggle.is(':visible')){
-                        toToggle.slideUp('fast');
-                        $(this).removeClass('is-active');
-                        if ($('#awesomebar').find('.is-active').length < 1){
-                            $('#awesomebar').removeClass('sub-active');
-                        }
-                    } else {
-                        toToggle.slideDown('fast');
-                        $(this).addClass('is-active');
-                        $('#awesomebar').addClass('sub-active');
-                    }
-                    return false;
-                });
-
-            });
-        </script> <script src="//us10.campaign-archive.com/js/mailchimp/fancyzoom.mc.js"></script> <script type="text/javascript">
-    function updateFacebookCommentsCount(num) {
-        $('#campaign-fb-comments-btn span').fadeOut().html(num).fadeIn();
-    }
-</script> <script type="text/javascript">
-    function incrementFacebookLikeCount() {
-        var current = parseInt($('#campaign-fb-like-btn span').html());
-        $('#campaign-fb-like-btn span').fadeOut().html(++current).fadeIn();
-    }
-
-    function getUrlParams(str) {
-        var vars = {}, hash;
-        if (!str) return vars;
-        var hashes = str.slice(str.indexOf('?') + 1).split('&');
-        for(var i = 0; i < hashes.length; i++) {
-            hash = hashes[i].split('=');
-            vars[hash[0]] = hash[1];
-        }
-        return vars;
-    }
-
-    function setupSocialSharingStuffs() {
-        var numSocialElems = $('a[rel=socialproxy]').length;
-        var numSocialInitialized = 0;
-        var urlParams = getUrlParams(window.document.location.href);
-        var paramsToCopy = {'e':true, 'eo':true};
-        $('a[rel=socialproxy]').each(function() {
-            var href = $(this).attr('href');
-            var newHref = decodeURIComponent(href.match(/socialproxy=(.*)/)[1]);
-            // for facebook insanity to work well, it needs to all be run against just campaign-archive
-            newHref = newHref.replace(/campaign-archive(\d)/gi, 'campaign-archive');
-            var newHrefParams = getUrlParams(newHref);
-            for(var param in urlParams) {
-                if ((param in paramsToCopy) && !(param in newHrefParams)) {
-                    newHref += '&' + param + '=' + urlParams[param];
-                }
-            }
-            $(this).attr('href', newHref);
-            if (href.indexOf('facebook-comment') !== -1) {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":620, "height":450, "iframe_height": 450});
-            } else {
-                $(this).fancyZoom({"zoom_id": "social-proxy", "width":500, "height":200, "iframe_height": 500});
-            }
-            numSocialInitialized++;
-                    });
-    }
-	if (window.top!=window.self){
-        $(function() {
-          var iframeOffset = $("#archive", window.parent.document).offset();
-          $("a").each(function () {
-              var link = $(this);
-              var href = link.attr("href");
-              if (href && href[0] == "#") {
-                  var name = href.substring(1);
-                  $(this).click(function () {
-                      var nameElement = $("[name='" + name + "']");
-                      var idElement = $("#" + name);
-                      var element = null;
-                      if (nameElement.length > 0) {
-                          element = nameElement;
-                      } else if (idElement.length > 0) {
-                          element = idElement;
-                      }
-
-                      if (element) {
-                          var offset = element.offset();
-                          var height = element.height();
-                          //3 is totally arbitrary, but seems to work best.
-                          window.parent.scrollTo(offset.left, (offset.top + iframeOffset.top - (height*3)) );
-                      }
-
-                      return false;
-                  });
-              }
-          });
-        });
-    }
-</script>  <script type="text/javascript">
-            $(document).ready(function() {
-                setupSocialSharingStuffs();
-            });
-        </script> </head> <body id="archivebody"> <div id="awesomewrap"> <div id="awesomeshare"> <div id="zclipwrap"> <div class="copy-container"> <label for="clipboardSource">Campaign URL</label> <span id="copyURL"> <input id="clipboardSource" name="shorturl" style="margin-top:6px;" type="text" value="https://mailchi.mp/ab3d98c68874/react-native-newsletter-57" class="av-text"> <a id="copyToClipboard" href="javascript:;">Copy</a> </span> </div>  <div id="zero_clipboard"></div> </div> <ul id="awesomesocial"> <li class="fbk"> <a class="fbk-like" id="campaign-fb-like-btn" rel="socialproxy" href="https://us10.campaign-archive.com/?u=db0dd948e2b729ee62625b1a8&amp;id=041345abed&amp;e=8820eb7d34?socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Ffacebook-like%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26url%3Dhttps%253A%252F%252Fmailchi.mp%252Fab3d98c68874%252Freact-native-newsletter-57%26title%3DReact%2520Native%2520Newsletter%2520%252357" title="Like React Native Newsletter #57 on Facebook">Facebook <b>0 <i>likes</i></b></a> </li> <li class="twt"> <div> <a title="Share on Twitter" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fmailchi.mp%2Fab3d98c68874%2Freact-native-newsletter-57" rel="noopener noreferrer">Twitter <b>0 <i>tweets</i></b></a> </div>  </li> <li class="ggl"> <a title="+1 on Google Plus" id="campaign-gpo-btn" href="https://us10.campaign-archive.com?u=db0dd948e2b729ee62625b1a8&amp;id=041345abed&amp;socialproxy=https%3A%2F%2Fus10.campaign-archive.com%2Fsocial-proxy%2Fgoogle-plus-one%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26url%3Dhttps%253A%252F%252Fmailchi.mp%252Fab3d98c68874%252Freact-native-newsletter-57%26title%3DReact%2520Native%2520Newsletter%2520%252357" class="twitter-share-button" rel="socialproxy">Google +1</a> </li> </ul> </div> <ul id="awesomebar"> <li> <a href="http://eepurl.com/clmrSn" title="Subscribe to List" target="_blank" rel="noopener noreferrer">Subscribe</a> </li>  <li><a href="https://us10.campaign-archive.com/home/?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="View Past Issues" target="_blank" rel="noopener noreferrer">Past Issues</a></li> <li class="float-r"><a class="rss" target="_blank" href="https://us10.campaign-archive.com/feed?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" title="subscribe to the email archive feed" rel="noopener noreferrer">RSS</a></li> <li class="float-r more"><a href="javascript:;" data-to-toggle="#translate">Translate</a> <ul id="translate"> <li> <a rel="nofollow" title="English" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|en&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">English</a> </li><li> <a rel="nofollow" title="العربية" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ar&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">العربية</a> </li><li> <a rel="nofollow" title="Afrikaans" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|af&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Afrikaans</a> </li><li> <a rel="nofollow" title="беларуская мова" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|be&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">беларуская мова</a> </li><li> <a rel="nofollow" title="български" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|bg&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">български</a> </li><li> <a rel="nofollow" title="català" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ca&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">català</a> </li><li> <a rel="nofollow" title="中文（简体）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-CN&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">中文（简体）</a> </li><li> <a rel="nofollow" title="中文（繁體）" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|zh-TW&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">中文（繁體）</a> </li><li> <a rel="nofollow" title="Hrvatski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Hrvatski</a> </li><li> <a rel="nofollow" title="Česky" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|cs&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Česky</a> </li><li> <a rel="nofollow" title="Dansk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|da&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Dansk</a> </li><li> <a rel="nofollow" title="eesti&nbsp;keel" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|et&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">eesti&nbsp;keel</a> </li><li> <a rel="nofollow" title="Nederlands" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|nl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Nederlands</a> </li><li> <a rel="nofollow" title="Suomi" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Suomi</a> </li><li> <a rel="nofollow" title="Fran&ccedil;ais" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|fr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Fran&ccedil;ais</a> </li><li> <a rel="nofollow" title="Deutsch" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|de&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Deutsch</a> </li><li> <a rel="nofollow" title="&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|el&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">&Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ή</a> </li><li> <a rel="nofollow" title="हिन्दी" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">हिन्दी</a> </li><li> <a rel="nofollow" title="Magyar" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|hu&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Magyar</a> </li><li> <a rel="nofollow" title="Gaeilge" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ga&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Gaeilge</a> </li><li> <a rel="nofollow" title="Indonesia" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|id&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Indonesia</a> </li><li> <a rel="nofollow" title="íslenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|is&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">íslenska</a> </li><li> <a rel="nofollow" title="Italiano" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|it&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Italiano</a> </li><li> <a rel="nofollow" title="日本語" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ja&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">日本語</a> </li><li> <a rel="nofollow" title="ភាសាខ្មែរ" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|km&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">ភាសាខ្មែរ</a> </li><li> <a rel="nofollow" title="한국어" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ko&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">한국어</a> </li><li> <a rel="nofollow" title="македонски&nbsp;јазик" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">македонски&nbsp;јазик</a> </li><li> <a rel="nofollow" title="بهاس ملايو" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ms&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">بهاس ملايو</a> </li><li> <a rel="nofollow" title="Malti" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|mt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Malti</a> </li><li> <a rel="nofollow" title="Norsk" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|no&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Norsk</a> </li><li> <a rel="nofollow" title="Polski" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Polski</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Portugu&ecirc;s</a> </li><li> <a rel="nofollow" title="Portugu&ecirc;s&nbsp;-&nbsp;Portugal" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|pt-PT&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Portugu&ecirc;s&nbsp;-&nbsp;Portugal</a> </li><li> <a rel="nofollow" title="Rom&acirc;nă" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ro&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Rom&acirc;nă</a> </li><li> <a rel="nofollow" title="Русский" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ru&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Русский</a> </li><li> <a rel="nofollow" title="Espa&ntilde;ol" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|es&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Espa&ntilde;ol</a> </li><li> <a rel="nofollow" title="Kiswahili" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Kiswahili</a> </li><li> <a rel="nofollow" title="Svenska" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Svenska</a> </li><li> <a rel="nofollow" title="עברית" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|iw&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">עברית</a> </li><li> <a rel="nofollow" title="Lietuvių" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lt&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Lietuvių</a> </li><li> <a rel="nofollow" title="latviešu" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|lv&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">latviešu</a> </li><li> <a rel="nofollow" title="slovenčina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">slovenčina</a> </li><li> <a rel="nofollow" title="slovenščina" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">slovenščina</a> </li><li> <a rel="nofollow" title="српски" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|sr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">српски</a> </li><li> <a rel="nofollow" title="தமிழ்" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|ta&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">தமிழ்</a> </li><li> <a rel="nofollow" title="ภาษาไทย" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|th&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">ภาษาไทย</a> </li><li> <a rel="nofollow" title="Türkçe" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tr&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Türkçe</a> </li><li> <a rel="nofollow" title="Filipino" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|tl&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Filipino</a> </li><li> <a rel="nofollow" title="украї́нська" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|uk&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">украї́нська</a> </li><li> <a rel="nofollow" title="Tiếng&nbsp;Việt" href="http://translate.google.com/translate?hl=auto&amp;langpair=auto|vi&amp;u=https%3A%2F%2Fus10.campaign-archive.com%2F%3Fu%3Ddb0dd948e2b729ee62625b1a8%26id%3D041345abed%26e%3D8820eb7d34">Tiếng&nbsp;Việt</a> </li> </ul> </li> </ul> </div>
-        <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1a022a;">
-		<!---->
-		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">React Native Newsletter #57</span><!--<![endif]-->
-		<!---->
+}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet"><!--<![endif]--></head>
+    <body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #1a022a;">
+		<!--*|IF:MC_PREVIEW_TEXT|*-->
+		<!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span><!--<![endif]-->
+		<!--*|END:IF|*-->
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #1a022a;">
                 <tr>
@@ -545,32 +422,31 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="300" style="width:300px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 300px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #e2e0e6;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: left;">
-
-                            Issue #57
+                        
+                            Issue #59
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				<td valign="top" width="300" style="width:300px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 300px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #e2e0e6;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: left;">
-
-                            <div style="text-align: right;"><a href="https://mailchi.mp/ab3d98c68874/react-native-newsletter-57?e=8820eb7d34" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e2e0e6;font-weight: normal;text-decoration: underline;">View in Browser</a></div>
+                        
 
                         </td>
                     </tr>
@@ -578,7 +454,7 @@
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -596,11 +472,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a0715663-8eff-4bbf-841f-c6435e02aea2.png" width="328" style="max-width: 656px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -617,11 +493,11 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/034d8f69-f152-4a2c-9498-5602ccdd6df9.jpg" width="600" style="max-width: 656px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -636,24 +512,28 @@
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;">Hello Readers,</h2>
-Happy April! We've got another fun issue for you again with some selected posts, cool modules, and a new React Native version. We're steadily climbing towards 10,000 subscribers as <a href="https://infinite.red/ChainReactConf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Chain React</a> approaches and we're getting closer every day. Don't forget we're giving out 25 discount codes once we hit 10,000 subscribers. Be sure to follow us on&nbsp;<a href="https://twitter.com/RNNewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Twitter</a> for other posts and updates that didn't make it into this newsletter. Until the next issue...enjoy!
+<br>
+Happy May Day! It's a special day for me because...it's my birthday!<br>
+If that wasn't enough to get excited about, we have some cool React Native modules and articles in this newsletter that I'm sure you'll enjoy. I'll be at <a href="https://collisionconf.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Collision Conf</a>&nbsp;this week so if you're around tweet <a href="https://twitter.com/infinite_frank" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">@infinite_frank</a>&nbsp;and say hi! I'll try to post pics of the conf and the awesome speakers.<br>
+<br>
+In other news: We're going to start a "Word Wednesday" on our Twitter account where we list and define a method, term, or related React Native word that you need to get in your vernacular or just to refresh your lexicon. Stay tuned for the official announcement or <a href="https://twitter.com/rnnewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Tweet us</a> some cool words you've come across that you think other React Native developers should know.
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -668,11 +548,11 @@ Happy April! We've got another fun issue for you again with some selected posts,
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -686,11 +566,11 @@ Happy April! We've got another fun issue for you again with some selected posts,
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6930fbc2-b89b-4aa1-877b-454da6921533.png" width="54" style="max-width: 108px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -705,15 +585,15 @@ Happy April! We've got another fun issue for you again with some selected posts,
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <div style="text-align: center;">Executive Editor,<br>
 <a href="https://twitter.com/infinite_frank" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Frank von Hoven</a> at <a href="https://infinite.red/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Infinite Red</a></div>
 
@@ -723,7 +603,7 @@ Happy April! We've got another fun issue for you again with some selected posts,
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -738,11 +618,11 @@ Happy April! We've got another fun issue for you again with some selected posts,
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a63360c5-e62e-4e72-9c3f-ab58df278d2f.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -753,7 +633,7 @@ Happy April! We've got another fun issue for you again with some selected posts,
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -763,23 +643,23 @@ Happy April! We've got another fun issue for you again with some selected posts,
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.com/@adamjacobb/react-native-performance-building-a-fast-and-responsive-ui-62b5dcc8b8af" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://cs50.github.io/mobile/lectures" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/31957e52-f25b-4293-9eb7-93f95ccf4a3f.jpg" width="264" style="max-width: 640px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/8f854220-c966-4737-a4dc-8ae20133bb66.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://cs50.github.io/mobile/lectures" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Mobile App Development with React Native</a></h2>
-Build or reinforce your React Native fundamentals with slides, source code, and videos in this course from Harvard College's CS50.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/@adamjacobb/react-native-performance-building-a-fast-and-responsive-ui-62b5dcc8b8af" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">React Native Performance: Building a Fast and Responsive UI</a></h2>
+A quick run down of a few tips and tricks to make your app's UI faster and more responsive.
                     </td>
                 </tr>
             </tbody></table>
@@ -800,11 +680,11 @@ Build or reinforce your React Native fundamentals with slides, source code, and 
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -815,7 +695,7 @@ Build or reinforce your React Native fundamentals with slides, source code, and 
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -825,23 +705,23 @@ Build or reinforce your React Native fundamentals with slides, source code, and 
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://www.zeolearn.com/magazine/react-native-building-a-minimalist-weather-app-using-expo-xde" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://medium.com/@alexduckmanton/how-i-created-bursts-mind-bending-animations-with-react-native-e4ddc3ae2895" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/b3e3f446-ae19-45f9-b8d3-bac08ec8de8c.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/4df71df4-c2ec-478d-86cd-2767c924731c.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/@alexduckmanton/how-i-created-bursts-mind-bending-animations-with-react-native-e4ddc3ae2895" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">How I Created Burst’s Mind Bending Animations with React Native</a></h2>
-A walk-through of the animations used in <a href="http://madewithreactnative.com/burst/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Burst</a> for a real-world look at the Animated API in action.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://www.zeolearn.com/magazine/react-native-building-a-minimalist-weather-app-using-expo-xde" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Building a Minimalist Weather App Using Expo XDE</a></h2>
+Walk-through of building a “minimalist” weather application using React Native by fetching real-time data.
                     </td>
                 </tr>
             </tbody></table>
@@ -862,11 +742,11 @@ A walk-through of the animations used in <a href="http://madewithreactnative.com
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -877,7 +757,7 @@ A walk-through of the animations used in <a href="http://madewithreactnative.com
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -887,23 +767,23 @@ A walk-through of the animations used in <a href="http://madewithreactnative.com
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.freecodecamp.org/how-to-build-a-nested-drawer-menu-with-react-native-a1c2fdcab6c9" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://blog.netcetera.com/viewport-aware-components-for-react-native-apps-a28ea605e89e" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9fe8109b-551e-4625-bb03-89bcc69cc6c0.gif" width="264" style="max-width: 750px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/ee184b15-185d-404d-86d9-9078e533fac0.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://blog.netcetera.com/viewport-aware-components-for-react-native-apps-a28ea605e89e" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Viewport-Aware Components for React Native Apps</a></h2>
-A few handy utilities that make React Native components aware of their position in a ScrollView -&nbsp;for lazy loading, video autoplay, view tracking, and more.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.freecodecamp.org/how-to-build-a-nested-drawer-menu-with-react-native-a1c2fdcab6c9" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">How to Build a Nested Drawer Menu with React Native</a></h2>
+How to build a nested, multi-level drawer menu using React Native and React Navigation.
                     </td>
                 </tr>
             </tbody></table>
@@ -924,11 +804,11 @@ A few handy utilities that make React Native components aware of their position 
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -939,7 +819,7 @@ A few handy utilities that make React Native components aware of their position 
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 
 
@@ -949,23 +829,23 @@ A few handy utilities that make React Native components aware of their position 
             <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td class="mcnCaptionRightImageContent" align="center" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    
+                        
+                        <a href="https://medium.com/@christian.falch/fluid-transitions-with-react-navigation-a049d2f71494" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        
 
-
-                        <a href="https://medium.com/@Alexander.Kuttig/ui-guideline-specific-titles-including-ios-large-titles-with-react-native-animated-e587f006d085" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/959ba68b-7982-4de3-8d05-5d1cefbfd24e.gif" width="264" style="max-width: 404px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                        <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/c6a8241a-ac55-485a-af55-6bb3ebf67416.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
                         </a>
 
-
+                    
                     </td>
                 </tr>
             </tbody></table>
             <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="264" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                 <tbody><tr>
                     <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;">
-                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/@Alexander.Kuttig/ui-guideline-specific-titles-including-ios-large-titles-with-react-native-animated-e587f006d085" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">UI Guideline Specific Titles (Including iOS Large Titles) with the&nbsp;</a><a href="https://medium.com/@Alexander.Kuttig/ui-guideline-specific-titles-including-ios-large-titles-with-react-native-animated-e587f006d085" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Animated API</a></h2>
-Add large titles to your screen that animate when the user scrolls.
+                        <h2 style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><a href="https://medium.com/@christian.falch/fluid-transitions-with-react-navigation-a049d2f71494" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Fluid Transitions with React Navigation</a></h2>
+Incorporate&nbsp;<a data-href="https://github.com/fram-x/FluidTransitions" href="https://github.com/fram-x/FluidTransitions" rel="nofollow noopener" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">React Navigation Fluid Transitions</a>&nbsp;to control individual transitions for your UX elements during navigation as an add-on to React Navigation. 🤗
                     </td>
                 </tr>
             </tbody></table>
@@ -986,11 +866,11 @@ Add large titles to your screen that animate when the user scrolls.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/03c5981d-f1a2-43d1-9fcb-0099c0bc4022.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/3aee8cea-cfba-45d8-a77b-97fee5633f45.jpg" width="600" style="max-width: 1312px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1001,95 +881,29 @@ Add large titles to your screen that animate when the user scrolls.
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
+                
 
 <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
         <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
 
-
-            <a href="https://github.com/facebook/react-native/releases/tag/v0.55.0" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/37b3e57c-9a1a-4d98-bc4f-5c9d2be829c6.png" width="248" style="max-width: 248px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/98c18791-8565-4c70-bc07-ede4acfc8a72.jpg" width="564" style="max-width: 1312px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
             </a>
-
+        
         </td>
     </tr>
     <tr>
         <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="564">
-            <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">M</a><a href="https://github.com/facebook/react-native/releases/tag/v0.55.0" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">arch 2018 - RN 0.55.0</a></h2>
+            <h2 class="null" style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><br>
+<a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get Detailed Feedback from Users In-App</a></h2>
 
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnImageBlockOuter">
-            <tr>
-                <td valign="top" style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
-                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                        <tbody><tr>
-                            <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9adcfb8d-4bd3-4b6a-8d09-832a35602560.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
-                            </td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
-    </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <a href="https://github.com/rcaferati/react-native-really-awesome-button" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/43f3925a-c56c-4483-a9a8-a706f3d829db.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-            </a>
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/rcaferati/react-native-really-awesome-button" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-really-awesome-button</a></h2>
-
-        </td>
-    </tr>
-</tbody></table>
-
-<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6f24c84f-b701-46c1-997a-ee0b69f0adba.gif" width="264" style="max-width: 800px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://google.com&amp;source=gmail&amp;ust=1522867365116000&amp;usg=AFQjCNHuQsT9bPHBad2GqdB8dpetCRffAA" href="http://google.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/prscX/react-native-iconic&amp;source=gmail&amp;ust=1522867365116000&amp;usg=AFQjCNGZ-D49udmzTBf7lNZDNbHdpxiMpA" href="https://github.com/prscX/react-native-iconic" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-iconic</a></h2>
+<div>Tired of wasting time debugging your react native app and not focusing on what matters? Instabug SDK is here to help you minimize your debugging time by sending you complete environment details, network logs, and repro-steps with every bug and crash report. All data is attached automatically including native and javascript stack trace.<br>
+<br>
+The top mobile companies like Lyft, eBay, PayPal, and 9gag rely on Instabug to enhance their app quality and iterate faster. It only takes a line of code to integrate the SDK.</div>
 
         </td>
     </tr>
@@ -1109,11 +923,11 @@ Add large titles to your screen that animate when the user scrolls.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1124,45 +938,27 @@ Add large titles to your screen that animate when the user scrolls.
     <tbody class="mcnCaptionBlockOuter">
         <tr>
             <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
 
-
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody><tr>
         <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
 
-
-            <a href="https://github.com/prscX/react-native-material-shadows" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/59203fdf-24c1-4458-b42c-b23d93d0fad2.png" width="264" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/35c4a288-74ff-4d11-8cde-22a5d930e31b.jpg" width="564" style="max-width: 1024px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
             </a>
-
+        
         </td>
     </tr>
     <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/prscX/react-native-material-shadows" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-material-shadows</a></h2>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="564">
+            <h2 class="null" style="display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;text-align: left;"><br>
+<a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">C</a><a href="http://infinite.red/ChainReactConf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">hain React Conference 2018</a></h2>
 
-        </td>
-    </tr>
-</tbody></table>
-
-<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <a href="https://github.com/cinder92/react-native-get-music-files" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
-            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a45f7cf4-7789-4423-a986-c62aa357d27e.jpg" width="264" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
-            </a>
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
-            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="http://google.com" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">r</a><a href="https://github.com/cinder92/react-native-get-music-files" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">eact-native-get-music-files</a></h2>
+<div>We've just announced the schedule for Chain React 2018, the React Native conference! We're adding lightning talks this year —&nbsp;<a href="http://infinite.red/ChainReactConf/Schedule" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">check out the website</a>&nbsp;for a look at the variety of topics being covered. Tickets are selling fast. <a href="https://www.eventbrite.com/e/chain-react-2018-the-react-native-conference-tickets-39622819921?aff=RNNewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get yours before they're gone</a>!</div>
 
         </td>
     </tr>
@@ -1182,11 +978,232 @@ Add large titles to your screen that animate when the user scrolls.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/a3a9c919-fa03-43b9-9478-ba556fb32def.jpg" width="600" style="max-width: 1312px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnCaptionBlockOuter">
+        <tr>
+            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://try.instabug.com/reactnative?utm_source=reactnative&amp;utm_medium=email&amp;utm_campaign=newsletter9" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7c453c80-f39d-41f0-a777-2545d32cfd2d.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 class="null" style="text-align: left;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://collisionconf.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Collision Conference 2018</a></h2>
+
+<div style="text-align: left;"><br>
+Just hanging out with <a href="https://twitter.com/BmanCLT" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Bilal Soylu</a>, <a href="https://twitter.com/xcoobee_andy" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Andy James</a>, and Matthew Stegall of <a href="https://www.xcoobee.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">XcooBee</a>! Their app is built with React Native, too.&nbsp;Photo credit <a href="https://twitter.com/GantLaborde" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Gant Laborde</a></div>
+
+        </td>
+    </tr>
+</tbody></table>
+
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/df241a62-9e2f-4855-bd40-cbc489290ad8.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://blog.expo.io/expo-sdk-v27-0-0-is-now-available-898bf1e5b0e4" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Expo SDK v27.0.0</a></h2>
+<br>
+Expo SDK v27.0.0 is based on the recently released React Native 0.55 “March 2018”. The previous SDK release, v26.0.0, was based on React Native 0.54, “February 2018”.
+        </td>
+    </tr>
+</tbody></table>
 
 
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9adcfb8d-4bd3-4b6a-8d09-832a35602560.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnCaptionBlockOuter">
+        <tr>
+            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/DylanVann/react-native-fast-image" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/ed8a4619-0704-4982-8249-e7f24e0c9fbd.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/DylanVann/react-native-fast-image" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-fast-image</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
+
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/SkrewEverything/react-native-input-prompt" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/67eac170-2cba-4073-8386-e3f6f722a53a.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/SkrewEverything/react-native-input-prompt" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-input-prompt</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                    
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnCaptionBlockOuter">
+        <tr>
+            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/stovmascript/react-native-version" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/9c51ef55-24b9-493d-8c8a-83cc1c77421f.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/stovmascript/react-native-version" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-version</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
+
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="282" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        
+            
+            <a href="https://github.com/thegamenicorus/react-native-timeline-listview" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+            
+
+            <img alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/cf876236-8de2-48c8-8b3f-925407139d01.jpg" width="264" style="max-width: 290px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+            </a>
+        
+        </td>
+    </tr>
+    <tr>
+        <td class="mcnTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 200%;text-align: left;" width="282">
+            <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://github.com/thegamenicorus/react-native-timeline-listview" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">react-native-timeline-listview</a></h2>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnImageBlockOuter">
+            <tr>
+                <td valign="top" style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                        <tbody><tr>
+                            <td class="mcnImageContent" valign="top" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/96c2f9b7-60d2-40e2-b23a-3ece3787c6ee.jpg" width="600" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1200,11 +1217,11 @@ Add large titles to your screen that animate when the user scrolls.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/6a296102-d75f-4810-aed0-e93cb67ad154.jpg" width="512" style="max-width: 1024px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnRetinaImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1219,15 +1236,15 @@ Add large titles to your screen that animate when the user scrolls.
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <h2 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 18px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;">Become a Sponsor</h2>
 
 <div style="text-align: center;">Send us a few details about your event, company, blog, or project, and we'll supply the 9,000+ sets of eyeballs. <a href="http://reactnative.cc/sponsor-package.pdf" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Get the details here.</a><br>
@@ -1240,7 +1257,7 @@ Add large titles to your screen that animate when the user scrolls.
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1255,11 +1272,11 @@ Add large titles to your screen that animate when the user scrolls.
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-
-
+                                
+                                    
                                         <img align="center" alt="" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/7d4cdfa0-e4c6-40cd-a2c9-7c2b7480a094.png" width="564" style="max-width: 620px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-
-
+                                    
+                                
                             </td>
                         </tr>
                     </tbody></table>
@@ -1274,15 +1291,15 @@ Add large titles to your screen that animate when the user scrolls.
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px;line-height: 200%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #726685;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;text-align: left;">
-
+                        
                             <h3 style="text-align: center;display: block;margin: 0;padding: 0;color: #1a022a;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 15px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: normal;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeEZCF6-cNoPBrw8-FkAD2r6Gslr5b2pykKRn5-lMLDlt6Xiw/viewform" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Suggest an Article</a>&nbsp; &nbsp;<span style="color:#726685">•</span>&nbsp; &nbsp;<a href="https://infiniteredcommunity.herokuapp.com/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #e73536;font-weight: normal;text-decoration: none;">Join us on Slack</a></h3>
 
                         </td>
@@ -1291,7 +1308,7 @@ Add large titles to your screen that animate when the user scrolls.
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1319,12 +1336,12 @@ Add large titles to your screen that animate when the user scrolls.
                                     <table align="center" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                     <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 10px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -1333,16 +1350,16 @@ Add large titles to your screen that animate when the user scrolls.
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://twitter.com/RNNewsletter" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                                 <td align="left" valign="middle" class="mcnFollowTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="https://twitter.com/RNNewsletter" target="" style="font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;text-decoration: none;color: #E2E0E6;font-weight: normal;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Follow on Twitter</a>
                                                                                 </td>
-
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -1351,16 +1368,16 @@ Add large titles to your screen that animate when the user scrolls.
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                         <!--[if mso]>
                                         <td align="center" valign="top">
                                         <![endif]-->
-
-
+                                        
+                                        
                                             <table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                 <tbody><tr>
                                                     <td valign="top" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnFollowContentItemContainer">
@@ -1369,16 +1386,16 @@ Add large titles to your screen that animate when the user scrolls.
                                                                 <td align="left" valign="middle" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                         <tbody><tr>
-
+                                                                            
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="http://reactnative.cc/" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png" style="display: block;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" height="24" width="24" class=""></a>
                                                                                 </td>
-
-
+                                                                            
+                                                                            
                                                                                 <td align="left" valign="middle" class="mcnFollowTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                                                                     <a href="http://reactnative.cc/" target="" style="font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 12px;text-decoration: none;color: #E2E0E6;font-weight: normal;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">View the Website</a>
                                                                                 </td>
-
+                                                                            
                                                                         </tr>
                                                                     </tbody></table>
                                                                 </td>
@@ -1387,11 +1404,11 @@ Add large titles to your screen that animate when the user scrolls.
                                                     </td>
                                                 </tr>
                                             </tbody></table>
-
+                                        
                                         <!--[if mso]>
                                         </td>
                                         <![endif]-->
-
+                                    
                                     <!--[if mso]>
                                     </tr>
                                     </table>
@@ -1417,15 +1434,15 @@ Add large titles to your screen that animate when the user scrolls.
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: center;">
-
+                        
                             <img data-file-id="848210" height="64" src="https://gallery.mailchimp.com/db0dd948e2b729ee62625b1a8/images/0f8bd15a-e4c0-4196-a1d5-a84d80799c9f.png" style="border: 0;height: auto !important;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;"><br>
 <br>
 <h4 style="color: #E2E0E6;text-align: center;display: block;margin: 0;padding: 0;font-family: Helvetica;font-size: 11px;font-style: normal;font-weight: normal;line-height: 150%;letter-spacing: 2px;">
@@ -1437,7 +1454,7 @@ BROUGHT TO YOU BY INFINITE RED</h4>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1453,23 +1470,23 @@ BROUGHT TO YOU BY INFINITE RED</h4>
 				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
 				<tr>
 				<![endif]-->
-
+			    
 				<!--[if mso]>
 				<td valign="top" width="600" style="width:600px;">
 				<![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
                     <tbody><tr>
-
+                        
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 150%;text-align: center;">
-
-                            <u><a href="https://reactnative.us10.list-manage.com/unsubscribe?u=db0dd948e2b729ee62625b1a8&id=47cd41008f&e=8820eb7d34&c=041345abed" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #f0eff2;font-weight: normal;text-decoration: none;">Unsubscribe</a></u>
+                        
+                            <u><a href="*|UNSUB|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #f0eff2;font-weight: normal;text-decoration: none;">Unsubscribe</a></u>
                         </td>
                     </tr>
                 </tbody></table>
 				<!--[if mso]>
 				</td>
 				<![endif]-->
-
+                
 				<!--[if mso]>
 				</tr>
 				</table>
@@ -1490,4 +1507,5 @@ BROUGHT TO YOU BY INFINITE RED</h4>
                 </tr>
             </table>
         </center>
-    </body>    </body> </html>
+    </body>
+</html>
