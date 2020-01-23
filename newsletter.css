@@ -413,8 +413,6 @@ nav.menu ul.social li a {
  */
 
 .content {
-	display: -ms-grid;
-	display: grid;
 	-ms-grid-columns: 1fr 1fr;
 	-ms-grid-rows: minmax(min-content, calc(100vh - 250px));
 	grid-area: mid;
@@ -451,9 +449,8 @@ nav.menu ul.social li a {
 .past-issues-container {
 	width: 100%;
 	display: flex;
-	/* flex-flow: row wrap; */
 	align-items: left;
-	justify-content: left;
+	justify-content: space-around;
 	margin-bottom: 30px;
 }
 
@@ -468,7 +465,7 @@ nav.menu ul.social li a {
 
 .past-issues {
 	min-width: 200px;
-	width: 33%;
+	/* width: 33%; */
 }
 
 .past-issues li {
