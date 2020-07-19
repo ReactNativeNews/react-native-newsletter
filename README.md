@@ -3,6 +3,8 @@
 Free bi-weekly summary of React Native news, articles, issues & pull requests, libraries and apps curated by Frank von Hoven ([@infinite_frank](https://twitter.com/infinite_frank)).
 
 <!-- Begin Mailchimp Signup Form -->
+<!DOCTYPE html>
+<html lang="en">
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
@@ -20,7 +22,7 @@ Free bi-weekly summary of React Native news, articles, issues & pull requests, l
     </div>
 </form>
 </div>
-
+<html>
 <!--End mc_embed_signup-->
 
 ## [Past Issues](http://reactnative.cc/issues.html)
