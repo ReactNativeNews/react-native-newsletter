@@ -7,13 +7,13 @@
 
     <title>React Native Newsletter</title>
 
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="/newsletter.css" type="text/css" />
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" href="/normalize.css" type="text/css" /> -->
+    <link rel="stylesheet" href="/sponsor.css" type="text/css" />
 
     <script src="/ie.js" type="application/javascript"></script>
-    <script src="/newsletter.js" type="application/javascript"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- <script src="/newsletter.js" type="application/javascript"></script> -->
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
     <script>
       ;(function (i, s, o, g, r, a, m) {
@@ -36,27 +36,6 @@
   </head>
 
   <body>
-    <section class="suggest-article">
-      <div class="close-wrapper">
-        <a href="#" class="close">Close</a>
-      </div>
-
-      <article class="details">
-        <header>
-          <h1>Suggest an Article</h1>
-          <h2>
-            Have an article that you think would be good for the newsletter?
-            <br />
-            Drop us a link and we'll take a look!
-          </h2>
-        </header>
-
-        <ul style="padding-top: 5%; font-size: 2ch;">
-          <a style="color: crimson;" target="_blank" href="https://goo.gl/forms/Dupl9V89nH0V9aWh1">Suggest an Article</a>
-        </ul>
-      </article>
-    </section>
-
     <div class="container">
       <main>
         <nav class="desktop">
@@ -65,7 +44,7 @@
               <a href="/" id="logo"></a>
             </li>
             <li>
-              <a href="/sponsor.html">Become a Sponsor</a>
+              <a style="font-weight: 500; color: white;" href="#">Become a Sponsor</a>
             </li>
             <li>
               <a href="/suggest-article.html">Suggest Article</a>
@@ -97,10 +76,7 @@
 
           <ul class="links">
             <li>
-              <a href="/sponsor.html">Become a Sponsor</a>
-            </li>
-            <li>
-              <a href="/suggest-article.html">Suggest Article</a>
+              <a href="#" class="open-suggest-article">Suggest Article</a>
             </li>
             <li>
               <a href="/issues.html">Past Issues</a>
@@ -118,38 +94,11 @@
         </nav>
 
         <section class="content">
-          <article id="splash">
-            <h1>A curated, fun to read newsletter all about React Native</h1>
-            <h2>Free bi-weekly summary of React Native news, articles, issues &amp; pull requests, libraries and apps.</h2>
-
-            <div class="subscribe-form">
-              <form
-                action="//brentvatne.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                class="validate"
-                target="_blank"
-              >
-                <div class="input-field email-input">
-                  <input
-                    type="email"
-                    value=""
-                    name="EMAIL"
-                    required
-                    class="required email"
-                    id="mce-EMAIL"
-                    autocomplete="off"
-                    placeholder="Your Email Address"
-                  />
-                  <button type="submit" class="addon"></button>
-                  <span class="hint">Please enter a valid email</span>
-                </div>
-              </form>
-            </div>
+          <article>
+            <div id="sponsor_page_content"></div>
           </article>
 
-          <div id="illustration"></div>
+          <!-- <div id="illustration"></div> -->
         </section>
 
         <footer>
@@ -178,5 +127,9 @@
         </footer>
       </main>
     </div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="sponsorPage.js"></script>
   </body>
 </html>

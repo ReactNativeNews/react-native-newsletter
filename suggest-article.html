@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>React Native Newsletter</title>
+
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" href="/normalize.css" type="text/css" /> -->
+    <link rel="stylesheet" href="/sponsor.css" type="text/css" />
+
+    <script src="/ie.js" type="application/javascript"></script>
+    <!-- <script src="/newsletter.js" type="application/javascript"></script> -->
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+    <script>
+      ;(function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r
+        ;(i[r] =
+          i[r] ||
+          function () {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga")
+
+      ga("create", "UA-10128745-13", "auto")
+      ga("send", "pageview")
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <main>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="/" id="logo"></a>
+            </li>
+            <li>
+              <a href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li>
+              <a style="font-weight: 500; color: white;" href="#">Suggest Article</a>
+            </li>
+            <li>
+              <a href="/issues.html">Past Issues</a>
+            </li>
+          </ul>
+
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/infinite_frank" target="_blank" class="icon twitter"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="mobile">
+          <a href="#" id="logo"></a>
+          <a href="#" id="open-menu"></a>
+        </nav>
+
+        <nav class="menu">
+          <div class="close-wrapper">
+            <a href="#" class="close"></a>
+          </div>
+
+          <ul class="links">
+            <li>
+              <a href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="/issues.html">Past Issues</a>
+            </li>
+          </ul>
+
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/infinite_frank" target="_blank" class="icon twitter"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="content" style="display: flex; justify-content: center; margin-top: 2em;">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeEZCF6-cNoPBrw8-FkAD2r6Gslr5b2pykKRn5-lMLDlt6Xiw/viewform?embedded=true"
+            width="1000"
+            height="90%"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            >Loading…</iframe
+          >
+        </section>
+
+        <footer>
+          <article class="bio">
+            <div class="photo"></div>
+            <div class="details">
+              <h1>Frank von Hoven, Editor-in-Chief</h1>
+              <p>Frank specializes in React Native at Infinite Red.</p>
+            </div>
+          </article>
+
+          <section class="sponsor-wrap">
+            <section class="sponsor">
+              <h1>Presented By</h1>
+              <a class="logo" href="https://infinite.red" target="_blank"></a>
+            </section>
+          </section>
+        </footer>
+      </main>
+    </div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="sponsorPage.js"></script>
+  </body>
+</html>
