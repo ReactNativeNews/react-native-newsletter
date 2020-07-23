@@ -148,11 +148,10 @@ function SponsorPage() {
     React.createElement(
       "p",
       null,
-      "Email ",
       React.createElement(
         "a",
         { href: "mailto:frank@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship" },
-        "frank@infinite.red"
+        "Email us"
       ),
       " with any questions or to inquire about a sponsorship."
     )

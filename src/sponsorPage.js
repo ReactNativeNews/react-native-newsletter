@@ -58,8 +58,8 @@ function SponsorPage() {
       </div>
       {renderRequiredInfo()}
       <p>
-        Email <a href="mailto:frank@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship">frank@infinite.red</a> with any
-        questions or to inquire about a sponsorship.
+        <a href="mailto:frank@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship">Email us</a> with any questions or to inquire
+        about a sponsorship.
       </p>
     </div>
   )
