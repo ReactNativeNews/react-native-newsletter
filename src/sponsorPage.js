@@ -30,7 +30,7 @@ function SponsorPage() {
           <li>Description (75 words max)</li>
           <li>URL Link (will link on image and title)</li>
           <li>Content should be tasteful and appropriate</li>
-          <li>Provide all information one week before sponsorship issue</li>
+          <li>Provide all information one week before sponsored issue date</li>
         </ul>
       </div>
     )
@@ -48,8 +48,9 @@ function SponsorPage() {
       {renderStats()}
       <ul>
         <li>There are four sponsorships available per issue available on a first-come, first-serve basis.</li>
-        <li>Sponsorships must be paid for in full upfront, are non-refundable, and non-transferrable.</li>
-        <li>Sponsorships do not have to be consecutive - desired dates must be listed at time of purchase and approved by Infinite Red.</li>
+        <li>Sponsorships are $250/issue and must be paid for in-full upfront - credit cards and PayPal are payment options.</li>
+        <li>Sponsorships do not have to be consecutive.</li>
+        <li>Desired dates must be listed at time of purchase and approved by Infinite Red.</li>
       </ul>
       <br />
       <div class="center-wrapper">

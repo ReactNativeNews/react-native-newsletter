@@ -90,7 +90,7 @@ function SponsorPage() {
         React.createElement(
           "li",
           null,
-          "Provide all information one week before sponsorship issue"
+          "Provide all information one week before sponsored issue date"
         )
       )
     );
@@ -125,12 +125,17 @@ function SponsorPage() {
       React.createElement(
         "li",
         null,
-        "Sponsorships must be paid for in full upfront, are non-refundable, and non-transferrable."
+        "Sponsorships are $250/issue and must be paid for in-full upfront - credit cards and PayPal are payment options."
       ),
       React.createElement(
         "li",
         null,
-        "Sponsorships do not have to be consecutive - desired dates must be listed at time of purchase and approved by Infinite Red."
+        "Sponsorships do not have to be consecutive."
+      ),
+      React.createElement(
+        "li",
+        null,
+        "Desired dates must be listed at time of purchase and approved by Infinite Red."
       )
     ),
     React.createElement("br", null),
