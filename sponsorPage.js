@@ -149,17 +149,32 @@ function SponsorPage() {
       ),
       React.createElement("img", { "class": "sponsor-image", src: "../img/sponsor-demo.png" })
     ),
-    renderRequiredInfo(),
     React.createElement(
-      "p",
-      null,
+      "div",
+      { "class": "center-wrapper" },
       React.createElement(
-        "a",
-        { href: "mailto:frank@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship" },
-        "Email us"
-      ),
-      " with any questions or to inquire about a sponsorship."
-    )
+        "h2",
+        null,
+        "Complete this Form to Sponsor the Newsletter"
+      )
+    ),
+    React.createElement(
+      "div",
+      { "class": "center-wrapper" },
+      React.createElement(
+        "iframe",
+        {
+          src: "https://docs.google.com/forms/d/e/1FAIpQLScqz4Wpdkd2hpNsA2isEnGNR311XNEh1HAmPzUXL99BDBzv2Q/viewform?embedded=true",
+          width: "640",
+          height: "1000",
+          frameborder: "0",
+          marginheight: "0",
+          marginwidth: "0"
+        },
+        "Loading\u2026"
+      )
+    ),
+    React.createElement("div", { style: { height: 50 } })
   );
 }
 var domContainer = document.querySelector("#sponsor_page_content");

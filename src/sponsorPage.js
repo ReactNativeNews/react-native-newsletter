@@ -57,11 +57,27 @@ function SponsorPage() {
         <h2>Example Sponsorship</h2>
         <img class="sponsor-image" src="../img/sponsor-demo.png" />
       </div>
-      {renderRequiredInfo()}
-      <p>
-        <a href="mailto:frank@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship">Email us</a> with any questions or to inquire
+      {/* {renderRequiredInfo()} */}
+      <div class="center-wrapper">
+        <h2>Complete this Form to Sponsor the Newsletter</h2>
+      </div>
+      <div class="center-wrapper">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScqz4Wpdkd2hpNsA2isEnGNR311XNEh1HAmPzUXL99BDBzv2Q/viewform?embedded=true"
+          width="640"
+          height="1000"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+      <div style={{ height: 50 }} />
+      {/* <p>
+        <a href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship">Email us</a> with any questions or to inquire
         about a sponsorship.
-      </p>
+      </p> */}
     </div>
   )
 }
