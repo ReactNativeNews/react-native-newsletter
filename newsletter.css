@@ -2,20 +2,20 @@
  * Fonts
  */
 @font-face {
-  font-family: "Droid Serif";
-  src: url("/fonts/DroidSerif.ttf");
+  font-family: 'Droid Serif';
+  src: url('/fonts/DroidSerif.ttf');
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Droid Serif";
-  src: url("/fonts/DroidSerif-Italic.ttf");
+  font-family: 'Droid Serif';
+  src: url('/fonts/DroidSerif-Italic.ttf');
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.ttf");
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf');
 }
 
 /**
@@ -80,7 +80,7 @@ input {
 .input-field span {
   display: none;
   font-size: 13px;
-  font-family: "Droid Serif", serif;
+  font-family: 'Droid Serif', serif;
   font-style: italic;
   line-height: 35px;
   text-align: left;
@@ -139,14 +139,18 @@ input {
 
 html,
 body {
-  background: linear-gradient(143.43deg, #1f0232 0%, rgba(100, 11, 86, 0.99) 100%);
+  background: linear-gradient(
+    143.43deg,
+    #1f0232 0%,
+    rgba(100, 11, 86, 0.99) 100%
+  );
   min-height: 100%;
   min-width: 100%;
   height: auto;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
 
@@ -168,7 +172,7 @@ h2 {
 h2,
 p {
   color: #caabcb;
-  font-family: "Droid Serif", serif;
+  font-family: 'Droid Serif', serif;
 }
 
 ul {
@@ -199,7 +203,7 @@ main {
   max-width: 1440px;
   grid-template-columns: 1fr;
   grid-template-rows: 56px 1fr 87px;
-  grid-template-areas: "top" "mid" "bot";
+  grid-template-areas: 'top' 'mid' 'bot';
 }
 
 nav.desktop,
@@ -226,7 +230,7 @@ nav a#logo {
   display: block;
   width: 56px;
   height: 56px;
-  background-image: url("/img/logo.png");
+  background-image: url('/img/logo.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,7 +244,7 @@ nav a#open-menu {
   display: block;
   width: 35px;
   height: 35px;
-  background-image: url("/img/menu-icon.svg");
+  background-image: url('/img/menu-icon.svg');
   background-repeat: no-repeat;
   margin: 0;
 }
@@ -301,7 +305,7 @@ nav.menu .close-wrapper {
 nav.menu .close-wrapper .close {
   align-self: right;
   display: block;
-  background-image: url("/img/close-icon.svg");
+  background-image: url('/img/close-icon.svg');
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -371,7 +375,7 @@ nav.menu ul.social li a {
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-  background-image: url("/img/close-icon.svg");
+  background-image: url('/img/close-icon.svg');
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 16px 16px;
@@ -397,7 +401,7 @@ nav.menu ul.social li a {
 
 .suggest-article button {
   margin-top: 55px;
-  background-image: url("/img/chevron-right.png");
+  background-image: url('/img/chevron-right.png');
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position: center center;
@@ -416,7 +420,7 @@ nav.menu ul.social li a {
   -ms-grid-columns: 1fr 1fr;
   -ms-grid-rows: minmax(min-content, calc(100vh - 250px));
   grid-area: mid;
-  grid-template-areas: "left right";
+  grid-template-areas: 'left right';
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   min-height: 900px;
@@ -539,7 +543,7 @@ footer .bio .photo {
   height: 87px;
   width: 52px;
   align-self: left;
-  background-image: url(/img/img.frank@2x.png);
+  background-image: url(/img/jonmajor.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 24px;
