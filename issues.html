@@ -2,24 +2,33 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90614976-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-90614976-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)
       }
-      gtag("js", new Date())
+      gtag('js', new Date())
 
-      gtag("config", "UA-90614976-1")
+      gtag('config', 'UA-90614976-1')
     </script>
 
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <title>React Native Newsletter</title>
 
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.2/css/all.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/normalize.css" type="text/css" />
     <link rel="stylesheet" href="/newsletter.css" type="text/css" />
 
@@ -44,7 +53,12 @@
         </header>
 
         <ul style="padding-top: 5%; font-size: 2ch">
-          <a style="color: crimson" target="_blank" href="https://goo.gl/forms/Dupl9V89nH0V9aWh1">Suggest an Article</a>
+          <a
+            style="color: crimson"
+            target="_blank"
+            href="https://goo.gl/forms/Dupl9V89nH0V9aWh1"
+            >Suggest an Article</a
+          >
         </ul>
       </article>
     </section>
@@ -66,7 +80,11 @@
               <a style="font-weight: 500; color: white" href="#">Past Issues</a>
             </li>
             <li>
-              <a href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship" target="_blank">Contact us</a>
+              <a
+                href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship"
+                target="_blank"
+                >Contact us</a
+              >
             </li>
             <!--<li>
             <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
@@ -78,7 +96,11 @@
             <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
           </li>-->
             <li>
-              <a href="https://twitter.com/rnnewsletter" target="_blank" class="icon twitter"></a>
+              <a
+                href="https://twitter.com/rnnewsletter"
+                target="_blank"
+                class="icon twitter"
+              ></a>
             </li>
           </ul>
         </nav>
@@ -95,14 +117,20 @@
 
           <ul class="links">
             <li>
-              <a href="/sponsor-package.pdf" target="_blank">Become a Sponsor</a>
+              <a href="/sponsor-package.pdf" target="_blank"
+                >Become a Sponsor</a
+              >
             </li>
             <li>
               <a href="#" class="open-suggest-article">Suggest Article</a>
             </li>
             {#
             <li>
-              <a href="https://medium.com/react-native-newsletter" target="_blank">Past Issues</a>
+              <a
+                href="https://medium.com/react-native-newsletter"
+                target="_blank"
+                >Past Issues</a
+              >
             </li>
             #}
           </ul>
@@ -110,27 +138,51 @@
           <ul class="social">
             {#
             <li>
-              <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
+              <a
+                href="https://medium.com/react-native-newsletter"
+                target="_blank"
+                class="icon medium"
+              ></a>
             </li>
             #}
             <li>
-              <a href="https://twitter.com/RNNewsletter" target="_blank" class="icon twitter"></a>
+              <a
+                href="https://twitter.com/RNNewsletter"
+                target="_blank"
+                class="icon twitter"
+              ></a>
             </li>
           </ul>
         </nav>
 
         <section class="content">
           <div>
-            <div class="past-issues-header" style="display: flex; flex-flow: column wrap">
+            <div
+              class="past-issues-header"
+              style="display: flex; flex-flow: column wrap"
+            >
               <tr style="display: flex; flex-flow: column">
                 <ul>
                   <h2>Current Issue</h2>
                   <!-- CURRENT ISSUE GOES HERE -->
-                  <li><a style="font-size: 28px" href="/issues/2021/02-16-2021.html" target="_blank">#126 - February 16</a></li>
+                  <li>
+                    <a
+                      style="font-size: 28px"
+                      href="/issues/2021/08-17-2021.html"
+                      target="_blank"
+                      >#136 August 17</a
+                    >
+                  </li>
                 </ul>
 
                 <!-- BORDER -->
-                <ul style="width: 100%; border-top-style: groove; padding-top: 25px"></ul>
+                <ul
+                  style="
+                    width: 100%;
+                    border-top-style: groove;
+                    padding-top: 25px;
+                  "
+                ></ul>
 
                 <!-- <h2>Past Issues</h2>
                 <h2 style="margin-bottom:0px;">2020</h2> -->
@@ -143,105 +195,433 @@
                   <div class="past-issues">
                     <h2>2021</h2>
                     <ul style="width: 100%">
-                      <li><a href="/issues/2021/08-17-2021.html" target="_blank">#136 August 17</a></li>
-                      <li><a href="/issues/2021/08-04-2021.html" target="_blank">#135 August 04</a></li>
-                      <li><a href="/issues/2021/07-20-2021.html" target="_blank">#134 July 20</a></li>
-                      <li><a href="/issues/2021/07-06-2021.html" target="_blank">#133 July 06</a></li>
-                      <li><a href="/issues/2021/06-15-2021.html" target="_blank">#132 June 15</a></li>
-                      <li><a href="/issues/2021/06-01-2021.html" target="_blank">#131 June 1</a></li>
-                      <li><a href="/issues/2021/05-18-2021.html" target="_blank">#130 May 18</a></li>
-                      <li><a href="/issues/2021/05-04-2021.html" target="_blank">#129 May 4</a></li>
-                      <li><a href="/issues/2021/04-20-2021.html" target="_blank">#128 April 20</a></li>
-                      <li><a href="/issues/2021/04-06-2021.html" target="_blank">#127 April 6</a></li>
-                      <li><a href="/issues/2021/02-16-2021.html" target="_blank">#126 February 16</a></li>
-                      <li><a href="/issues/2021/02-02-2021.html" target="_blank">#125 February 2</a></li>
-                      <li><a href="/issues/2021/01-19-2021.html" target="_blank">#124 January 19</a></li>
-                      <li><a href="/issues/2021/01-05-2021.html" target="_blank">#123 January 5</a></li>
+                      <li>
+                        <a href="/issues/2021/08-17-2021.html" target="_blank"
+                          >#136 August 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/08-04-2021.html" target="_blank"
+                          >#135 August 04</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/07-20-2021.html" target="_blank"
+                          >#134 July 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/07-06-2021.html" target="_blank"
+                          >#133 July 06</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/06-15-2021.html" target="_blank"
+                          >#132 June 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/06-01-2021.html" target="_blank"
+                          >#131 June 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/05-18-2021.html" target="_blank"
+                          >#130 May 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/05-04-2021.html" target="_blank"
+                          >#129 May 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/04-20-2021.html" target="_blank"
+                          >#128 April 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/04-06-2021.html" target="_blank"
+                          >#127 April 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/02-16-2021.html" target="_blank"
+                          >#126 February 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/02-02-2021.html" target="_blank"
+                          >#125 February 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/01-19-2021.html" target="_blank"
+                          >#124 January 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2021/01-05-2021.html" target="_blank"
+                          >#123 January 5</a
+                        >
+                      </li>
                     </ul>
                   </div>
                   <div class="past-issues">
                     <h2>2020</h2>
                     <ul style="width: 100%">
-                      <li><a href="/issues/2020/12-15-2020.html" target="_blank">#122 December 15</a></li>
-                      <li><a href="/issues/2020/12-01-2020.html" target="_blank">#121 December 1</a></li>
-                      <li><a href="/issues/2020/11-17-2020.html" target="_blank">#120 November 17</a></li>
-                      <li><a href="/issues/2020/11-03-2020.html" target="_blank">#119 November 3</a></li>
-                      <li><a href="/issues/2020/10-20-2020.html" target="_blank">#118 October 20</a></li>
-                      <li><a href="/issues/2020/10-06-2020.html" target="_blank">#117 October 6</a></li>
-                      <li><a href="/issues/2020/09-15-2020.html" target="_blank">#116 September 15</a></li>
-                      <li><a href="/issues/2020/09-01-2020.html" target="_blank">#115 September 1</a></li>
-                      <li><a href="/issues/2020/08-18-2020.html" target="_blank">#114 - August 18</a></li>
-                      <li><a href="/issues/2020/08-04-2020.html" target="_blank">#113 - August 4</a></li>
-                      <li><a href="/issues/2020/07-21-2020.html" target="_blank">#112 - July 21</a></li>
-                      <li><a href="/issues/2020/07-07-2020.html" target="_blank">#111 - July 7</a></li>
-                      <li><a href="/issues/2020/06-16-2020.html" target="_blank">#110 - June 16</a></li>
-                      <li><a href="/issues/2020/06-02-2020.html" target="_blank">#109 - June 2</a></li>
-                      <li><a href="/issues/2020/05-19-2020.html" target="_blank">#108 - May 19</a></li>
-                      <li><a href="/issues/2020/05-05-2020.html" target="_blank">#107 - May 5</a></li>
-                      <li><a href="/issues/2020/04-21-2020.html" target="_blank">#106 - April 21</a></li>
-                      <li><a href="/issues/2020/04-07-2020.html" target="_blank">#105 - April 7</a></li>
-                      <li><a href="/issues/2020/03-17-2020.html" target="_blank">#104 - March 17</a></li>
-                      <li><a href="/issues/2020/03-03-2020.html" target="_blank">#103 - March 3</a></li>
-                      <li><a href="/issues/2020/02-18-2020.html" target="_blank">#102 - February 18</a></li>
-                      <li><a href="/issues/2020/02-04-2020.html" target="_blank">#101 - February 4</a></li>
-                      <li><a href="/issues/2020/01-21-2020.html" target="_blank">#100 - January 21</a></li>
-                      <li><a href="/issues/2020/01-07-2020.html" target="_blank">#99 - January 7</a></li>
+                      <li>
+                        <a href="/issues/2020/12-15-2020.html" target="_blank"
+                          >#122 December 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/12-01-2020.html" target="_blank"
+                          >#121 December 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/11-17-2020.html" target="_blank"
+                          >#120 November 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/11-03-2020.html" target="_blank"
+                          >#119 November 3</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/10-20-2020.html" target="_blank"
+                          >#118 October 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/10-06-2020.html" target="_blank"
+                          >#117 October 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/09-15-2020.html" target="_blank"
+                          >#116 September 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/09-01-2020.html" target="_blank"
+                          >#115 September 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/08-18-2020.html" target="_blank"
+                          >#114 - August 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/08-04-2020.html" target="_blank"
+                          >#113 - August 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/07-21-2020.html" target="_blank"
+                          >#112 - July 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/07-07-2020.html" target="_blank"
+                          >#111 - July 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/06-16-2020.html" target="_blank"
+                          >#110 - June 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/06-02-2020.html" target="_blank"
+                          >#109 - June 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/05-19-2020.html" target="_blank"
+                          >#108 - May 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/05-05-2020.html" target="_blank"
+                          >#107 - May 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/04-21-2020.html" target="_blank"
+                          >#106 - April 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/04-07-2020.html" target="_blank"
+                          >#105 - April 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/03-17-2020.html" target="_blank"
+                          >#104 - March 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/03-03-2020.html" target="_blank"
+                          >#103 - March 3</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/02-18-2020.html" target="_blank"
+                          >#102 - February 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/02-04-2020.html" target="_blank"
+                          >#101 - February 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/01-21-2020.html" target="_blank"
+                          >#100 - January 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2020/01-07-2020.html" target="_blank"
+                          >#99 - January 7</a
+                        >
+                      </li>
                     </ul>
                   </div>
 
                   <div class="past-issues">
                     <h2>2019</h2>
                     <ul style="width: 100%">
-                      <li><a href="/issues/2019/12-17-2019.html" target="_blank">#98 - December 17</a></li>
-                      <li><a href="/issues/2019/12-03-2019.html" target="_blank">#97 - December 3</a></li>
-                      <li><a href="/issues/2019/11-19-2019.html" target="_blank">#96 - November 19</a></li>
-                      <li><a href="/issues/2019/11-05-2019.html" target="_blank">#95 - November 5</a></li>
-                      <li><a href="/issues/2019/10-15-2019.html" target="_blank">#94 - October 15</a></li>
-                      <li><a href="/issues/2019/10-01-2019.html" target="_blank">#93 - October 1</a></li>
-                      <li><a href="/issues/2019/09-17-2019.html" target="_blank">#92 - September 17</a></li>
-                      <li><a href="/issues/2019/09-03-2019.html" target="_blank">#91 - September 3</a></li>
-                      <li><a href="/issues/2019/08-20-2019.html" target="_blank">#90 - August 20</a></li>
-                      <li><a href="/issues/2019/08-06-2019.html" target="_blank">#89 - August 6</a></li>
-                      <li><a href="/issues/2019/07-16-2019.html" target="_blank">#88 - July 16</a></li>
-                      <li><a href="/issues/2019/07-02-2019.html" target="_blank">#87 - July 2</a></li>
-                      <li><a href="/issues/2019/06-18-2019.html" target="_blank">#86 - June 18</a></li>
-                      <li><a href="/issues/2019/06-04-2019.html" target="_blank">#85 - June 4</a></li>
-                      <li><a href="/issues/2019/05-21-2019.html" target="_blank">#84 - May 21</a></li>
-                      <li><a href="/issues/2019/05-07-2019.html" target="_blank">#83 - May 7</a></li>
-                      <li><a href="/issues/2019/04-16-2019.html" target="_blank">#82 - April 16</a></li>
-                      <li><a href="/issues/2019/04-02-2019.html" target="_blank">#81 - April 2</a></li>
-                      <li><a href="/issues/2019/03-19-2019.html" target="_blank">#80 - March 19</a></li>
-                      <li><a href="/issues/2019/03-05-2019.html" target="_blank">#79 - March 5</a></li>
-                      <li><a href="/issues/2019/02-19-2019.html" target="_blank">#78 - February 19</a></li>
-                      <li><a href="/issues/2019/02-05-2019.html" target="_blank">#77 - February 5</a></li>
-                      <li><a href="/issues/2019/01-15-2019.html" target="_blank">#76 - January 15</a></li>
-                      <li><a href="/issues/2019/01-01-2019.html" target="_blank">#75 - January 1</a></li>
+                      <li>
+                        <a href="/issues/2019/12-17-2019.html" target="_blank"
+                          >#98 - December 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/12-03-2019.html" target="_blank"
+                          >#97 - December 3</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/11-19-2019.html" target="_blank"
+                          >#96 - November 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/11-05-2019.html" target="_blank"
+                          >#95 - November 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/10-15-2019.html" target="_blank"
+                          >#94 - October 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/10-01-2019.html" target="_blank"
+                          >#93 - October 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/09-17-2019.html" target="_blank"
+                          >#92 - September 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/09-03-2019.html" target="_blank"
+                          >#91 - September 3</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/08-20-2019.html" target="_blank"
+                          >#90 - August 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/08-06-2019.html" target="_blank"
+                          >#89 - August 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/07-16-2019.html" target="_blank"
+                          >#88 - July 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/07-02-2019.html" target="_blank"
+                          >#87 - July 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/06-18-2019.html" target="_blank"
+                          >#86 - June 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/06-04-2019.html" target="_blank"
+                          >#85 - June 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/05-21-2019.html" target="_blank"
+                          >#84 - May 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/05-07-2019.html" target="_blank"
+                          >#83 - May 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/04-16-2019.html" target="_blank"
+                          >#82 - April 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/04-02-2019.html" target="_blank"
+                          >#81 - April 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/03-19-2019.html" target="_blank"
+                          >#80 - March 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/03-05-2019.html" target="_blank"
+                          >#79 - March 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/02-19-2019.html" target="_blank"
+                          >#78 - February 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/02-05-2019.html" target="_blank"
+                          >#77 - February 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/01-15-2019.html" target="_blank"
+                          >#76 - January 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2019/01-01-2019.html" target="_blank"
+                          >#75 - January 1</a
+                        >
+                      </li>
                     </ul>
                   </div>
 
                   <div class="past-issues">
                     <h2>2018</h2>
                     <ul>
-                      <li><a href="/issues/2018/12-18-2018.html" target="_blank">#74 - December 18</a></li>
-                      <li><a href="/issues/2018/12-04-2018.html" target="_blank">#73 - December 4</a></li>
-                      <li><a href="/issues/2018/11-20-2018.html" target="_blank">#72 - November 20</a></li>
-                      <li><a href="/issues/2018/11-06-2018.html" target="_blank">#71 - November 6</a></li>
-                      <li><a href="/issues/2018/10-16-2018.html" target="_blank">#70 - October 16</a></li>
-                      <li><a href="/issues/2018/10-02-2018.html" target="_blank">#69 - October 2</a></li>
-                      <li><a href="/issues/2018/09-18-2018.html" target="_blank">#68 - September 18</a></li>
-                      <li><a href="/issues/2018/09-04-2018.html" target="_blank">#67 - September 4</a></li>
-                      <li><a href="/issues/2018/08--2018.html" target="_blank">#66 - August 21</a></li>
-                      <li><a href="/issues/2018/07-31-2018.html" target="_blank">#65 - July 31</a></li>
-                      <li><a href="/issues/2018/07-17-2018.html" target="_blank">#64 - July 17</a></li>
-                      <li><a href="/issues/2018/06-26-2018.html" target="_blank">#63 - June 26</a></li>
-                      <li><a href="/issues/2018/06-12-2018.html" target="_blank">#62 - June 12</a></li>
-                      <li><a href="/issues/2018/05-29-2018.html" target="_blank">#61 - May 29</a></li>
-                      <li><a href="/issues/2018/05-15-2018.html" target="_blank">#60 - May 15</a></li>
-                      <li><a href="/issues/2018/05-01-2018.html" target="_blank">#59 - May 1</a></li>
-                      <li><a href="/issues/2018/04-18-2018.html" target="_blank">#58 - April 18</a></li>
-                      <li><a href="/issues/2018/04-03-2018.html" target="_blank">#57 - April 3</a></li>
-                      <li><a href="/issues/2018/03-21-2018.html" target="_blank">#56 - March 21</a></li>
-                      <li><a href="/issues/2018/02-09-2018.html" target="_blank">#55 - February 9</a></li>
+                      <li>
+                        <a href="/issues/2018/12-18-2018.html" target="_blank"
+                          >#74 - December 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/12-04-2018.html" target="_blank"
+                          >#73 - December 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/11-20-2018.html" target="_blank"
+                          >#72 - November 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/11-06-2018.html" target="_blank"
+                          >#71 - November 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/10-16-2018.html" target="_blank"
+                          >#70 - October 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/10-02-2018.html" target="_blank"
+                          >#69 - October 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/09-18-2018.html" target="_blank"
+                          >#68 - September 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/09-04-2018.html" target="_blank"
+                          >#67 - September 4</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/08--2018.html" target="_blank"
+                          >#66 - August 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/07-31-2018.html" target="_blank"
+                          >#65 - July 31</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/07-17-2018.html" target="_blank"
+                          >#64 - July 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/06-26-2018.html" target="_blank"
+                          >#63 - June 26</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/06-12-2018.html" target="_blank"
+                          >#62 - June 12</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/05-29-2018.html" target="_blank"
+                          >#61 - May 29</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/05-15-2018.html" target="_blank"
+                          >#60 - May 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/05-01-2018.html" target="_blank"
+                          >#59 - May 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/04-18-2018.html" target="_blank"
+                          >#58 - April 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/04-03-2018.html" target="_blank"
+                          >#57 - April 3</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/03-21-2018.html" target="_blank"
+                          >#56 - March 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2018/02-09-2018.html" target="_blank"
+                          >#55 - February 9</a
+                        >
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -249,72 +629,288 @@
                   <div class="past-issues">
                     <h2>2017</h2>
                     <ul>
-                      <li><a href="/issues/2017/05-12-2017.html" target="_blank">#54 - December 5</a></li>
-                      <li><a href="/issues/2017/31-10-2017.html" target="_blank">#53 - October 31</a></li>
-                      <li><a href="/issues/2017/06-10-2017.html" target="_blank">#52 - October 6</a></li>
-                      <li><a href="/issues/2017/07-09-2017.html" target="_blank">#51 - September 7</a></li>
-                      <li><a href="/issues/2017/18-08-2017.html" target="_blank">#50 - August 18</a></li>
-                      <li><a href="/issues/2017/31-07-2017.html" target="_blank">#49 - July 31</a></li>
-                      <li><a href="/issues/2017/28-06-2017.html" target="_blank">#48 - June 28</a></li>
-                      <li><a href="/issues/2017/31-05-2017.html" target="_blank">#47 - May 31</a></li>
-                      <li><a href="/issues/2017/17-05-2017.html" target="_blank">#46 - May 17</a></li>
-                      <li><a href="/issues/2017/29-04-2017.html" target="_blank">#45 - April 29</a></li>
-                      <li><a href="/issues/2017/06-04-2017.html" target="_blank">#44 - April 6</a></li>
-                      <li><a href="/issues/2017/20-03-2017.html" target="_blank">#43 - March 20</a></li>
-                      <li><a href="/issues/2017/27-02-2017.html" target="_blank">#42 - February 27</a></li>
-                      <li><a href="/issues/2017/14-02-2017.html" target="_blank">#41 - February 14</a></li>
-                      <li><a href="/issues/2017/30-01-2017.html" target="_blank">#40 - January 30</a></li>
-                      <li><a href="/issues/2017/08-01-2017.html" target="_blank">#39 - January 8</a></li>
+                      <li>
+                        <a href="/issues/2017/05-12-2017.html" target="_blank"
+                          >#54 - December 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/31-10-2017.html" target="_blank"
+                          >#53 - October 31</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/06-10-2017.html" target="_blank"
+                          >#52 - October 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/07-09-2017.html" target="_blank"
+                          >#51 - September 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/18-08-2017.html" target="_blank"
+                          >#50 - August 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/31-07-2017.html" target="_blank"
+                          >#49 - July 31</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/28-06-2017.html" target="_blank"
+                          >#48 - June 28</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/31-05-2017.html" target="_blank"
+                          >#47 - May 31</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/17-05-2017.html" target="_blank"
+                          >#46 - May 17</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/29-04-2017.html" target="_blank"
+                          >#45 - April 29</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/06-04-2017.html" target="_blank"
+                          >#44 - April 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/20-03-2017.html" target="_blank"
+                          >#43 - March 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/27-02-2017.html" target="_blank"
+                          >#42 - February 27</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/14-02-2017.html" target="_blank"
+                          >#41 - February 14</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/30-01-2017.html" target="_blank"
+                          >#40 - January 30</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2017/08-01-2017.html" target="_blank"
+                          >#39 - January 8</a
+                        >
+                      </li>
                     </ul>
                   </div>
 
                   <div class="past-issues">
                     <h2>2016</h2>
                     <ul>
-                      <li><a href="/issues/2016/20-12-2016.html" target="_blank">#38 - December 20</a></li>
-                      <li><a href="/issues/2016/02-12-2016.html" target="_blank">#37 - December 2</a></li>
-                      <li><a href="/issues/2016/18-11-2016.html" target="_blank">#36 - November 18</a></li>
-                      <li><a href="/issues/2016/19-10-2016.html" target="_blank">#35 - October 19</a></li>
-                      <li><a href="/issues/2016/07-08-2016.html" target="_blank">#34 - August 7</a></li>
-                      <li><a href="/issues/2016/01-07-2016.html" target="_blank">#33 - July 1</a></li>
-                      <li><a href="/issues/2016/21-04-2016.html" target="_blank">#32 - April 21</a></li>
-                      <li><a href="/issues/2016/21-03-2016.html" target="_blank">#31 - March 21</a></li>
-                      <li><a href="/issues/2016/14-02-2016.html" target="_blank">#30 - February 14</a></li>
-                      <li><a href="/issues/2016/22-01-2016.html" target="_blank">#29 - January 22</a></li>
-                      <li><a href="/issues/2016/10-01-2016.html" target="_blank">#28 - January 10</a></li>
+                      <li>
+                        <a href="/issues/2016/20-12-2016.html" target="_blank"
+                          >#38 - December 20</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/02-12-2016.html" target="_blank"
+                          >#37 - December 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/18-11-2016.html" target="_blank"
+                          >#36 - November 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/19-10-2016.html" target="_blank"
+                          >#35 - October 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/07-08-2016.html" target="_blank"
+                          >#34 - August 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/01-07-2016.html" target="_blank"
+                          >#33 - July 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/21-04-2016.html" target="_blank"
+                          >#32 - April 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/21-03-2016.html" target="_blank"
+                          >#31 - March 21</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/14-02-2016.html" target="_blank"
+                          >#30 - February 14</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/22-01-2016.html" target="_blank"
+                          >#29 - January 22</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2016/10-01-2016.html" target="_blank"
+                          >#28 - January 10</a
+                        >
+                      </li>
                     </ul>
                   </div>
 
                   <div class="past-issues">
                     <h2>2015</h2>
                     <ul>
-                      <li><a href="/issues/2015/13-12-2015.html" target="_blank">#27 - December 13</a></li>
-                      <li><a href="/issues/2015/01-12-2015.html" target="_blank">#26 - December 1</a></li>
-                      <li><a href="/issues/2015/22-11-2015.html" target="_blank">#25 - November 22</a></li>
-                      <li><a href="/issues/2015/27-10-2015.html" target="_blank">#24 - October 27</a></li>
-                      <li><a href="/issues/2015/19-10-2015.html" target="_blank">#23 - October 19</a></li>
-                      <li><a href="/issues/2015/13-10-2015.html" target="_blank">#22 - October 13</a></li>
-                      <li><a href="/issues/2015/05-10-2015.html" target="_blank">#21 - October 5</a></li>
-                      <li><a href="/issues/2015/27-09-2015.html" target="_blank">#20 - September 27</a></li>
-                      <li><a href="/issues/2015/18-09-2015.html" target="_blank">#19 - September 18</a></li>
-                      <li><a href="/issues/2015/07-09-2015.html" target="_blank">#18 - September 7</a></li>
-                      <li><a href="/issues/2015/30-08-2015.html" target="_blank">#17 - August 30</a></li>
-                      <li><a href="/issues/2015/16-08-2015.html" target="_blank">#16 - August 16</a></li>
-                      <li><a href="/issues/2015/10-08-2015.html" target="_blank">#15 - August 10</a></li>
-                      <li><a href="/issues/2015/02-08-2015.html" target="_blank">#14 - August 2</a></li>
-                      <li><a href="/issues/2015/26-07-2015.html" target="_blank">#13 - July 26</a></li>
-                      <li><a href="/issues/2015/14-07-2015.html" target="_blank">#12 - July 14</a></li>
-                      <li><a href="/issues/2015/06-07-2015.html" target="_blank">#11 - July 6</a></li>
-                      <li><a href="/issues/2015/28-06-2015.html" target="_blank">#10 - June 28</a></li>
-                      <li><a href="/issues/2015/22-06-2015.html" target="_blank">#9 - June 22</a></li>
-                      <li><a href="/issues/2015/13-06-2015.html" target="_blank">#8 - June 13</a></li>
-                      <li><a href="/issues/2015/07-06-2015.html" target="_blank">#7 - June 7</a></li>
-                      <li><a href="/issues/2015/31-05-2015.html" target="_blank">#6 - May 31</a></li>
-                      <li><a href="/issues/2015/22-05-2015.html" target="_blank">#5 - May 22</a></li>
-                      <li><a href="/issues/2015/15-05-2015.html" target="_blank">#4 - May 15</a></li>
-                      <li><a href="/issues/2015/08-05-2015.html" target="_blank">#3 - May 8</a></li>
-                      <li><a href="/issues/2015/01-05-2015.html" target="_blank">#2 - May 1</a></li>
-                      <li><a href="/issues/2015/23-04-2015.html" target="_blank">#1 - April 23</a></li>
+                      <li>
+                        <a href="/issues/2015/13-12-2015.html" target="_blank"
+                          >#27 - December 13</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/01-12-2015.html" target="_blank"
+                          >#26 - December 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/22-11-2015.html" target="_blank"
+                          >#25 - November 22</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/27-10-2015.html" target="_blank"
+                          >#24 - October 27</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/19-10-2015.html" target="_blank"
+                          >#23 - October 19</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/13-10-2015.html" target="_blank"
+                          >#22 - October 13</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/05-10-2015.html" target="_blank"
+                          >#21 - October 5</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/27-09-2015.html" target="_blank"
+                          >#20 - September 27</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/18-09-2015.html" target="_blank"
+                          >#19 - September 18</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/07-09-2015.html" target="_blank"
+                          >#18 - September 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/30-08-2015.html" target="_blank"
+                          >#17 - August 30</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/16-08-2015.html" target="_blank"
+                          >#16 - August 16</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/10-08-2015.html" target="_blank"
+                          >#15 - August 10</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/02-08-2015.html" target="_blank"
+                          >#14 - August 2</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/26-07-2015.html" target="_blank"
+                          >#13 - July 26</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/14-07-2015.html" target="_blank"
+                          >#12 - July 14</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/06-07-2015.html" target="_blank"
+                          >#11 - July 6</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/28-06-2015.html" target="_blank"
+                          >#10 - June 28</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/22-06-2015.html" target="_blank"
+                          >#9 - June 22</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/13-06-2015.html" target="_blank"
+                          >#8 - June 13</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/07-06-2015.html" target="_blank"
+                          >#7 - June 7</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/31-05-2015.html" target="_blank"
+                          >#6 - May 31</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/22-05-2015.html" target="_blank"
+                          >#5 - May 22</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/15-05-2015.html" target="_blank"
+                          >#4 - May 15</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/08-05-2015.html" target="_blank"
+                          >#3 - May 8</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/01-05-2015.html" target="_blank"
+                          >#2 - May 1</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/issues/2015/23-04-2015.html" target="_blank"
+                          >#1 - April 23</a
+                        >
+                      </li>
                     </ul>
                   </div>
                 </div>
