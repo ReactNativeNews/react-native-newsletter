@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-arrow</title>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="RNN_Banner_Desktop" transform="translate(-1455.000000, -44.000000)" stroke="#783460" stroke-width="1.5">
+            <g id="Banner" transform="translate(67.000000, 16.000000)">
+                <g id="Button" transform="translate(1197.000000, 8.000000)">
+                    <g id="icon-arrow" transform="translate(192.000000, 21.000000)">
+                        <line x1="0" y1="5.5" x2="12" y2="5.5" id="Path"></line>
+                        <polyline id="Path" points="7 11 12 5.5 7 0"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

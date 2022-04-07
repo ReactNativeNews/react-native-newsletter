@@ -36,10 +36,24 @@
     <script src="/newsletter.js" type="application/javascript"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
-
+  
   <body>
     <div class="container">
-      <main>
+      <header>
+        <section class="banner">
+          <div class="banner-about">
+            <h1>We have a new website!</h1>
+            <span class="about">
+              The React Native Newsletter has a new home on the web! Head on over to 
+              <a href="https://reactnativenewsletter.com" target="_blank">our new website</a> 
+              for past issues, sponsorship opportunities, and more.
+            </span>
+          </div> 
+          <a class="banner-cta" href="https://reactnativenewsletter.com" target="_blank">
+            <span class="cta">Visit the new site</span>
+            <span class="icon arrow-right"></span>
+          </a>
+        </section>
         <nav class="desktop">
           <ul>
             <li>
@@ -55,35 +69,36 @@
               <a href="/issues.html">Past Issues</a>
             </li>
             <li>
-              <a
-                href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship"
-                target="_blank"
-                >Contact us</a
-              >
+              <a 
+              href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship" 
+              target="_blank">
+                Contact us
+              </a>
             </li>
           </ul>
-
+          
           <ul class="social">
             <li>
               <a
-                href="https://twitter.com/rnnewsletter"
-                target="_blank"
-                class="icon twitter"
+              href="https://twitter.com/rnnewsletter"
+              target="_blank"
+              class="icon twitter"
               ></a>
             </li>
           </ul>
         </nav>
-
         <nav class="mobile">
           <a href="#" id="logo"></a>
           <a href="#" id="open-menu"></a>
         </nav>
-
+      </header>
+      <main>
+        
         <nav class="menu">
           <div class="close-wrapper">
             <a href="#" class="close"></a>
           </div>
-
+          
           <ul class="links">
             <li>
               <a href="/sponsor.html">Become a Sponsor</a>
@@ -95,25 +110,27 @@
               <a href="/issues.html">Past Issues</a>
             </li>
           </ul>
-
+          
           <ul class="social">
             <li>
               <a
-                href="https://twitter.com/rnnewsletter"
-                target="_blank"
-                class="icon twitter"
+              href="https://twitter.com/rnnewsletter"
+              target="_blank"
+              class="icon twitter"
               ></a>
             </li>
           </ul>
         </nav>
-
+        
         <section class="content">
           <article id="splash">
             <h1>A curated, fun to read newsletter all about React Native</h1>
+            
             <h2>
               Free bi-weekly summary of React Native news, articles, libraries,
               apps, and more!
             </h2>
+            
             <div class="subscribe-form">
               <form
                 action="//red.us3.list-manage.com/subscribe/post?u=78d9e37a94fa0b522939163d4&amp;id=93c55ddabd"

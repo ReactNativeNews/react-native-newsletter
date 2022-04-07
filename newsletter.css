@@ -45,6 +45,11 @@
   background-image: url(/img/github.svg);
 }
 
+.icon.arrow-right {
+  background-image: url(/img/icon-arrow.svg);
+  margin-top: 2px
+}
+
 /**
  * Forms
  */
@@ -206,9 +211,68 @@ main {
   grid-template-areas: 'top' 'mid' 'bot';
 }
 
+header {
+  grid-area: top;
+}
+
+.banner {
+  background-color: #783460;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner h1 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.banner-about {
+  max-width: 670px;
+  margin-right: 16px;
+}
+
+.banner-about span, .banner-about a, .banner a {
+  font-weight: normal;
+  color: #fff;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.banner-about span.about {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.banner-about span.about, .banner-about a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.banner .banner-cta {
+  display: flex;
+  width: 224px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  padding:0 16px;
+  color: #783460;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.banner .banner-cta .cta {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 16px
+}
+
+
 nav.desktop,
 nav.mobile {
-  grid-area: top;
+  padding: 0 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -698,6 +762,21 @@ footer .social li {
 
   nav.mobile {
     display: flex;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 30px 30px;
+  }
+
+  .banner-about {
+    max-width: 355px;
+    margin-bottom: 30px;
+  }
+
+  .banner h1 {
+    font-size: 20px;
   }
 }
 
