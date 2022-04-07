@@ -768,6 +768,7 @@ footer .social li {
     flex-direction: column;
     align-items: flex-start;
     padding: 40px 30px 30px;
+    margin-bottom: 24px;
   }
 
   .banner-about {
