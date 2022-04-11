@@ -45,6 +45,15 @@
   background-image: url(/img/github.svg);
 }
 
+.icon.arrow-right {
+  background-image: url(/img/icon-arrow.svg);
+  margin-top: 2px;
+}
+
+.icon.arrow-right-white {
+  background-image: url(/img/icon-arrow-white.svg);
+}
+
 /**
  * Forms
  */
@@ -160,7 +169,6 @@ h1 {
   font-weight: bold;
   line-height: 56px;
   margin-bottom: 23px;
-  letter-spacing: 1px;
 }
 
 h2 {
@@ -195,13 +203,6 @@ article ul li {
 }
 article img {
   width: 1000px;
-}
-
-span {
-  color: #992020;
-  font-family: 'Droid Serif', serif;
-  margin: 0 8em 2em 8em;
-  align-self: center;
 }
 
 .rates-container {
@@ -309,9 +310,67 @@ main {
   grid-template-areas: 'top' 'mid' 'bot';
 }
 
+header {
+  grid-area: top;
+}
+
+.banner {
+  background-color: #783460;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner h1 {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.banner-about {
+  max-width: 670px;
+  margin-right: 16px;
+}
+
+.banner-about span, .banner-about a, .banner a {
+  font-weight: normal;
+  color: #fff;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.banner-about span.about {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.banner-about span.about, .banner-about a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.banner .banner-cta {
+  display: flex;
+  width: 224px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  padding:0 16px;
+  color: #783460;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.banner .banner-cta .cta {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 16px
+}
+
 nav.desktop,
 nav.mobile {
-  grid-area: top;
+  padding: 0 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -414,7 +473,6 @@ nav.menu .close-wrapper {
 }
 
 nav.menu .close-wrapper .close {
-  align-self: right;
   display: block;
   background-image: url('/img/close-icon.svg');
   background-repeat: no-repeat;
@@ -445,6 +503,51 @@ nav.menu ul.social li a {
   height: 25px;
   width: 30px;
   background-size: cover;
+}
+
+/**
+* New Site Message
+*/
+
+section.new-site-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 563px;
+}
+
+section.new-site-message h1 {
+  font-size: 32px;
+  line-height: 1.18;
+  margin: 0 0 24px 0;
+  width: 410px
+}
+
+section.new-site-message p {
+  text-align: left;
+  color: #fff;
+  font-family: 'Montserrat';
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section.new-site-message p a {
+  color: #fff;
+}
+
+section.new-site-message p.new-site-cta a {
+  margin-top: 38px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+p a .new-site-cta-message {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-weight: bold !important;
 }
 
 /**
@@ -531,11 +634,8 @@ nav.menu ul.social li a {
   -ms-grid-columns: 1fr 1fr;
   -ms-grid-rows: minmax(min-content, calc(100vh - 250px));
   grid-area: mid;
-  grid-template-areas: 'left right';
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  min-height: 900px;
-  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .content #splash {
@@ -608,6 +708,10 @@ nav.menu ul.social li a {
 /**
  * Footer
  */
+
+ footer {
+  grid-area: bot;
+}
 
 footer .bio h1 {
   margin: 0;
@@ -790,6 +894,22 @@ footer .social li {
 
   nav.mobile {
     display: flex;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 30px 30px;
+    margin-bottom: 24px;
+  }
+
+  .banner-about {
+    max-width: 355px;
+    margin-bottom: 30px;
+  }
+
+  .banner h1 {
+    font-size: 20px;
   }
 }
 

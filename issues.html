@@ -37,34 +37,22 @@
   </head>
 
   <body>
-    <section class="suggest-article">
-      <div class="close-wrapper">
-        <a href="#" class="close">Close</a>
-      </div>
-
-      <article class="details">
-        <header>
-          <h1>Suggest an Article</h1>
-          <h2>
-            Have an article that you think would be good for the newsletter?
-            <br />
-            Drop us a link and we'll take a look!
-          </h2>
-        </header>
-
-        <ul style="padding-top: 5%; font-size: 2ch">
-          <a
-            style="color: crimson"
-            target="_blank"
-            href="https://goo.gl/forms/Dupl9V89nH0V9aWh1"
-            >Suggest an Article</a
-          >
-        </ul>
-      </article>
-    </section>
-
     <div class="container">
-      <main>
+      <header>
+        <section class="banner">
+          <div class="banner-about">
+            <h1>We have a new website!</h1>
+            <span class="about">
+              The React Native Newsletter has a new home on the web! Head on over to 
+              <a href="https://reactnativenewsletter.com" target="_blank">our new website</a> 
+              for past issues, sponsorship opportunities, and more.
+            </span>
+          </div> 
+          <a class="banner-cta" href="https://reactnativenewsletter.com" target="_blank">
+            <span class="cta">Visit the new site</span>
+            <span class="icon arrow-right"></span>
+          </a>
+        </section>
         <nav class="desktop">
           <ul>
             <li>
@@ -106,10 +94,11 @@
         </nav>
 
         <nav class="mobile">
-          <a href="#" id="logo"></a>
+          <a href="/" id="logo"></a>
           <a href="#" id="open-menu"></a>
         </nav>
-
+      </header>
+      <main>
         <nav class="menu">
           <div class="close-wrapper">
             <a href="#" class="close"></a>
@@ -117,37 +106,20 @@
 
           <ul class="links">
             <li>
-              <a href="/sponsor-package.pdf" target="_blank"
-                >Become a Sponsor</a
-              >
+              <a href="/sponsor.html">Become a Sponsor</a>
             </li>
             <li>
-              <a href="#" class="open-suggest-article">Suggest Article</a>
+              <a href="/suggest-article.html">Suggest Article</a>
             </li>
-            {#
             <li>
-              <a
-                href="https://medium.com/react-native-newsletter"
-                target="_blank"
-                >Past Issues</a
-              >
+              <a href="/issues.html">Past Issues</a>
             </li>
-            #}
           </ul>
 
           <ul class="social">
-            {#
             <li>
               <a
-                href="https://medium.com/react-native-newsletter"
-                target="_blank"
-                class="icon medium"
-              ></a>
-            </li>
-            #}
-            <li>
-              <a
-                href="https://twitter.com/RNNewsletter"
+                href="https://twitter.com/rnnewsletter"
                 target="_blank"
                 class="icon twitter"
               ></a>

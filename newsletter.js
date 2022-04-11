@@ -47,17 +47,20 @@ window.onload = function () {
   var openNav = document.querySelector('#open-menu')
   var closeNav = document.querySelector('nav.menu .close')
   var menu = document.querySelector('nav.menu')
+  var content = document.querySelector(`section.content`)
 
   openNav.addEventListener('click', function (event) {
     event.preventDefault()
     window.scrollTo(0, 0)
     menu.classList.add('open')
+    content.classList.add('hideable')
     disableScroll()
   })
 
   closeNav.addEventListener('click', function (event) {
     event.preventDefault()
     menu.classList.remove('open')
+    content.classList.remove('hideable')
     enableScroll()
   })
 

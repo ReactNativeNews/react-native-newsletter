@@ -491,6 +491,10 @@ nav.menu ul.social li a {
   height: 100%;
 }
 
+.hideable {
+  display: none !important;
+}
+
 .content #splash {
   padding-top: 163px;
   padding-left: 65px;

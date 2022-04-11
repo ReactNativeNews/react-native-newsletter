@@ -24,18 +24,32 @@
 
     <title>React Native Newsletter</title>
 
-    <!-- <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" /> -->
-    <!-- <link rel="stylesheet" href="/normalize.css" type="text/css" /> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/normalize.css" type="text/css" />
     <link rel="stylesheet" href="/sponsor.css" type="text/css" />
 
     <script src="/ie.js" type="application/javascript"></script>
-    <!-- <script src="/newsletter.js" type="application/javascript"></script> -->
+    <script src="/newsletter.js" type="application/javascript"></script>
     <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
   </head>
 
   <body>
     <div class="container">
-      <main>
+      <header>
+        <section class="banner">
+          <div class="banner-about">
+            <h1>We have a new website!</h1>
+            <span class="about">
+              The React Native Newsletter has a new home on the web! Head on over to 
+              <a href="https://reactnativenewsletter.com" target="_blank">our new website</a> 
+              for past issues, sponsorship opportunities, and more.
+            </span>
+          </div> 
+          <a class="banner-cta" href="https://reactnativenewsletter.com" target="_blank">
+            <span class="cta">Visit the new site</span>
+            <span class="icon arrow-right"></span>
+          </a>
+        </section>
         <nav class="desktop">
           <ul>
             <li>
@@ -76,10 +90,11 @@
         </nav>
 
         <nav class="mobile">
-          <a href="#" id="logo"></a>
+          <a href="/" id="logo"></a>
           <a href="#" id="open-menu"></a>
         </nav>
-
+      </header>
+      <main>
         <nav class="menu">
           <div class="close-wrapper">
             <a href="#" class="close"></a>
@@ -87,7 +102,10 @@
 
           <ul class="links">
             <li>
-              <a href="#" class="open-suggest-article">Suggest Article</a>
+              <a href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="/suggest-article.html">Suggest Article</a>
             </li>
             <li>
               <a href="/issues.html">Past Issues</a>
@@ -95,9 +113,6 @@
           </ul>
 
           <ul class="social">
-            <!--<li>
-            <a href="https://medium.com/react-native-newsletter" target="_blank" class="icon medium"></a>
-          </li>-->
             <li>
               <a
                 href="https://twitter.com/rnnewsletter"
@@ -109,11 +124,17 @@
         </nav>
 
         <section class="content">
-          <article>
-            <div id="sponsor_page_content"></div>
-          </article>
-
-          <!-- <div id="illustration"></div> -->
+          <section class="new-site-message">
+          <h1>You can find this page on our new site</h1>
+          <p>Many of our pages have moved! Sponsorships and article suggestions have moved to a new website.</p>
+          <p>Please check out <a href="https://reactnativenewsletter.com/sponsor" target="_blank">ReactNativeNewsletter.com</a> for more.</p>
+          <p class="new-site-cta">
+            <a href="https://reactnativenewsletter.com/sponsor" target="_blank">
+              <span class="icon arrow-right-white"></span>
+              <span class="new-site-cta-message">Take me to the new site</span>
+            </a>
+          </p>
+          </section>
         </section>
 
         <footer>
