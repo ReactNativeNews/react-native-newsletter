@@ -1,9 +1,11 @@
-## react-native-newsletter
+# react-native-newsletter
 
-Free bi-weekly summary of React Native news, articles, libraries, apps, and
-more... curated by Jon Major Condon
+Free summary of React Native news, articles, libraries, apps, and
+more, published twice a month (or very nearly) ... curated by Jon Major Condon
 ([@jonmajorc](https://twitter.com/jonmajorc)).
 
-## [Sign up here!](http://reactnative.cc)
+This repo is no longer actively maintained, but the newsletter itself is going strong!
 
-## [Past Issues](http://reactnative.cc/issues.html)
+## [Sign up here!](https://reactnativenewsletter.com/)
+
+## [Past Issues](https://reactnativenewsletter.com/past-issues)
